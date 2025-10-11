@@ -1,0 +1,56 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: setu-db
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_DATABASE: wpdb
+      MYSQL_USER: wpuser
+      MYSQL_PASSWORD: wppass
+      MYSQL_ROOT_PASSWORD: rootpass
+    volumes:
+      - setu_db_data:/var/lib/mysql
+    restart: unless-stopped
+
+  wordpress:
+    image: wordpress:6.6-apache
+    container_name: setu-wp
+    depends_on: [db]
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wpuser
+      WORDPRESS_DB_PASSWORD: wppass
+      WORDPRESS_DB_NAME: wpdb
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_MEMORY_LIMIT','256M');
+        define('WP_MAX_MEMORY_LIMIT','256M');
+        define('WP_CACHE', true);
+        define('WP_ENVIRONMENT_TYPE','production');
+    ports:
+      - "8090:80"         # sitio web (cambia 8090 si ya está usado)
+    volumes:
+      - setu_wp_data:/var/www/html
+    restart: unless-stopped
+
+  phpmyadmin:
+    image: phpmyadmin:5
+    container_name: setu-pma
+    depends_on: [db]
+    environment:
+      PMA_HOST: db
+      UPLOAD_LIMIT: 128M
+    ports:
+      - "8091:80"         # panel BD
+    restart: unless-stopped
+
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: setu-mailpit
+    ports:
+      - "8092:8025"       # UI de correo de prueba
+      - "1025:1025"       # SMTP (para WP Mail SMTP)
+    restart: unless-stopped
+
+volumes:
+  setu_db_data:
+  setu_wp_data:

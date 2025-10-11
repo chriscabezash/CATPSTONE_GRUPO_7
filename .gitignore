@@ -1,0 +1,26 @@
+# Entornos/secretos
+.env
+*.env
+.env.local
+
+# Docker
+*.log
+**/.DS_Store
+**/Thumbs.db
+
+# WordPress pesado/generado
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/ai1wm-backups/
+wp-content/wflogs/
+
+# Herramientas comunes
+node_modules/
+vendor/
+dist/
+build/
+
+# Dumps (descomenta si NO quieres versionarlos)
+# db/seed.sql
+
