@@ -1,0 +1,315 @@
+import React, {useState, useEffect, useRef} from 'react';
+import {Editor, EditorTextChangeEvent} from "primereact/editor";
+import {direccionService, docTicketService, notavozService, organigramaService, TicketGestionService} from '@/Services';
+import {IconCheck, IconPlayerPause, IconPlayerPlay, IconX} from '@tabler/icons-react';
+import {Container, Button, Select, Switch, Modal, Input, Title, useMantineTheme, useMantineColorScheme } from "@mantine/core";
+import {useRouter} from 'next/navigation';
+import {Direccion, Organigrama, Ticket, TipoDocumento, Usuario} from "@/interface";
+import {DocumentoSeleccionado} from "@/interface/interface";
+import {useWindowScroll} from "@mantine/hooks";
+import DocumentoFormulario from "@/components/Form/FileUpload";
+import {documentoService} from "@/Services/documentoService";
+import {TipoDocumentoService} from '@/Services/tipodocumentoService';
+import NotificacionError from "@/components/Notificaciones/Error/page";
+import NotificacionCorrecta from "@/components/Notificaciones/Correcto/page";
+import { AxiosError } from 'axios';
+import { useSearchParams } from 'next/navigation'; // Importa useSearchParams
+import { ticketSoporteService } from '@/Services/ticketsoporteService';
+import VistaTecnico from '../ventanas/vista tecnico/vista_tecnico';
+import Trabajador from '../ventanas/vista trabajdor/vista_trabajador';
+
+export default function TicketsSoporte({session}:{session: any}) {
+    const [checked, setChecked] = useState(false);
+    const [showDocumentManager, setShowDocumentManager] = useState(false);
+    const [selectedFiles, setSelectedFiles] = useState<DocumentoSeleccionado[]>([]);
+    const [NumeroDerivacion, setNumeroDerivacion] = useState('');
+    const [fechaIngreso, setFechaIngreso] = useState('');
+    const [fechaDerivacion, setFechaDerivacion] = useState('');
+    const [descripcion, setDescripcion] = useState('');
+    const [direSeleccionada, setDireSeleccionada] = useState('');
+    const [userSeleccionado, setUserSeleccionado] = useState('');
+    const [anexoError, setAnexoError] = useState(false);
+    const [ErrordireSeleccionada, setErrordireSeleccionada] = useState(false);
+    const [ErroruserSeleccionado, setErrorUserSeleccionado] = useState(false);
+    const [MotivoErro, setMotivoError] = useState(false);
+    const [numDerError, setNumDerError] = useState(false);
+    const [invalidForm, setInvalidForm] = useState(false);
+    const id = session?.Direccion_id;
+    const nombre = session?.Direccion.nombre_direccion;
+    const rol = session?.rol_id;
+    const [ticketLoading, setTicketLoading] = useState(false);
+    const [scroll, scrollTo] = useWindowScroll();
+    const router = useRouter();
+    const [disable, setDisable] = useState(false);
+    const searchParams = useSearchParams(); 
+    const audioId = searchParams.get('audioId'); 
+    const audioIdNumber = parseInt(audioId ?? '0');
+    const theme = useMantineTheme();
+    const { colorScheme } = useMantineColorScheme();
+    const textColor = colorScheme === 'dark' ? theme.colors.gray[0] : theme.colors.gray[7];
+    const [Almacen, setAlamcen] = useState('');
+    const [formDataTecnico, setFormDataTecnico] = useState({});
+    const [formDataTrabajador, setFormDataTrabajador] = useState({});
+        if (!session) {
+        return <div>Cargando sesión...</div>;
+    }
+    const handleEditorChange = (e: EditorTextChangeEvent) => {
+        setDescripcion(e.htmlValue || "");
+    };
+     const handleDatosTecnico = (data: any) => {
+        console.log("Recibido del hijo:", data);
+        setFormDataTecnico(data);
+    };
+    const handleDatosTrabajador = (data: any) => {
+        console.log("Datos recibidos del Trabajador:", data);
+        setFormDataTrabajador(data);
+    };
+   const handleEnviar = () => {
+        const datosPadre = {
+            descripcion,
+            direSeleccionada,
+            userSeleccionado,
+            NumeroDerivacion,
+        };
+
+        // Combinar todos los datos (padre + hijos)
+        const datosFinales = {
+            ...datosPadre,
+            tecnico: formDataTecnico,
+            trabajador: formDataTrabajador,
+        };
+
+        console.log("🚀 Datos listos para enviar:", datosFinales);
+
+        // Aquí podrías hacer la validación o enviar los datos a la API
+        confirmarTicket(datosFinales);
+};
+    const datos = () => {
+        return (
+            <div className="border p-4 rounded-lg shadow-md">
+                <div className="mt-6">
+                    <div className="mt-6">
+                        <label className="block text-sm font-medium text-gray-700" style={{ color: textColor }}>Motivo</label>
+                        <Editor
+                            defaultValue={descripcion}
+                            onTextChange={handleEditorChange}
+                            className="w-full py-5 pb-2"
+                            style={{
+                                height: '320px',
+                                color: colorScheme === 'dark' ? theme.colors.gray[0] : theme.colors.dark[9],
+                                backgroundColor: (colorScheme === 'dark' ? theme.colors.dark[8] : theme.colors.white || '').toString(),
+                                borderColor: colorScheme === 'dark' ? theme.colors.dark[1] : theme.colors.gray[4],
+                            }}
+                        />
+                    </div>
+                    <div className="mt-8">
+                        <label 
+                            className="block text-sm font-medium text-gray-700" 
+                            style={{ color: textColor }}
+                            >
+                            ¿Desea subir Documentación?
+                        </label>
+                        <Switch
+                            checked={checked}
+                            onChange={(event) => {
+                                const isChecked = event.currentTarget.checked;
+                                setChecked(isChecked);
+                                setShowDocumentManager(isChecked);
+                                if (!isChecked) setSelectedFiles([]);
+                            }}
+                            style={{ color: textColor }}
+                            color="teal"
+                            size="md"
+                            label="Activar gestor de documentos"
+                            thumbIcon={
+                                checked ? (
+                                <IconCheck size={12} color="var(--mantine-color-teal-6)" stroke={3} />
+                                ) : (
+                                <IconX size={12} color="var(--mantine-color-red-6)" stroke={3} />
+                                )
+                            }
+                        />
+                        {showDocumentManager && (
+                            <Container size="xl" mt="xl">
+                                <DocumentoFormulario 
+                                selectedFiles={selectedFiles} 
+                                setSelectedFiles={setSelectedFiles} 
+                                />
+                            </Container>
+                        )}
+                    </div>
+                    <hr style={{ paddingBottom: "1%" }} />
+
+                    {ticketLoading ? (
+                        <Button
+                            className="px-4 py-2 bg-blue-500 text-white rounded"
+                            loading
+                            loaderProps={{ type: 'dots' }}
+                            >
+                            Loading button
+                        </Button>
+                    ) : (
+                        <button
+                            type="submit"
+                            className="px-4 py-2 bg-blue-500 text-white rounded"
+                            onClick={handleEnviar}
+                            >
+                            Enviar Solicitud
+                        </button>
+                    )}
+                </div>
+            </div>
+        )
+    }
+    const checkError = () => {
+        let hasError = false;
+        if (!direSeleccionada) {
+            setErrordireSeleccionada(true);
+            hasError = true;
+        } else {
+            setErrordireSeleccionada(false);
+        }
+        if (!userSeleccionado) {
+            setErrorUserSeleccionado(true);
+            hasError = true;
+        } else {
+            setErrorUserSeleccionado(false);
+        }
+        if (!anexoError) {
+            setAnexoError(true);
+            hasError = true;
+        }
+        return hasError;
+    };
+
+    const confirmarTicket = async (datosFinales: { tecnico: {}; trabajador: {}; descripcion: string; direSeleccionada: string; userSeleccionado: string; NumeroDerivacion: string; }) => {
+        console.log("Datos del formulario hijo recibidos:",);
+         if (!NumeroDerivacion) {
+            setNumDerError(true);
+            return; 
+    }
+        try {
+            const DireccionId = id;
+            const Validador = await ticketSoporteService.create(NumeroDerivacion, DireccionId);
+
+            if (Validador.message === "El número de derivación ya existe.") {
+                setNumDerError(true);
+                setAlamcen("");
+                return;
+            } else {
+                setNumDerError(false);
+            }
+
+    if (checkError()) {
+        setInvalidForm(true);
+        NotificacionCorrecta({
+            title: "Error con datos ingresados",
+            message: `Hay campos sin rellenar, por favor verifique que estos se encuentren correctamente llenos.`,
+        });
+        scrollTo({y: 0});
+        return;
+    }
+        const fecha_actual = new Date();
+        console.log(fecha_actual);
+        setTicketLoading(true);
+        let fechaIngresoFinal;
+        if (fechaIngreso) {
+            const fechaIngresoDate = new Date(fechaIngreso + 'T00:00:00.000Z');
+            const fechaActualSoloFecha = new Date(fecha_actual.getFullYear(), fecha_actual.getMonth(), fecha_actual.getDay());
+            const fechaIngresoSoloFecha = new Date(fechaIngresoDate.getFullYear(), fechaIngresoDate.getMonth(), fechaIngresoDate.getDay());
+
+            if (fechaIngresoSoloFecha.getTime() !== fechaActualSoloFecha.getTime()) {
+                fechaIngresoDate.setDate(fechaIngresoDate.getDate() + 1);
+                fechaIngresoFinal = fechaIngresoDate;
+            } else {
+                fechaIngresoFinal = fecha_actual;
+            }
+        } else {
+            fechaIngresoFinal = fecha_actual;
+        }
+
+        let fechaDerivacionFinal;
+        if (fechaDerivacion === null) {
+            return;
+        } else {
+                const fechaDerivacionDate = new Date(fechaDerivacion + 'T00:00:00.000Z');
+                const fechaActualSoloFecha = new Date(fecha_actual.getFullYear(), fecha_actual.getMonth(), fecha_actual.getDay());
+                const fechaDerivacionSoloFecha = new Date(fechaDerivacionDate.getFullYear(), fechaDerivacionDate.getMonth(), fechaDerivacionDate.getDay());
+
+                if (fechaDerivacionSoloFecha.getTime() !== fechaActualSoloFecha.getTime()) {
+                    fechaDerivacionDate.setDate(fechaDerivacionDate.getDate() + 1);
+                    fechaDerivacionFinal = fechaDerivacionDate;
+                } else {
+                    fechaDerivacionFinal = fecha_actual;
+            }
+        }
+
+        for (const {file, nombre_documento} of selectedFiles) {
+            if (!file) continue;
+            const formData = new FormData();
+            formData.append("file", file);
+            formData.append("nombre_documento", nombre_documento || '');
+        }
+        setDireSeleccionada("");
+        setSelectedFiles([]);
+        setChecked(false);
+        setErrorUserSeleccionado(false);
+        setShowDocumentManager(false);
+        setErrordireSeleccionada(false);
+        setDescripcion("");
+        setMotivoError(true);
+
+        NotificacionCorrecta({
+            title: '✅ Ticket enviado',
+            message: 'El Ticket ha sido creado correctamente.'
+        });
+
+        router.push('/page/Gestor_Interno/lista_ticket');
+        } catch (error: unknown) {
+            setTicketLoading(false);
+            console.error("❌ Error al confirmar el ticket:", error);
+
+            if (error instanceof AxiosError && error.response) {
+                const statusCode = error.response.status;
+                if (statusCode === 409) {
+                    NotificacionError({
+                        title: 'Error!!!',
+                        message: 'El número de derivación ingresado ya existe. Por favor ingrese otro.'
+                    });
+                } else {
+                    NotificacionError({
+                        title: 'Error desconocido',
+                        message: 'Ocurrió un error al confirmar el ticket. Por favor, inténtelo de nuevo.'
+                    });
+                }
+            } else {
+                NotificacionError({
+                    title: 'Error desconocido',
+                    message: 'Ocurrió un error al confirmar el ticket. Por favor, inténtelo de nuevo.'
+                });
+            }
+        }
+    };
+    return (
+        <div className="mb-6 ml-5 mr-5">
+            <Title 
+                className="flex justify-center text-xl font-semibold bg-clip-text text-transparent mb-6"
+                style={{ color: colorScheme === 'dark' ? theme.colors.gray[0] : theme.colors.blue[8] }}
+                >
+                Datos Ticket Soporte - {rol}
+            </Title>
+            <hr style={{ paddingBottom: "1%" }} />
+            {session.rol_id === 4 && (
+                <>
+                    <VistaTecnico onDataChange={handleDatosTecnico}/>
+                    {datos()}
+                </>
+            ) || session.rol_id === 6 && (
+                <>
+                    <Trabajador onDataChange={handleDatosTrabajador}/>
+                    {datos()}
+                </> 
+            )}
+        </div>
+    );
+}
