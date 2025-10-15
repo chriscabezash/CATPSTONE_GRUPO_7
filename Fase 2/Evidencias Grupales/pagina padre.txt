@@ -8,15 +8,7 @@ import {Direccion, Organigrama, Ticket, TipoDocumento, Usuario} from "@/interfac
 import {DocumentoSeleccionado} from "@/interface/interface";
 import {useWindowScroll} from "@mantine/hooks";
 import DocumentoFormulario from "@/components/Form/FileUpload";
-import {documentoService} from "@/Services/documentoService";
-import {TipoDocumentoService} from '@/Services/tipodocumentoService';
-import NotificacionError from "@/components/Notificaciones/Error/page";
-import NotificacionCorrecta from "@/components/Notificaciones/Correcto/page";
-import { AxiosError } from 'axios';
-import { useSearchParams } from 'next/navigation'; // Importa useSearchParams
-import { ticketSoporteService } from '@/Services/ticketsoporteService';
-import VistaTecnico from '../ventanas/vista tecnico/vista_tecnico';
-import Trabajador from '../ventanas/vista trabajdor/vista_trabajador';
+
 
 export default function TicketsSoporte({session}:{session: any}) {
     const [checked, setChecked] = useState(false);
@@ -312,4 +304,5 @@ export default function TicketsSoporte({session}:{session: any}) {
             )}
         </div>
     );
+
 }
