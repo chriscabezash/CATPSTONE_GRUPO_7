@@ -1,0 +1,25 @@
+-- Script para asegurar la compatibilidad con las funciones avanzadas
+CREATE EXTENSION IF NOT EXISTS pg_trgm;
+CREATE EXTENSION IF NOT EXISTS vector;
+
+-- Script para eliminar la tabla si existe (limpieza previa)
+DROP TABLE IF EXISTS public.tabla_poblacion CASCADE;
+
+-- WARNING: This schema is for context only and is not meant to be run.
+-- Table order and constraints may not be valid for execution.
+
+CREATE TABLE public.tabla_poblacion (
+  id_key bigint NOT NULL,
+  cod_region bigint,
+  region text,
+  cod_provincia bigint,
+  provincia text,
+  cod_comuna bigint,
+  comuna text,
+  grupos_edad text,
+  poblacion_censada bigint,
+  hombres bigint,
+  mujeres bigint,
+  razon_h_vs_m numeric,
+  CONSTRAINT tabla_poblacion_pkey PRIMARY KEY (id_key)
+);
