@@ -1,0 +1,206 @@
+-- Script para asegurar la compatibilidad con las funciones avanzadas
+CREATE EXTENSION IF NOT EXISTS pg_trgm;
+CREATE EXTENSION IF NOT EXISTS vector;
+
+-- WARNING: This schema is for context only and is not meant to be run.
+-- Table order and constraints may not be valid for execution.
+
+CREATE TABLE public.agua_vivienda (
+  id_key bigint NOT NULL,
+  codigo_region text,
+  region text,
+  codigo_provincia text,
+  provincia text,
+  codigo_comuna text,
+  comuna text,
+  viviendas_particulares_con_moradores bigint,
+  red_publica bigint,
+  pozo_o_noria bigint,
+  camion_aljibe bigint,
+  rio_vertiente_lago bigint,
+  fuente_origen_agua_no_declarado bigint,
+  CONSTRAINT agua_vivienda_pkey PRIMARY KEY (id_key)
+);
+CREATE TABLE public.discapacidad (
+  id_key bigint NOT NULL,
+  codigo_region text,
+  region text,
+  codigo_provincia text,
+  provincia text,
+  codigo_comuna text,
+  comuna text,
+  grado_dificultad text,
+  dificultad_ver_incluso_lentes bigint,
+  dificultado_oir_incluso_audifonos bigint,
+  dificultad_caminar_subir_escalera bigint,
+  dificultad_recordar_concentrarse bigint,
+  deficultad_cuidado_personal bigint,
+  difultad_para_comunicarse bigint,
+  CONSTRAINT discapacidad_pkey PRIMARY KEY (id_key)
+);
+CREATE TABLE public.educacion (
+  id_key bigint NOT NULL,
+  codigo_region text,
+  region text,
+  codigo_provincia text,
+  provincia text,
+  codigo_comina text,
+  comuna text,
+  poblacion_censada bigint,
+  nunca_asistio bigint,
+  diferncial bigint,
+  parvularia bigint,
+  basica bigint,
+  media bigint,
+  superior bigint,
+  nivel_educativo_no_declarado bigint,
+  CONSTRAINT educacion_pkey PRIMARY KEY (id_key)
+);
+CREATE TABLE public.genero (
+  id_key bigint NOT NULL,
+  codigo_region text,
+  region text,
+  poblacion_de_18_anos_o_mas bigint,
+  se_identifica_como_transgenero bigint,
+  no_se_identifica_como_transgenero bigint,
+  sin_clasifiacion bigint,
+  CONSTRAINT genero_pkey PRIMARY KEY (id_key)
+);
+CREATE TABLE public.material_vivienda (
+  id_key bigint NOT NULL,
+  codigo_region text,
+  regios text,
+  codigo_provincia text,
+  provincia text,
+  codigo_comuna text,
+  comuna text,
+  viviendas_ocupadas_modradores_presentes text,
+  parquet_pisoflotante_ceramico_madera_alfombra text,
+  radier_sin_revestimiento text,
+  baldosa_de_cemento text,
+  capa_cemento_sobre_tierra text,
+  tierra text,
+  material_piso_no_declarado text,
+  CONSTRAINT material_vivienda_pkey PRIMARY KEY (id_key)
+);
+CREATE TABLE public.migracion (
+  id_key bigint NOT NULL,
+  codigo_region text NOT NULL,
+  region text,
+  codigo_provincia text,
+  provincia text,
+  codigo_comuna text,
+  comuna text,
+  pais_o_continente_nacimiento text,
+  inmigrantes_internacionales bigint,
+  CONSTRAINT migracion_pkey PRIMARY KEY (id_key)
+);
+CREATE TABLE public.n8n_chat_histories (
+  id integer NOT NULL DEFAULT nextval('n8n_chat_histories_id_seq'::regclass),
+  session_id character varying NOT NULL,
+  message jsonb NOT NULL,
+  CONSTRAINT n8n_chat_histories_pkey PRIMARY KEY (id)
+);
+CREATE TABLE public.poblacion (
+  id_key bigint NOT NULL,
+  cod_region bigint,
+  region text,
+  cod_provincia bigint,
+  provincia text,
+  cod_comuna bigint,
+  comuna text,
+  grupos_edad text,
+  poblacion_censada bigint,
+  hombres bigint,
+  mujeres bigint,
+  razon_h_vs_m double precision,
+  CONSTRAINT poblacion_pkey PRIMARY KEY (id_key)
+);
+CREATE TABLE public.poblacion_indigena (
+  id_key bigint NOT NULL,
+  codigo_region text,
+  region text,
+  codigo_provincia text,
+  provincia text,
+  codigo_comuna text,
+  comuna text,
+  poblacion_que_se_considera_originaria bigint,
+  mapuche bigint,
+  aymara bigint,
+  rapa_nui bigint,
+  quechua bigint,
+  colla bigint,
+  diaguita bigint,
+  kawesqar bigint,
+  yagan bigint,
+  chango bigint,
+  selknam bigint,
+  otro bigint,
+  pueblo_no_declarado bigint,
+  atacameno_o_lickanntay bigint,
+  CONSTRAINT poblacion_indigena_pkey PRIMARY KEY (id_key)
+);
+CREATE TABLE public.religion (
+  id_key bigint NOT NULL,
+  codigo_region text,
+  region text,
+  codigo_region_1 text,
+  provincia text,
+  codigo_comuna text,
+  comuna text,
+  poblacion_15_anios_o_mas bigint,
+  catolica bigint,
+  evangelica_o_protestante bigint,
+  judia bigint,
+  musulmana bigint,
+  iglesia_de_los_santos_de_los_ultimos_dias bigint,
+  catolica_ortodoxa bigint,
+  budista bigint,
+  hinduista bigint,
+  fe_behai bigint,
+  testigos_de_jehova bigint,
+  otros_cristianos bigint,
+  otras_religiones_o_creadores bigint,
+  ninguna bigint,
+  religios_o_creador_no_declarado bigint,
+  CONSTRAINT religion_pkey PRIMARY KEY (id_key)
+);
+CREATE TABLE public.servicios (
+  id_key bigint NOT NULL,
+  codigo_region text,
+  region text,
+  codigo_provincia text,
+  provincia text,
+  codigo_comuna text,
+  comuna text,
+  disponibilidad_equipo_o_servicio text,
+  movil bigint,
+  computador bigint,
+  tablet bigint,
+  internet_fija bigint,
+  internet_movil bigint,
+  internet_satelital bigint,
+  CONSTRAINT servicios_pkey PRIMARY KEY (id_key)
+);
+
+CREATE TABLE public.topologia_vivienda (
+  id_key bigint NOT NULL,
+  codigo_region text,
+  region text,
+  codigo_provincia text,
+  provincia text,
+  codigo_comuna text,
+  comuna text,
+  viviendas_censadas bigint,
+  casa_acceso_directo_calle bigint,
+  casa_condominio_cerrado bigint,
+  depto_edificon_con_ascensor bigint,
+  depto_edificon_sin_ascensor bigint,
+  vivienda_tradiciona_indigena bigint,
+  pieza_en _casa bigint,
+  mediagua bigint,
+  movil_carpa_casarodante bigint,
+  otro_tipo_de_vivienda bigint,
+  vivienda_colectiva bigint,
+  CONSTRAINT topologia_vivienda_pkey PRIMARY KEY (id_key)
+);
