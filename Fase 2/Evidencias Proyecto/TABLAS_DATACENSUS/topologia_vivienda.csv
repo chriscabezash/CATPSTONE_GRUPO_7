@@ -1,0 +1,348 @@
+﻿id_key;codigo_region;region;codigo_provincia;provincia;codigo_comuna;comuna;viviendas_censadas;casa_acceso_directo_calle;casa_condominio_cerrado;depto_edificon_con_ascensor;depto_edificon_sin_ascensor;vivienda_tradiciona_indigena;pieza_en _casa;mediagua;movil_carpa_casarodante;otro_tipo_de_vivienda;vivienda_colectiva
+1;0;País;0;País;0;País;7642716;5397387;539897;915728;664242;1967;51305;27490;1557;38823;4320
+2;1;Tarapacá;11;Iquique;1101;Iquique;75372;39811;1968;18710;8173;29;5107;663;37;828;46
+3;1;Tarapacá;11;Iquique;1107;Alto Hospicio;46573;33345;3017;1538;7060;10;216;1175;22;175;15
+4;1;Tarapacá;14;Del Tamarugal;1401;Pozo Almonte;11604;10754;519;1;3;17;89;142;12;56;11
+5;1;Tarapacá;14;Del Tamarugal;1402;Camiña;1178;959;0;1;10;14;1;126;0;67;0
+6;1;Tarapacá;14;Del Tamarugal;1403;Colchane;2112;2007;3;1;0;38;0;0;0;63;0
+7;1;Tarapacá;14;Del Tamarugal;1404;Huara;3215;2913;9;1;1;17;3;147;2;119;3
+8;1;Tarapacá;14;Del Tamarugal;1405;Pica;3199;2887;230;3;0;9;4;19;0;44;3
+9;2;Antofagasta;21;Antofagasta;2101;Antofagasta;139824;85231;11543;23635;16289;50;691;1274;95;908;108
+10;2;Antofagasta;21;Antofagasta;2102;Mejillones;5800;3964;76;113;1375;3;36;88;6;128;11
+11;2;Antofagasta;21;Antofagasta;2103;Sierra Gorda;734;685;5;1;2;0;7;13;0;15;6
+12;2;Antofagasta;21;Antofagasta;2104;Taltal;5316;4760;12;3;219;0;5;266;10;35;6
+13;2;Antofagasta;22;El Loa;2201;Calama;60835;51146;3880;2087;1968;61;1037;91;10;514;41
+14;2;Antofagasta;22;El Loa;2202;Ollagüe;438;433;0;0;0;3;1;0;0;1;0
+15;2;Antofagasta;22;El Loa;2203;San Pedro de Atacama;5071;4508;195;1;7;64;87;25;1;160;23
+16;2;Antofagasta;23;Tocopilla;2301;Tocopilla;11884;9988;105;14;947;2;55;45;5;709;14
+17;2;Antofagasta;23;Tocopilla;2302;María Elena;1927;1868;1;0;1;0;2;3;1;49;2
+18;3;Atacama;31;Copiapó;3101;Copiapó;64409;50099;3387;3044;6983;14;155;439;14;233;41
+19;3;Atacama;31;Copiapó;3102;Caldera;18105;17127;555;112;163;4;9;86;4;39;6
+20;3;Atacama;31;Copiapó;3103;Tierra Amarilla;4637;4328;187;0;1;1;4;50;0;56;10
+21;3;Atacama;32;Chañaral;3201;Chañaral;7237;7031;29;1;22;3;3;76;3;61;8
+22;3;Atacama;32;Chañaral;3202;Diego de Almagro;6808;6134;49;1;482;8;17;80;2;25;10
+23;3;Atacama;33;Huasco;3301;Vallenar;23410;21371;453;6;1129;7;73;171;15;167;18
+24;3;Atacama;33;Huasco;3302;Alto del Carmen;3164;3032;29;0;0;8;6;64;0;22;3
+25;3;Atacama;33;Huasco;3303;Freirina;4397;4121;15;1;1;1;1;149;5;101;2
+26;3;Atacama;33;Huasco;3304;Huasco;7364;6775;79;94;213;1;7;169;3;17;6
+27;4;Coquimbo;41;Elqui;4101;La Serena;109497;70688;8678;13509;15740;12;105;319;23;339;84
+28;4;Coquimbo;41;Elqui;4102;Coquimbo;113105;91093;5348;9477;6214;6;224;233;43;416;51
+29;4;Coquimbo;41;Elqui;4103;Andacollo;5128;4254;81;2;58;0;1;19;10;701;2
+30;4;Coquimbo;41;Elqui;4104;La Higuera;3214;3093;82;1;1;0;2;28;1;6;0
+31;4;Coquimbo;41;Elqui;4105;Paiguano;2890;2412;451;0;2;1;5;7;4;6;2
+32;4;Coquimbo;41;Elqui;4106;Vicuña;12041;11275;529;43;61;0;11;64;2;50;6
+33;4;Coquimbo;42;Choapa;4201;Illapel;14203;13335;563;3;164;7;12;61;0;51;7
+34;4;Coquimbo;42;Choapa;4202;Canela;5779;5517;170;0;0;0;0;64;1;26;1
+35;4;Coquimbo;42;Choapa;4203;Los Vilos;14211;12351;1719;44;2;0;11;27;4;49;4
+36;4;Coquimbo;42;Choapa;4204;Salamanca;12142;11741;136;5;119;2;4;56;2;70;7
+37;4;Coquimbo;43;Limarí;4301;Ovalle;49654;43347;2336;282;3092;6;119;175;11;269;17
+38;4;Coquimbo;43;Limarí;4302;Combarbalá;7647;7359;5;1;2;0;4;89;1;183;3
+39;4;Coquimbo;43;Limarí;4303;Monte Patria;14470;14084;117;3;1;2;5;107;2;144;5
+40;4;Coquimbo;43;Limarí;4304;Punitaqui;5891;5662;80;1;0;0;3;46;1;96;2
+41;4;Coquimbo;43;Limarí;4305;Río Hurtado;2913;2870;6;0;0;0;1;18;0;16;2
+42;5;Valparaíso;51;Valparaíso;5101;Valparaíso;132071;82315;8680;15732;23166;28;604;871;25;565;85
+43;5;Valparaíso;51;Valparaíso;5102;Casablanca;13978;9593;2743;239;1291;2;18;21;6;56;9
+44;5;Valparaíso;51;Valparaíso;5103;Concón;26950;10544;1743;12336;2109;2;28;72;1;107;8
+45;5;Valparaíso;51;Valparaíso;5104;Juan Fernández;472;453;11;0;1;0;0;0;0;5;2
+46;5;Valparaíso;51;Valparaíso;5105;Puchuncaví;21145;14551;4691;1185;607;2;4;34;4;59;8
+47;5;Valparaíso;51;Valparaíso;5107;Quintero;19663;14012;3353;202;1911;4;25;60;4;82;10
+48;5;Valparaíso;51;Valparaíso;5109;Viña del Mar;163496;74550;5689;52567;27840;23;280;1769;86;561;131
+49;5;Valparaíso;52;Isla de Pascua;5201;Isla de Pascua;3111;2877;202;3;2;0;2;4;0;17;4
+50;5;Valparaíso;53;Los Andes;5301;Los Andes;26034;20035;1163;562;4037;3;89;60;5;56;24
+51;5;Valparaíso;53;Los Andes;5302;Calle Larga;6203;5285;859;3;0;1;28;7;0;18;2
+52;5;Valparaíso;53;Los Andes;5303;Rinconada;4728;3735;949;2;1;0;1;18;0;19;3
+53;5;Valparaíso;53;Los Andes;5304;San Esteban;8216;7514;613;1;51;0;1;8;2;23;3
+54;5;Valparaíso;54;Petorca;5401;La Ligua;24069;16338;5891;193;1462;5;14;51;10;98;7
+55;5;Valparaíso;54;Petorca;5402;Cabildo;7339;6864;68;1;325;0;17;12;0;50;2
+56;5;Valparaíso;54;Petorca;5403;Papudo;8022;2885;1447;2207;1463;2;1;4;2;9;2
+57;5;Valparaíso;54;Petorca;5404;Petorca;5037;4975;25;0;2;0;0;23;0;9;3
+58;5;Valparaíso;54;Petorca;5405;Zapallar;8100;5557;2189;1;329;0;2;5;0;13;4
+59;5;Valparaíso;55;Quillota;5501;Quillota;37234;29150;2292;421;5115;3;76;34;0;108;35
+60;5;Valparaíso;55;Quillota;5502;Calera;19635;14341;1370;22;3734;5;55;24;4;72;8
+61;5;Valparaíso;55;Quillota;5503;Hijuelas;7376;6426;880;2;14;0;1;13;1;37;2
+62;5;Valparaíso;55;Quillota;5504;La Cruz;9860;5918;3241;8;624;0;3;38;0;26;2
+63;5;Valparaíso;55;Quillota;5506;Nogales;8397;7881;387;4;43;1;7;33;6;32;3
+64;5;Valparaíso;56;San Antonio;5601;San Antonio;40846;34319;1263;191;4557;8;89;182;9;213;15
+65;5;Valparaíso;56;San Antonio;5602;Algarrobo;21324;10153;4847;4823;1426;8;2;15;4;39;7
+66;5;Valparaíso;56;San Antonio;5603;Cartagena;18209;15318;2421;4;340;1;18;55;2;46;4
+67;5;Valparaíso;56;San Antonio;5604;El Quisco;18702;13950;3809;32;814;3;11;27;2;46;8
+68;5;Valparaíso;56;San Antonio;5605;El Tabo;25134;12885;8906;750;2453;4;4;34;8;82;8
+69;5;Valparaíso;56;San Antonio;5606;Santo Domingo;8895;6142;1819;369;503;3;1;11;5;40;2
+70;5;Valparaíso;57;San Felipe de Aconcagua;5701;San Felipe;31634;25382;903;361;4239;3;254;362;9;93;28
+71;5;Valparaíso;57;San Felipe de Aconcagua;5702;Catemu;5604;5516;29;1;1;2;5;24;1;24;1
+72;5;Valparaíso;57;San Felipe de Aconcagua;5703;Llaillay;10439;9518;84;7;691;2;56;33;1;42;5
+73;5;Valparaíso;57;San Felipe de Aconcagua;5704;Panquehue;2863;2627;143;0;0;0;0;5;1;86;1
+74;5;Valparaíso;57;San Felipe de Aconcagua;5705;Putaendo;6746;6568;29;1;0;0;7;25;1;103;12
+75;5;Valparaíso;57;San Felipe de Aconcagua;5706;Santa María;6090;5670;129;1;237;2;0;8;0;41;2
+76;5;Valparaíso;58;Marga Marga;5801;Quilpué;66020;43329;6551;3852;11059;11;32;869;72;196;49
+77;5;Valparaíso;58;Marga Marga;5802;Limache;24683;16463;4257;11;3601;9;22;202;9;87;22
+78;5;Valparaíso;58;Marga Marga;5803;Olmué;10530;9338;1055;4;3;0;8;56;1;64;1
+79;5;Valparaíso;58;Marga Marga;5804;Villa Alemana;55220;37568;6650;1228;9472;10;38;107;1;117;29
+80;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6101;Rancagua;100428;72356;2285;6559;18210;15;450;309;8;184;52
+81;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6102;Codegua;5181;4653;489;3;0;1;3;12;1;14;5
+82;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6103;Coinco;3386;2984;329;1;36;0;2;12;0;21;1
+83;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6104;Coltauco;8586;8462;51;3;1;1;1;39;1;23;4
+84;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6105;Doñihue;8381;8083;196;1;48;0;4;21;2;20;6
+85;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6106;Graneros;12964;11553;960;2;367;0;28;21;2;26;5
+86;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6107;Las Cabras;14760;11479;3009;3;132;3;31;51;5;39;8
+87;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6108;Machalí;22681;19369;2731;26;312;0;15;95;2;122;9
+88;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6109;Malloa;5736;5577;104;0;0;0;0;23;0;32;0
+89;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6110;Mostazal;10140;8677;908;4;488;0;3;24;1;28;7
+90;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6111;Olivar;5247;4705;392;1;65;0;12;10;0;60;2
+91;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6112;Peumo;5305;5211;36;1;25;0;8;10;0;11;3
+92;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6113;Pichidegua;7991;7820;97;0;1;1;7;28;0;35;2
+93;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6114;Quinta de Tilcoco;5254;5123;96;0;0;0;6;22;0;7;0
+94;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6115;Rengo;25136;24154;290;7;294;1;98;179;1;100;12
+95;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6116;Requínoa;10491;9459;920;4;2;0;21;45;1;38;1
+96;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6117;San Vicente;19278;18340;486;5;114;2;67;50;2;208;4
+97;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6201;Pichilemu;15007;13218;1581;9;25;5;14;47;7;95;6
+98;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6202;La Estrella;3678;2636;1017;1;1;1;0;9;1;10;2
+99;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6203;Litueche;5461;5124;304;1;0;0;0;6;3;21;2
+100;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6204;Marchihue;5069;4435;304;1;1;0;2;25;2;298;1
+101;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6205;Navidad;6597;6109;453;1;3;1;1;11;1;17;0
+102;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6206;Paredones;5686;4658;998;0;0;0;2;10;5;13;0
+103;6;Libertador General Bernardo O'Higgins;63;Colchagua;6301;San Fernando;31420;25814;1357;291;3713;4;10;130;3;88;10
+104;6;Libertador General Bernardo O'Higgins;63;Colchagua;6302;Chépica;5962;5880;51;2;0;0;0;10;0;18;1
+105;6;Libertador General Bernardo O'Higgins;63;Colchagua;6303;Chimbarongo;14249;13806;160;0;190;1;30;28;0;32;2
+106;6;Libertador General Bernardo O'Higgins;63;Colchagua;6304;Lolol;3718;3594;100;0;0;0;1;8;0;15;0
+107;6;Libertador General Bernardo O'Higgins;63;Colchagua;6305;Nancagua;7111;6982;81;1;1;0;5;21;0;15;5
+108;6;Libertador General Bernardo O'Higgins;63;Colchagua;6306;Palmilla;5132;5030;62;2;0;0;0;23;0;13;2
+109;6;Libertador General Bernardo O'Higgins;63;Colchagua;6307;Peralillo;5158;5034;103;2;0;0;1;6;1;11;0
+110;6;Libertador General Bernardo O'Higgins;63;Colchagua;6308;Placilla;3758;3670;28;1;8;0;6;29;0;16;0
+111;6;Libertador General Bernardo O'Higgins;63;Colchagua;6309;Pumanque;2567;2337;91;0;0;0;2;5;4;128;0
+112;6;Libertador General Bernardo O'Higgins;63;Colchagua;6310;Santa Cruz;16452;14883;119;80;1287;1;5;34;2;32;9
+113;7;Maule;71;Talca;7101;Talca;95397;77694;2985;4564;9894;8;23;57;1;110;61
+114;7;Maule;71;Talca;7102;Constitución;23408;16856;719;19;5619;3;11;112;1;60;8
+115;7;Maule;71;Talca;7103;Curepto;5199;5063;53;3;2;0;1;31;0;43;3
+116;7;Maule;71;Talca;7104;Empedrado;1892;1872;8;0;0;0;1;3;0;7;1
+117;7;Maule;71;Talca;7105;Maule;23296;22456;760;5;0;1;3;26;1;36;8
+118;7;Maule;71;Talca;7106;Pelarco;4073;3637;395;2;0;0;4;13;0;22;0
+119;7;Maule;71;Talca;7107;Pencahue;4682;4642;15;0;1;0;0;4;1;17;2
+120;7;Maule;71;Talca;7108;Río Claro;6279;6019;199;3;0;1;4;22;0;29;2
+121;7;Maule;71;Talca;7109;San Clemente;22312;21217;708;3;2;0;9;41;2;322;8
+122;7;Maule;71;Talca;7110;San Rafael;4788;4462;271;0;3;0;2;17;1;30;2
+123;7;Maule;72;Cauquenes;7201;Cauquenes;20238;19538;350;5;251;1;2;27;1;53;10
+124;7;Maule;72;Cauquenes;7202;Chanco;4442;4257;37;1;0;1;1;8;0;136;1
+125;7;Maule;72;Cauquenes;7203;Pelluhue;7743;7490;189;1;0;1;1;24;2;31;4
+126;7;Maule;73;Curicó;7301;Curicó;62225;56437;1875;738;2812;4;35;129;5;158;32
+127;7;Maule;73;Curicó;7302;Hualañé;5199;5121;25;0;14;0;2;22;1;11;3
+128;7;Maule;73;Curicó;7303;Licantén;4500;4318;75;2;0;0;1;78;0;24;2
+129;7;Maule;73;Curicó;7304;Molina;18980;18692;121;5;1;4;4;28;3;108;14
+130;7;Maule;73;Curicó;7305;Rauco;4784;4406;338;1;0;0;1;21;1;15;1
+131;7;Maule;73;Curicó;7306;Romeral;7233;6757;310;2;1;0;8;17;1;134;3
+132;7;Maule;73;Curicó;7307;Sagrada Familia;7533;7318;114;0;2;0;5;67;0;22;5
+133;7;Maule;73;Curicó;7308;Teno;12501;12145;258;0;1;2;4;40;3;46;2
+134;7;Maule;73;Curicó;7309;Vichuquén;4422;4132;255;0;1;0;3;12;0;17;2
+135;7;Maule;74;Linares;7401;Linares;41380;38129;1708;133;1003;3;51;74;6;247;26
+136;7;Maule;74;Linares;7402;Colbún;10583;10004;509;2;1;0;5;27;0;31;4
+137;7;Maule;74;Linares;7403;Longaví;14133;13875;170;2;5;1;2;35;0;41;2
+138;7;Maule;74;Linares;7404;Parral;20794;19540;767;2;345;3;9;45;3;67;13
+139;7;Maule;74;Linares;7405;Retiro;10149;9875;210;4;1;0;3;27;1;27;1
+140;7;Maule;74;Linares;7406;San Javier;22233;21572;285;11;186;5;13;32;3;119;7
+141;7;Maule;74;Linares;7407;Villa Alegre;8164;8006;117;2;0;1;2;16;0;20;0
+142;7;Maule;74;Linares;7408;Yerbas Buenas;8088;7945;96;0;2;0;2;15;1;25;2
+143;8;Biobío;81;Concepción;8101;Concepción;101209;45177;8993;29105;16505;18;642;206;8;484;71
+144;8;Biobío;81;Concepción;8102;Coronel;45743;41976;1202;31;2281;8;10;143;2;74;16
+145;8;Biobío;81;Concepción;8103;Chiguayante;30666;21283;3364;1456;4406;5;10;18;0;107;17
+146;8;Biobío;81;Concepción;8104;Florida;6748;5629;933;4;7;2;2;34;4;129;4
+147;8;Biobío;81;Concepción;8105;Hualqui;10881;10429;315;0;4;0;2;39;3;80;9
+148;8;Biobío;81;Concepción;8106;Lota;15968;14563;81;6;1116;2;7;125;4;60;4
+149;8;Biobío;81;Concepción;8107;Penco;17566;14143;355;46;2712;2;13;30;0;257;8
+150;8;Biobío;81;Concepción;8108;San Pedro de La paz;56862;36132;8336;5220;6800;1;14;231;3;106;19
+151;8;Biobío;81;Concepción;8109;Santa Juana;7532;7298;118;0;2;0;2;47;5;59;1
+152;8;Biobío;81;Concepción;8110;Talcahuano;53813;42156;3535;1605;5680;7;86;500;2;212;30
+153;8;Biobío;81;Concepción;8111;Tomé;25105;21567;878;847;1610;5;27;88;2;72;9
+154;8;Biobío;81;Concepción;8112;Hualpén;32286;24104;885;1462;5710;3;13;9;3;81;16
+155;8;Biobío;82;Arauco;8201;Lebu;10238;9990;40;0;30;0;0;78;0;91;9
+156;8;Biobío;82;Arauco;8202;Arauco;15168;14932;140;3;3;2;3;37;2;41;5
+157;8;Biobío;82;Arauco;8203;Cañete;14503;13903;398;0;16;11;11;58;1;99;6
+158;8;Biobío;82;Arauco;8204;Contulmo;2992;2658;89;0;0;2;1;6;0;234;2
+159;8;Biobío;82;Arauco;8205;Curanilahue;13203;12332;428;1;94;0;4;170;0;168;6
+160;8;Biobío;82;Arauco;8206;Los Álamos;9311;9105;104;0;0;1;2;52;1;40;6
+161;8;Biobío;82;Arauco;8207;Tirúa;4896;4330;489;0;0;3;1;26;0;45;2
+162;8;Biobío;83;Biobío;8301;Los Ángeles;93053;78282;6452;2586;5049;10;101;87;7;442;37
+163;8;Biobío;83;Biobío;8302;Antuco;2672;2487;66;0;0;0;2;3;1;112;1
+164;8;Biobío;83;Biobío;8303;Cabrero;13270;12589;502;1;74;4;5;21;0;72;2
+165;8;Biobío;83;Biobío;8304;Laja;10091;9626;312;1;13;2;3;23;0;108;3
+166;8;Biobío;83;Biobío;8305;Mulchén;11593;11452;67;0;5;0;2;13;0;48;6
+167;8;Biobío;83;Biobío;8306;Nacimiento;11089;10703;183;7;4;1;1;31;0;156;3
+168;8;Biobío;83;Biobío;8307;Negrete;4421;4300;54;0;1;1;1;48;2;14;0
+169;8;Biobío;83;Biobío;8308;Quilaco;2452;2113;284;0;0;1;1;11;1;37;4
+170;8;Biobío;83;Biobío;8309;Quilleco;4502;4341;86;0;0;1;0;16;0;56;2
+171;8;Biobío;83;Biobío;8310;San Rosendo;1867;1832;7;0;0;0;1;17;0;9;1
+172;8;Biobío;83;Biobío;8311;Santa Bárbara;6395;6117;211;0;1;7;3;5;0;48;3
+173;8;Biobío;83;Biobío;8312;Tucapel;7795;7518;224;1;0;1;2;18;0;25;6
+174;8;Biobío;83;Biobío;8313;Yumbel;14112;13410;481;1;64;0;2;42;3;105;4
+175;8;Biobío;83;Biobío;8314;Alto Biobío;2776;2355;23;1;1;73;8;153;5;156;1
+176;9;La Araucanía;91;Cautín;9101;Temuco;129071;96393;4885;14876;11452;38;218;484;7;642;76
+177;9;La Araucanía;91;Cautín;9102;Carahue;11657;11313;132;0;53;3;9;98;2;43;4
+178;9;La Araucanía;91;Cautín;9103;Cunco;10541;9085;1206;4;0;4;1;16;1;216;8
+179;9;La Araucanía;91;Cautín;9104;Curarrehue;4432;4234;165;1;0;5;0;8;1;17;1
+180;9;La Araucanía;91;Cautín;9105;Freire;12597;11933;542;2;3;8;8;63;0;35;3
+181;9;La Araucanía;91;Cautín;9106;Galvarino;5476;5414;12;1;0;3;3;16;0;26;1
+182;9;La Araucanía;91;Cautín;9107;Gorbea;6702;6413;250;0;1;0;4;13;1;16;4
+183;9;La Araucanía;91;Cautín;9108;Lautaro;18221;17472;483;15;172;2;3;13;7;46;8
+184;9;La Araucanía;91;Cautín;9109;Loncoche;12376;11968;258;1;12;3;8;28;0;92;6
+185;9;La Araucanía;91;Cautín;9110;Melipeuco;3614;3494;61;0;0;1;2;7;2;39;8
+186;9;La Araucanía;91;Cautín;9111;Nueva Imperial;14842;14401;168;1;3;15;5;42;0;199;8
+187;9;La Araucanía;91;Cautín;9112;Padre Las Casas;32154;29025;838;9;2084;31;13;46;3;97;8
+188;9;La Araucanía;91;Cautín;9113;Perquenco;3345;3210;92;0;0;3;0;7;0;33;0
+189;9;La Araucanía;91;Cautín;9114;Pitrufquén;13102;12789;217;0;5;2;3;32;2;44;8
+190;9;La Araucanía;91;Cautín;9115;Pucón;28770;18943;5254;2515;1876;4;32;14;6;112;14
+191;9;La Araucanía;91;Cautín;9116;Saavedra;6757;6561;56;0;0;7;5;43;1;80;4
+192;9;La Araucanía;91;Cautín;9117;Teodoro Schmidt;8008;7828;116;2;1;6;2;16;0;34;3
+193;9;La Araucanía;91;Cautín;9118;Toltén;4954;4812;85;0;0;1;5;42;1;5;3
+194;9;La Araucanía;91;Cautín;9119;Vilcún;13928;13658;189;2;0;2;5;17;1;46;8
+195;9;La Araucanía;91;Cautín;9120;Villarrica;43229;34751;4862;1537;1778;6;21;63;7;188;16
+196;9;La Araucanía;91;Cautín;9121;Cholchol;5271;5156;74;0;0;4;1;18;0;15;3
+197;9;La Araucanía;92;Malleco;9201;Angol;22100;19970;1054;34;714;3;46;46;1;217;15
+198;9;La Araucanía;92;Malleco;9202;Collipulli;10460;9894;439;4;1;5;2;21;9;79;6
+199;9;La Araucanía;92;Malleco;9203;Curacautín;9923;9536;315;1;4;2;2;9;1;46;7
+200;9;La Araucanía;92;Malleco;9204;Ercilla;3784;3703;3;1;0;0;0;57;1;17;2
+201;9;La Araucanía;92;Malleco;9205;Lonquimay;5662;5439;46;0;1;17;4;85;0;59;11
+202;9;La Araucanía;92;Malleco;9206;Los Sauces;3373;3161;108;0;0;1;0;10;0;89;4
+203;9;La Araucanía;92;Malleco;9207;Lumaco;4217;4149;22;0;0;4;2;16;0;21;3
+204;9;La Araucanía;92;Malleco;9208;Purén;5300;5128;132;2;0;1;1;17;0;17;2
+205;9;La Araucanía;92;Malleco;9209;Renaico;4519;4411;72;3;0;0;1;6;0;23;3
+206;9;La Araucanía;92;Malleco;9210;Traiguén;8384;8165;128;1;9;1;3;26;1;37;13
+207;9;La Araucanía;92;Malleco;9211;Victoria;14459;13823;279;64;44;3;4;16;1;215;10
+208;10;Los Lagos;101;Llanquihue;10101;Puerto Montt;116072;99900;4853;2754;7469;10;207;222;11;577;69
+209;10;Los Lagos;101;Llanquihue;10102;Calbuco;15942;14992;483;5;66;3;15;20;1;350;7
+210;10;Los Lagos;101;Llanquihue;10103;Cochamó;3063;2802;152;3;0;0;3;2;0;97;4
+211;10;Los Lagos;101;Llanquihue;10104;Fresia;6288;5384;312;1;0;2;0;7;1;578;3
+212;10;Los Lagos;101;Llanquihue;10105;Frutillar;10304;9323;730;83;20;2;2;66;1;72;5
+213;10;Los Lagos;101;Llanquihue;10106;Los Muermos;8697;8357;95;2;8;0;3;38;0;193;1
+214;10;Los Lagos;101;Llanquihue;10107;Llanquihue;6960;6084;731;56;7;0;4;3;0;72;3
+215;10;Los Lagos;101;Llanquihue;10108;Maullín;7559;7016;461;1;2;0;0;12;1;61;5
+216;10;Los Lagos;101;Llanquihue;10109;Puerto Varas;25207;18361;4044;2159;237;3;26;32;3;325;17
+217;10;Los Lagos;102;Chiloé;10201;Castro;21192;19786;937;22;217;1;20;19;2;168;20
+218;10;Los Lagos;102;Chiloé;10202;Ancud;19862;19298;376;4;56;0;3;18;2;85;20
+219;10;Los Lagos;102;Chiloé;10203;Chonchi;8288;7775;381;0;5;1;3;11;0;110;2
+220;10;Los Lagos;102;Chiloé;10204;Curaco de Vélez;1915;1810;72;0;0;0;2;0;0;31;0
+221;10;Los Lagos;102;Chiloé;10205;Dalcahue;7223;6917;247;1;0;0;2;6;0;49;1
+222;10;Los Lagos;102;Chiloé;10206;Puqueldón;2093;2027;59;1;0;0;0;1;0;3;2
+223;10;Los Lagos;102;Chiloé;10207;Queilén;3142;3091;33;0;0;0;1;4;0;10;3
+224;10;Los Lagos;102;Chiloé;10208;Quellón;13474;12552;490;2;14;2;4;82;0;324;4
+225;10;Los Lagos;102;Chiloé;10209;Quemchi;4652;4475;35;0;10;1;1;29;0;99;2
+226;10;Los Lagos;102;Chiloé;10210;Quinchao;4153;3760;27;0;0;0;0;15;0;346;5
+227;10;Los Lagos;103;Osorno;10301;Osorno;68763;56936;3024;2546;5030;7;275;418;17;472;38
+228;10;Los Lagos;103;Osorno;10302;Puerto Octay;5294;4996;234;1;1;2;0;10;1;44;5
+229;10;Los Lagos;103;Osorno;10303;Purranque;8707;8095;504;0;66;0;6;8;1;24;3
+230;10;Los Lagos;103;Osorno;10304;Puyehue;5986;5298;639;1;0;3;1;12;1;27;4
+231;10;Los Lagos;103;Osorno;10305;Río Negro;6493;5861;440;1;49;1;4;16;0;116;5
+232;10;Los Lagos;103;Osorno;10306;San Juan de la Costa;6797;6393;50;2;0;5;0;58;1;285;3
+233;10;Los Lagos;103;Osorno;10307;San Pablo;5133;4744;342;2;1;2;2;9;1;27;3
+234;10;Los Lagos;104;Palena;10401;Chaitén;2562;2433;39;0;0;3;0;4;1;77;5
+235;10;Los Lagos;104;Palena;10402;Futaleufú;1794;1666;0;0;0;0;4;1;2;117;4
+236;10;Los Lagos;104;Palena;10403;Hualaihué;5218;5053;76;1;1;0;1;11;0;71;4
+237;10;Los Lagos;104;Palena;10404;Palena;1309;1006;3;0;3;1;0;9;0;286;1
+238;11;Aysén del General Carlos Ibáñez del Campo;111;Coyhaique;11101;Coyhaique;27989;25866;1125;89;493;4;13;94;3;266;36
+239;11;Aysén del General Carlos Ibáñez del Campo;111;Coyhaique;11102;Lago Verde;724;561;3;0;0;0;0;3;0;154;3
+240;11;Aysén del General Carlos Ibáñez del Campo;112;Aysén;11201;Aysén;11054;10571;336;0;21;1;4;23;4;76;18
+241;11;Aysén del General Carlos Ibáñez del Campo;112;Aysén;11202;Cisnes;3437;3019;309;0;0;0;5;14;1;86;3
+242;11;Aysén del General Carlos Ibáñez del Campo;112;Aysén;11203;Guaitecas;816;798;5;0;0;0;0;4;1;5;3
+243;11;Aysén del General Carlos Ibáñez del Campo;113;Capitán Prat;11301;Cochrane;2126;1961;3;0;7;0;2;2;3;141;7
+244;11;Aysén del General Carlos Ibáñez del Campo;113;Capitán Prat;11302;O'Higgins;403;391;1;1;0;1;0;4;0;5;0
+245;11;Aysén del General Carlos Ibáñez del Campo;113;Capitán Prat;11303;Tortel;395;360;1;1;0;0;0;9;2;19;3
+246;11;Aysén del General Carlos Ibáñez del Campo;114;General Carrera;11401;Chile Chico;3108;2978;25;0;2;0;0;30;1;67;5
+247;11;Aysén del General Carlos Ibáñez del Campo;114;General Carrera;11402;Río Ibáñez;2242;2129;36;0;9;0;1;29;3;27;8
+248;12;Magallanes y de la Antártica Chilena;121;Magallanes;12101;Punta Arenas;59195;52098;1848;556;4248;2;72;86;16;200;69
+249;12;Magallanes y de la Antártica Chilena;121;Magallanes;12102;Laguna Blanca;290;245;35;0;0;0;0;7;0;0;3
+250;12;Magallanes y de la Antártica Chilena;121;Magallanes;12103;Río Verde;188;186;0;0;0;0;1;0;0;1;0
+251;12;Magallanes y de la Antártica Chilena;121;Magallanes;12104;San Gregorio;444;433;3;0;0;0;0;0;0;5;3
+252;12;Magallanes y de la Antártica Chilena;122;Antártica Chilena;12201;Cabo de Hornos;780;765;1;0;0;0;0;1;1;7;5
+253;12;Magallanes y de la Antártica Chilena;122;Antártica Chilena;12202;Antártica;4;0;0;0;0;0;0;0;0;0;4
+254;12;Magallanes y de la Antártica Chilena;123;Tierra del Fuego;12301;Porvenir;3551;3314;121;1;11;0;2;50;2;39;11
+255;12;Magallanes y de la Antártica Chilena;123;Tierra del Fuego;12302;Primavera;414;406;3;0;0;0;0;0;0;5;0
+256;12;Magallanes y de la Antártica Chilena;123;Tierra del Fuego;12303;Timaukel;214;95;105;0;0;0;0;5;3;5;1
+257;12;Magallanes y de la Antártica Chilena;124;Última Esperanza;12401;Natales;11223;10783;311;2;7;1;9;11;6;75;18
+258;12;Magallanes y de la Antártica Chilena;124;Última Esperanza;12402;Torres del Paine;304;207;1;0;0;0;0;1;0;94;1
+259;13;Metropolitana de Santiago;131;Santiago;13101;Santiago;239265;20784;7655;177714;19497;26;12766;77;50;603;93
+260;13;Metropolitana de Santiago;131;Santiago;13102;Cerrillos;31656;19678;2208;3120;6057;6;279;155;3;129;21
+261;13;Metropolitana de Santiago;131;Santiago;13103;Cerro Navia;40088;34585;306;23;4405;5;471;164;7;115;7
+262;13;Metropolitana de Santiago;131;Santiago;13104;Conchalí;38829;30573;458;1324;5331;8;945;31;3;142;14
+263;13;Metropolitana de Santiago;131;Santiago;13105;El Bosque;50351;37710;2819;482;8802;9;227;51;45;184;22
+264;13;Metropolitana de Santiago;131;Santiago;13106;Estación Central;76025;24784;1391;37623;8327;20;3573;78;6;190;33
+265;13;Metropolitana de Santiago;131;Santiago;13107;Huechuraba;31102;17325;7224;4494;1672;3;76;225;8;70;5
+266;13;Metropolitana de Santiago;131;Santiago;13108;Independencia;50346;13189;2189;26139;5334;17;3299;23;3;115;38
+267;13;Metropolitana de Santiago;131;Santiago;13109;La Cisterna;41616;18085;1236;16254;5481;5;400;22;12;85;36
+268;13;Metropolitana de Santiago;131;Santiago;13110;La Florida;143650;76541;16410;31009;18586;29;278;390;14;327;66
+269;13;Metropolitana de Santiago;131;Santiago;13111;La Granja;36699;29749;624;725;5347;4;157;13;1;66;13
+270;13;Metropolitana de Santiago;131;Santiago;13112;La Pintana;53031;43695;1082;19;7950;7;28;41;12;177;20
+271;13;Metropolitana de Santiago;131;Santiago;13113;La Reina;31640;13911;10777;3813;2943;6;47;2;2;95;44
+272;13;Metropolitana de Santiago;131;Santiago;13114;Las Condes;129033;28612;6152;84109;9857;10;36;16;6;139;96
+273;13;Metropolitana de Santiago;131;Santiago;13115;Lo Barnechea;36387;15007;8643;9846;2646;4;45;107;3;69;17
+274;13;Metropolitana de Santiago;131;Santiago;13116;Lo Espejo;27356;22916;81;24;4074;6;150;16;7;72;10
+275;13;Metropolitana de Santiago;131;Santiago;13117;Lo Prado;31009;20756;552;335;8585;11;624;27;11;101;7
+276;13;Metropolitana de Santiago;131;Santiago;13118;Macul;50722;19311;3128;18898;9134;11;63;18;11;120;28
+277;13;Metropolitana de Santiago;131;Santiago;13119;Maipú;169373;129098;17056;2752;19269;32;172;553;23;377;41
+278;13;Metropolitana de Santiago;131;Santiago;13120;Ñuñoa;121519;16998;4433;77134;22490;20;199;6;5;139;95
+279;13;Metropolitana de Santiago;131;Santiago;13121;Pedro Aguirre Cerda;31034;25672;452;57;4434;2;313;17;10;70;7
+280;13;Metropolitana de Santiago;131;Santiago;13122;Peñalolén;75509;49391;12853;2183;10424;14;331;80;18;193;22
+281;13;Metropolitana de Santiago;131;Santiago;13123;Providencia;76476;6770;918;56632;11565;15;380;7;8;81;100
+282;13;Metropolitana de Santiago;131;Santiago;13124;Pudahuel;73709;52889;7128;2135;11062;14;168;139;4;161;9
+283;13;Metropolitana de Santiago;131;Santiago;13125;Quilicura;66994;40547;9089;1171;15493;23;207;266;4;186;8
+284;13;Metropolitana de Santiago;131;Santiago;13126;Quinta Normal;46815;24242;1813;13043;5300;16;2041;87;7;235;31
+285;13;Metropolitana de Santiago;131;Santiago;13127;Recoleta;55881;32549;1704;8123;6532;32;6492;67;14;338;30
+286;13;Metropolitana de Santiago;131;Santiago;13128;Renca;46455;31512;2626;1143;10492;19;488;72;3;94;6
+287;13;Metropolitana de Santiago;131;Santiago;13129;San Joaquín;33856;21380;936;4992;5346;9;1053;27;5;92;16
+288;13;Metropolitana de Santiago;131;Santiago;13130;San Miguel;65828;13265;1314;46340;4085;5;682;12;5;69;51
+289;13;Metropolitana de Santiago;131;Santiago;13131;San Ramón;23821;20134;224;22;3005;5;102;60;7;253;9
+290;13;Metropolitana de Santiago;131;Santiago;13132;Vitacura;34538;10834;951;20820;1889;2;2;1;1;23;15
+291;13;Metropolitana de Santiago;132;Cordillera;13201;Puente Alto;190374;137076;31067;876;19766;38;457;643;50;331;70
+292;13;Metropolitana de Santiago;132;Cordillera;13202;Pirque;10189;7397;2648;2;3;0;10;33;3;85;8
+293;13;Metropolitana de Santiago;132;Cordillera;13203;San José de Maipo;8027;7381;521;1;17;0;7;43;2;45;10
+294;13;Metropolitana de Santiago;133;Chacabuco;13301;Colina;54790;32076;18680;150;3361;13;103;255;6;119;27
+295;13;Metropolitana de Santiago;133;Chacabuco;13302;Lampa;50284;33331;14388;76;1876;10;39;363;16;171;14
+296;13;Metropolitana de Santiago;133;Chacabuco;13303;Tiltil;8234;7203;943;1;1;0;6;12;1;62;5
+297;13;Metropolitana de Santiago;134;Maipo;13401;San Bernardo;102253;67270;14321;2380;16831;20;612;298;41;432;48
+298;13;Metropolitana de Santiago;134;Maipo;13402;Buin;42459;35077;6653;215;153;4;65;157;2;112;21
+299;13;Metropolitana de Santiago;134;Maipo;13403;Calera de Tango;8406;6213;2107;2;0;0;23;15;7;32;7
+300;13;Metropolitana de Santiago;134;Maipo;13404;Paine;30818;26043;3847;8;368;1;21;46;8;454;22
+301;13;Metropolitana de Santiago;135;Melipilla;13501;Melipilla;52240;44922;3206;36;3440;3;122;102;9;374;26
+302;13;Metropolitana de Santiago;135;Melipilla;13502;Alhué;3316;3223;7;3;1;0;61;5;0;11;5
+303;13;Metropolitana de Santiago;135;Melipilla;13503;Curacaví;14226;11401;2617;4;71;0;18;34;2;71;8
+304;13;Metropolitana de Santiago;135;Melipilla;13504;María Pinto;5881;5329;468;3;2;0;4;3;0;71;1
+305;13;Metropolitana de Santiago;135;Melipilla;13505;San Pedro;5360;5035;293;0;1;1;3;4;1;20;2
+306;13;Metropolitana de Santiago;136;Talagante;13601;Talagante;27535;20417;4864;36;1848;4;19;156;5;173;13
+307;13;Metropolitana de Santiago;136;Talagante;13602;El Monte;13374;10862;1786;12;591;0;12;65;1;28;17
+308;13;Metropolitana de Santiago;136;Talagante;13603;Isla de Maipo;14531;12715;1658;4;0;0;36;18;2;85;13
+309;13;Metropolitana de Santiago;136;Talagante;13604;Padre Hurtado;28793;22244;5013;12;1352;1;44;47;3;65;12
+310;13;Metropolitana de Santiago;136;Talagante;13605;Peñaflor;33046;21574;8591;16;2587;9;18;84;8;136;23
+311;14;Los Ríos;141;Valdivia;14101;Valdivia;72877;58975;6481;2471;4209;7;64;167;8;428;67
+312;14;Los Ríos;141;Valdivia;14102;Corral;3360;3270;36;0;0;0;1;8;0;43;2
+313;14;Los Ríos;141;Valdivia;14103;Lanco;7784;7531;197;3;2;5;2;11;2;28;3
+314;14;Los Ríos;141;Valdivia;14104;Los Lagos;9573;8665;829;2;5;1;7;20;0;43;1
+315;14;Los Ríos;141;Valdivia;14105;Máfil;3441;3366;50;0;0;1;0;4;0;15;5
+316;14;Los Ríos;141;Valdivia;14106;Mariquina;10274;9828;148;0;32;14;3;11;1;230;7
+317;14;Los Ríos;141;Valdivia;14107;Paillaco;8443;8266;128;1;2;0;4;13;1;22;6
+318;14;Los Ríos;141;Valdivia;14108;Panguipulli;20022;18135;1488;5;5;22;8;49;3;298;9
+319;14;Los Ríos;142;Ranco;14201;La Unión;17156;16485;258;16;227;5;10;37;5;101;12
+320;14;Los Ríos;142;Ranco;14202;Futrono;7932;7290;556;1;23;3;1;12;1;43;2
+321;14;Los Ríos;142;Ranco;14203;Lago Ranco;6248;5915;209;1;0;2;2;31;0;88;0
+322;14;Los Ríos;142;Ranco;14204;Río Bueno;16369;15396;555;27;199;3;14;40;1;127;7
+323;15;Arica y Parinacota;151;Arica;15101;Arica;84989;60367;3150;1741;17220;32;223;1513;62;545;136
+324;15;Arica y Parinacota;151;Arica;15102;Camarones;1035;814;4;0;0;19;0;154;2;42;0
+325;15;Arica y Parinacota;152;Parinacota;15201;Putre;1853;1576;20;0;0;147;3;51;1;53;2
+326;15;Arica y Parinacota;152;Parinacota;15202;General Lagos;624;452;0;0;0;152;0;3;0;16;1
+327;16;Ñuble;161;Diguillín;16101;Chillán;81042;69092;3386;2607;5484;5;87;96;10;217;58
+328;16;Ñuble;161;Diguillín;16102;Bulnes;10531;9759;415;80;140;0;3;85;2;43;4
+329;16;Ñuble;161;Diguillín;16103;Chillán Viejo;13027;11932;388;5;611;0;0;39;10;32;10
+330;16;Ñuble;161;Diguillín;16104;El Carmen;6212;6139;46;0;1;0;1;9;0;10;6
+331;16;Ñuble;161;Diguillín;16105;Pemuco;4204;3889;142;0;0;0;0;17;1;153;2
+332;16;Ñuble;161;Diguillín;16106;Pinto;7664;6844;774;10;4;1;4;5;0;13;9
+333;16;Ñuble;161;Diguillín;16107;Quillón;13489;12332;1073;2;0;0;3;38;1;34;6
+334;16;Ñuble;161;Diguillín;16108;San Ignacio;7990;7802;149;2;0;0;3;20;1;12;1
+335;16;Ñuble;161;Diguillín;16109;Yungay;10342;10112;154;3;8;2;4;21;0;31;7
+336;16;Ñuble;162;Itata;16201;Quirihue;5628;5375;106;31;14;0;3;47;2;44;6
+337;16;Ñuble;162;Itata;16202;Cobquecura;3897;3778;82;0;0;1;1;6;3;20;6
+338;16;Ñuble;162;Itata;16203;Coelemu;7087;6908;127;0;2;1;3;19;0;25;2
+339;16;Ñuble;162;Itata;16204;Ninhue;2908;2865;29;0;1;0;2;2;0;8;1
+340;16;Ñuble;162;Itata;16205;Portezuelo;2700;2611;33;8;0;0;0;18;0;28;2
+341;16;Ñuble;162;Itata;16206;Ránquil;3563;3220;294;0;0;0;2;9;1;34;3
+342;16;Ñuble;162;Itata;16207;Trehuaco;3053;3014;13;1;0;0;0;12;0;13;0
+343;16;Ñuble;163;Punilla;16301;San Carlos;23905;21945;1041;28;394;2;3;37;13;431;11
+344;16;Ñuble;163;Punilla;16302;Coihueco;12130;11519;281;1;6;0;1;25;0;296;1
+345;16;Ñuble;163;Punilla;16303;Ñiquén;6008;5518;444;0;5;0;0;11;3;26;1
+346;16;Ñuble;163;Punilla;16304;San Fabián;3137;2975;104;1;1;0;0;37;1;17;1
+347;16;Ñuble;163;Punilla;16305;San Nicolás;6328;6132;140;1;4;4;3;11;2;29;2

@@ -1,0 +1,1042 @@
+id_key;codigo_region;region;codigo_provincia;provincia;codigo_comuna;comuna;disponibilidad_equipo_o_servicio;movil;computador;tablet;internet_fija;internet_movil;internet_satelital
+1;0;País;0;País;0;País;Sí;6475071;3621619;1645321;4250122;5734118;288473
+2;0;País;0;País;0;País;No;119949;2964123;4939222;2338834;854837;6293135
+3;0;País;0;País;0;País;Disponibilidad no declarada;1507;10785;11984;7571;7572;14919
+4;1;Tarapacá;11;Iquique;1101;Iquique;Sí;68642;40337;20215;53580;62503;3144
+5;1;Tarapacá;11;Iquique;1101;Iquique;No;1142;29362;49466;16149;7235;66508
+6;1;Tarapacá;11;Iquique;1101;Iquique;Disponibilidad no declarada;16;101;119;71;62;148
+7;1;Tarapacá;11;Iquique;1107;Alto Hospicio;Sí;41480;18240;8492;25449;36583;2395
+8;1;Tarapacá;11;Iquique;1107;Alto Hospicio;No;650;23851;33599;16656;5536;39697
+9;1;Tarapacá;11;Iquique;1107;Alto Hospicio;Disponibilidad no declarada;20;59;59;45;31;58
+10;1;Tarapacá;14;Del Tamarugal;1401;Pozo Almonte;Sí;5468;2138;1062;2161;4805;372
+11;1;Tarapacá;14;Del Tamarugal;1401;Pozo Almonte;No;140;3461;4536;3436;796;5228
+12;1;Tarapacá;14;Del Tamarugal;1401;Pozo Almonte;Disponibilidad no declarada;1;10;11;12;8;9
+13;1;Tarapacá;14;Del Tamarugal;1402;Camiña;Sí;465;120;45;25;364;10
+14;1;Tarapacá;14;Del Tamarugal;1402;Camiña;No;24;369;444;464;125;479
+15;1;Tarapacá;14;Del Tamarugal;1402;Camiña;Disponibilidad no declarada;0;0;0;0;0;0
+16;1;Tarapacá;14;Del Tamarugal;1403;Colchane;Sí;200;22;20;7;131;6
+17;1;Tarapacá;14;Del Tamarugal;1403;Colchane;No;47;225;227;238;116;241
+18;1;Tarapacá;14;Del Tamarugal;1403;Colchane;Disponibilidad no declarada;0;0;0;2;0;0
+19;1;Tarapacá;14;Del Tamarugal;1404;Huara;Sí;978;275;138;99;826;44
+20;1;Tarapacá;14;Del Tamarugal;1404;Huara;No;58;757;893;929;206;984
+21;1;Tarapacá;14;Del Tamarugal;1404;Huara;Disponibilidad no declarada;0;4;5;8;4;8
+22;1;Tarapacá;14;Del Tamarugal;1405;Pica;Sí;2134;869;573;679;1881;136
+23;1;Tarapacá;14;Del Tamarugal;1405;Pica;No;46;1308;1605;1499;297;2039
+24;1;Tarapacá;14;Del Tamarugal;1405;Pica;Disponibilidad no declarada;0;3;2;2;2;5
+25;2;Antofagasta;21;Antofagasta;2101;Antofagasta;Sí;132406;81209;42523;105070;122463;5686
+26;2;Antofagasta;21;Antofagasta;2101;Antofagasta;No;1615;52653;91315;28866;11438;128074
+27;2;Antofagasta;21;Antofagasta;2101;Antofagasta;Disponibilidad no declarada;38;197;221;123;158;299
+28;2;Antofagasta;21;Antofagasta;2102;Mejillones;Sí;4669;2162;1166;2948;4224;426
+29;2;Antofagasta;21;Antofagasta;2102;Mejillones;No;71;2574;3569;1791;510;4309
+30;2;Antofagasta;21;Antofagasta;2102;Mejillones;Disponibilidad no declarada;0;4;5;1;6;5
+31;2;Antofagasta;21;Antofagasta;2103;Sierra Gorda;Sí;477;279;148;115;360;19
+32;2;Antofagasta;21;Antofagasta;2103;Sierra Gorda;No;4;177;265;282;34;375
+33;2;Antofagasta;21;Antofagasta;2103;Sierra Gorda;Disponibilidad no declarada;0;25;68;84;87;87
+34;2;Antofagasta;21;Antofagasta;2104;Taltal;Sí;4020;1788;852;2033;3264;379
+35;2;Antofagasta;21;Antofagasta;2104;Taltal;No;80;2309;3243;2065;835;3716
+36;2;Antofagasta;21;Antofagasta;2104;Taltal;Disponibilidad no declarada;0;3;5;2;1;5
+37;2;Antofagasta;22;El Loa;2201;Calama;Sí;55300;31559;15805;40587;50025;2706
+38;2;Antofagasta;22;El Loa;2201;Calama;No;723;24327;40035;15336;5911;52979
+39;2;Antofagasta;22;El Loa;2201;Calama;Disponibilidad no declarada;22;159;205;122;109;360
+40;2;Antofagasta;22;El Loa;2202;Ollagüe;Sí;98;40;22;13;90;8
+41;2;Antofagasta;22;El Loa;2202;Ollagüe;No;4;62;80;89;12;94
+42;2;Antofagasta;22;El Loa;2202;Ollagüe;Disponibilidad no declarada;0;0;0;0;0;0
+43;2;Antofagasta;22;El Loa;2203;San Pedro de Atacama;Sí;3837;1624;708;262;3350;189
+44;2;Antofagasta;22;El Loa;2203;San Pedro de Atacama;No;56;2242;3150;3588;538;3665
+45;2;Antofagasta;22;El Loa;2203;San Pedro de Atacama;Disponibilidad no declarada;2;29;37;45;7;41
+46;2;Antofagasta;23;Tocopilla;2301;Tocopilla;Sí;8491;3905;2184;5930;7249;752
+47;2;Antofagasta;23;Tocopilla;2301;Tocopilla;No;197;4779;6498;2755;1435;7914
+48;2;Antofagasta;23;Tocopilla;2301;Tocopilla;Disponibilidad no declarada;2;6;8;5;6;24
+49;2;Antofagasta;23;Tocopilla;2302;María Elena;Sí;1619;868;506;758;1513;123
+50;2;Antofagasta;23;Tocopilla;2302;María Elena;No;15;766;1127;875;121;1511
+51;2;Antofagasta;23;Tocopilla;2302;María Elena;Disponibilidad no declarada;1;1;2;2;1;1
+52;3;Atacama;31;Copiapó;3101;Copiapó;Sí;56160;30572;14108;37776;50552;2484
+53;3;Atacama;31;Copiapó;3101;Copiapó;No;814;26282;42740;19128;6333;54331
+54;3;Atacama;31;Copiapó;3101;Copiapó;Disponibilidad no declarada;10;130;136;80;99;169
+55;3;Atacama;31;Copiapó;3102;Caldera;Sí;6792;3115;1375;3181;6123;533
+56;3;Atacama;31;Copiapó;3102;Caldera;No;130;3793;5532;3730;796;6375
+57;3;Atacama;31;Copiapó;3102;Caldera;Disponibilidad no declarada;0;14;15;11;3;14
+58;3;Atacama;31;Copiapó;3103;Tierra Amarilla;Sí;3745;1562;716;1004;3272;202
+59;3;Atacama;31;Copiapó;3103;Tierra Amarilla;No;112;2278;3116;2828;579;3629
+60;3;Atacama;31;Copiapó;3103;Tierra Amarilla;Disponibilidad no declarada;0;17;25;25;6;26
+61;3;Atacama;32;Chañaral;3201;Chañaral;Sí;4292;2050;1028;769;3860;219
+62;3;Atacama;32;Chañaral;3201;Chañaral;No;89;2316;3334;3592;509;4144
+63;3;Atacama;32;Chañaral;3201;Chañaral;Disponibilidad no declarada;2;17;21;22;14;20
+64;3;Atacama;32;Chañaral;3202;Diego de Almagro;Sí;4086;2117;1017;1456;3748;280
+65;3;Atacama;32;Chañaral;3202;Diego de Almagro;No;71;2035;3135;2694;404;3870
+66;3;Atacama;32;Chañaral;3202;Diego de Almagro;Disponibilidad no declarada;0;5;5;7;5;7
+67;3;Atacama;33;Huasco;3301;Vallenar;Sí;18253;8372;4329;10407;15720;989
+68;3;Atacama;33;Huasco;3301;Vallenar;No;370;10219;14262;8190;2885;17597
+69;3;Atacama;33;Huasco;3301;Vallenar;Disponibilidad no declarada;7;39;39;33;25;44
+70;3;Atacama;33;Huasco;3302;Alto del Carmen;Sí;1854;570;251;85;1506;49
+71;3;Atacama;33;Huasco;3302;Alto del Carmen;No;64;1339;1655;1821;405;1859
+72;3;Atacama;33;Huasco;3302;Alto del Carmen;Disponibilidad no declarada;1;10;13;13;8;11
+73;3;Atacama;33;Huasco;3303;Freirina;Sí;2671;1075;530;282;2352;111
+74;3;Atacama;33;Huasco;3303;Freirina;No;62;1655;2199;2444;379;2619
+75;3;Atacama;33;Huasco;3303;Freirina;Disponibilidad no declarada;0;3;4;7;2;3
+76;3;Atacama;33;Huasco;3304;Huasco;Sí;3411;1382;758;805;3046;274
+77;3;Atacama;33;Huasco;3304;Huasco;No;60;2082;2705;2659;422;3185
+78;3;Atacama;33;Huasco;3304;Huasco;Disponibilidad no declarada;1;8;9;8;4;13
+79;4;Coquimbo;41;Elqui;4101;La Serena;Sí;85233;53488;24652;61481;76414;5451
+80;4;Coquimbo;41;Elqui;4101;La Serena;No;1187;32777;61602;24848;9935;80772
+81;4;Coquimbo;41;Elqui;4101;La Serena;Disponibilidad no declarada;22;177;188;113;93;219
+82;4;Coquimbo;41;Elqui;4102;Coquimbo;Sí;88170;48799;21556;61892;78999;5442
+83;4;Coquimbo;41;Elqui;4102;Coquimbo;No;1740;41007;68237;27969;10847;84346
+84;4;Coquimbo;41;Elqui;4102;Coquimbo;Disponibilidad no declarada;14;118;131;63;78;136
+85;4;Coquimbo;41;Elqui;4103;Andacollo;Sí;3967;1803;649;915;3390;410
+86;4;Coquimbo;41;Elqui;4103;Andacollo;No;97;2260;3414;3148;673;3653
+87;4;Coquimbo;41;Elqui;4103;Andacollo;Disponibilidad no declarada;0;1;1;1;1;1
+88;4;Coquimbo;41;Elqui;4104;La Higuera;Sí;1564;484;229;204;1356;84
+89;4;Coquimbo;41;Elqui;4104;La Higuera;No;62;1142;1397;1420;269;1541
+90;4;Coquimbo;41;Elqui;4104;La Higuera;Disponibilidad no declarada;0;0;0;2;1;1
+91;4;Coquimbo;41;Elqui;4105;Paiguano;Sí;1832;739;370;181;1678;124
+92;4;Coquimbo;41;Elqui;4105;Paiguano;No;30;1121;1490;1678;183;1737
+93;4;Coquimbo;41;Elqui;4105;Paiguano;Disponibilidad no declarada;0;2;2;3;1;1
+94;4;Coquimbo;41;Elqui;4106;Vicuña;Sí;9606;4086;1532;3893;8096;761
+95;4;Coquimbo;41;Elqui;4106;Vicuña;No;206;5712;8264;5902;1705;9033
+96;4;Coquimbo;41;Elqui;4106;Vicuña;Disponibilidad no declarada;5;19;21;22;16;23
+97;4;Coquimbo;42;Choapa;4201;Illapel;Sí;11398;5350;2374;5083;9362;658
+98;4;Coquimbo;42;Choapa;4201;Illapel;No;172;6211;9184;6474;2204;10894
+99;4;Coquimbo;42;Choapa;4201;Illapel;Disponibilidad no declarada;3;12;15;16;7;21
+100;4;Coquimbo;42;Choapa;4202;Canela;Sí;3645;1060;513;493;2873;88
+101;4;Coquimbo;42;Choapa;4202;Canela;No;133;2714;3260;3279;900;3686
+102;4;Coquimbo;42;Choapa;4202;Canela;Disponibilidad no declarada;0;4;5;6;5;4
+103;4;Coquimbo;42;Choapa;4203;Los Vilos;Sí;8344;3527;1555;3805;7106;478
+104;4;Coquimbo;42;Choapa;4203;Los Vilos;No;170;4975;6948;4699;1398;8026
+105;4;Coquimbo;42;Choapa;4203;Los Vilos;Disponibilidad no declarada;0;12;11;10;10;10
+106;4;Coquimbo;42;Choapa;4204;Salamanca;Sí;9795;4408;1991;3803;8106;393
+107;4;Coquimbo;42;Choapa;4204;Salamanca;No;240;5621;8037;6226;1924;9623
+108;4;Coquimbo;42;Choapa;4204;Salamanca;Disponibilidad no declarada;0;6;7;6;5;19
+109;4;Coquimbo;43;Limarí;4301;Ovalle;Sí;41266;17549;7239;21013;35105;2798
+110;4;Coquimbo;43;Limarí;4301;Ovalle;No;859;24499;34807;21059;6971;39250
+111;4;Coquimbo;43;Limarí;4301;Ovalle;Disponibilidad no declarada;6;83;85;59;55;83
+112;4;Coquimbo;43;Limarí;4302;Combarbalá;Sí;5066;1592;616;1142;3883;249
+113;4;Coquimbo;43;Limarí;4302;Combarbalá;No;184;3654;4629;4105;1365;4997
+114;4;Coquimbo;43;Limarí;4302;Combarbalá;Disponibilidad no declarada;0;4;5;3;2;4
+115;4;Coquimbo;43;Limarí;4303;Monte Patria;Sí;10951;3328;1161;2080;9206;271
+116;4;Coquimbo;43;Limarí;4303;Monte Patria;No;257;7873;10040;9121;1999;10929
+117;4;Coquimbo;43;Limarí;4303;Monte Patria;Disponibilidad no declarada;2;9;9;9;5;10
+118;4;Coquimbo;43;Limarí;4304;Punitaqui;Sí;4344;1440;530;911;3468;202
+119;4;Coquimbo;43;Limarí;4304;Punitaqui;No;117;3019;3930;3547;993;4256
+120;4;Coquimbo;43;Limarí;4304;Punitaqui;Disponibilidad no declarada;0;2;1;3;0;3
+121;4;Coquimbo;43;Limarí;4305;Río Hurtado;Sí;1831;568;202;103;1448;35
+122;4;Coquimbo;43;Limarí;4305;Río Hurtado;No;49;1311;1677;1776;432;1844
+123;4;Coquimbo;43;Limarí;4305;Río Hurtado;Disponibilidad no declarada;0;1;1;1;0;1
+124;5;Valparaíso;51;Valparaíso;5101;Valparaíso;Sí;106334;62516;28747;76028;96374;3701
+125;5;Valparaíso;51;Valparaíso;5101;Valparaíso;No;2417;46069;79812;32631;12310;104825
+126;5;Valparaíso;51;Valparaíso;5101;Valparaíso;Disponibilidad no declarada;26;192;218;118;93;251
+127;5;Valparaíso;51;Valparaíso;5102;Casablanca;Sí;10342;4696;2341;4592;9140;982
+128;5;Valparaíso;51;Valparaíso;5102;Casablanca;No;219;5831;8185;5938;1401;9538
+129;5;Valparaíso;51;Valparaíso;5102;Casablanca;Disponibilidad no declarada;3;37;38;34;23;44
+130;5;Valparaíso;51;Valparaíso;5103;Concón;Sí;17974;11944;6797;13797;16595;938
+131;5;Valparaíso;51;Valparaíso;5103;Concón;No;233;6206;11349;4383;1579;17181
+132;5;Valparaíso;51;Valparaíso;5103;Concón;Disponibilidad no declarada;10;67;71;37;43;98
+133;5;Valparaíso;51;Valparaíso;5104;Juan Fernández;Sí;368;214;116;6;327;308
+134;5;Valparaíso;51;Valparaíso;5104;Juan Fernández;No;5;158;256;366;46;64
+135;5;Valparaíso;51;Valparaíso;5104;Juan Fernández;Disponibilidad no declarada;1;2;2;2;1;2
+136;5;Valparaíso;51;Valparaíso;5105;Puchuncaví;Sí;8285;3891;1702;4003;7307;649
+137;5;Valparaíso;51;Valparaíso;5105;Puchuncaví;No;195;4580;6767;4467;1165;7816
+138;5;Valparaíso;51;Valparaíso;5105;Puchuncaví;Disponibilidad no declarada;0;9;11;10;8;15
+139;5;Valparaíso;51;Valparaíso;5107;Quintero;Sí;12768;5642;2934;7695;11307;978
+140;5;Valparaíso;51;Valparaíso;5107;Quintero;No;255;7348;10056;5305;1704;12005
+141;5;Valparaíso;51;Valparaíso;5107;Quintero;Disponibilidad no declarada;5;38;38;28;17;45
+142;5;Valparaíso;51;Valparaíso;5109;Viña del Mar;Sí;129560;82629;40683;96812;118829;5443
+143;5;Valparaíso;51;Valparaíso;5109;Viña del Mar;No;2244;48979;90874;34894;12855;126076
+144;5;Valparaíso;51;Valparaíso;5109;Viña del Mar;Disponibilidad no declarada;17;213;264;115;137;302
+145;5;Valparaíso;52;Isla de Pascua;5201;Isla de Pascua;Sí;1998;1116;459;147;1830;749
+146;5;Valparaíso;52;Isla de Pascua;5201;Isla de Pascua;No;68;899;1554;1864;189;1269
+147;5;Valparaíso;52;Isla de Pascua;5201;Isla de Pascua;Disponibilidad no declarada;3;54;56;58;50;51
+148;5;Valparaíso;53;Los Andes;5301;Los Andes;Sí;22702;12813;5677;16571;20212;1078
+149;5;Valparaíso;53;Los Andes;5301;Los Andes;No;355;10193;17329;6452;2813;21924
+150;5;Valparaíso;53;Los Andes;5301;Los Andes;Disponibilidad no declarada;3;54;54;37;35;58
+151;5;Valparaíso;53;Los Andes;5302;Calle Larga;Sí;5690;2929;1268;3624;5050;291
+152;5;Valparaíso;53;Los Andes;5302;Calle Larga;No;75;2830;4490;2139;715;5469
+153;5;Valparaíso;53;Los Andes;5302;Calle Larga;Disponibilidad no declarada;1;7;8;3;1;6
+154;5;Valparaíso;53;Los Andes;5303;Rinconada;Sí;3964;2052;1024;2458;3463;317
+155;5;Valparaíso;53;Los Andes;5303;Rinconada;No;78;1988;3015;1582;578;3722
+156;5;Valparaíso;53;Los Andes;5303;Rinconada;Disponibilidad no declarada;1;3;4;3;2;4
+157;5;Valparaíso;53;Los Andes;5304;San Esteban;Sí;7008;3745;1610;4445;6190;334
+158;5;Valparaíso;53;Los Andes;5304;San Esteban;No;118;3378;5512;2673;934;6789
+159;5;Valparaíso;53;Los Andes;5304;San Esteban;Disponibilidad no declarada;1;4;5;9;3;4
+160;5;Valparaíso;54;Petorca;5401;La Ligua;Sí;14060;6275;2424;6281;12275;705
+161;5;Valparaíso;54;Petorca;5401;La Ligua;No;226;7989;11842;7990;2005;13563
+162;5;Valparaíso;54;Petorca;5401;La Ligua;Disponibilidad no declarada;0;22;20;15;6;18
+163;5;Valparaíso;54;Petorca;5402;Cabildo;Sí;6651;3170;1220;2519;5804;304
+164;5;Valparaíso;54;Petorca;5402;Cabildo;No;125;3601;5551;4252;970;6467
+165;5;Valparaíso;54;Petorca;5402;Cabildo;Disponibilidad no declarada;1;6;6;6;3;6
+166;5;Valparaíso;54;Petorca;5403;Papudo;Sí;2684;1385;575;1269;2515;172
+167;5;Valparaíso;54;Petorca;5403;Papudo;No;29;1326;2130;1437;195;2515
+168;5;Valparaíso;54;Petorca;5403;Papudo;Disponibilidad no declarada;0;2;8;7;3;26
+169;5;Valparaíso;54;Petorca;5404;Petorca;Sí;3735;1551;610;744;3320;82
+170;5;Valparaíso;54;Petorca;5404;Petorca;No;82;2266;3206;3072;497;3733
+171;5;Valparaíso;54;Petorca;5404;Petorca;Disponibilidad no declarada;0;0;1;1;0;2
+172;5;Valparaíso;54;Petorca;5405;Zapallar;Sí;2777;1432;649;1198;2511;266
+173;5;Valparaíso;54;Petorca;5405;Zapallar;No;34;1368;2152;1605;296;2537
+174;5;Valparaíso;54;Petorca;5405;Zapallar;Disponibilidad no declarada;0;11;10;8;4;8
+175;5;Valparaíso;55;Quillota;5501;Quillota;Sí;33151;17490;7981;22472;29512;1387
+176;5;Valparaíso;55;Quillota;5501;Quillota;No;585;16162;25670;11224;4170;32250
+177;5;Valparaíso;55;Quillota;5501;Quillota;Disponibilidad no declarada;4;88;89;44;58;103
+178;5;Valparaíso;55;Quillota;5502;Calera;Sí;16992;7987;3623;10922;14378;729
+179;5;Valparaíso;55;Quillota;5502;Calera;No;426;9398;13757;6471;3017;16654
+180;5;Valparaíso;55;Quillota;5502;Calera;Disponibilidad no declarada;1;34;39;26;24;36
+181;5;Valparaíso;55;Quillota;5503;Hijuelas;Sí;6524;2753;1201;2522;5781;260
+182;5;Valparaíso;55;Quillota;5503;Hijuelas;No;154;3900;5432;4119;889;6367
+183;5;Valparaíso;55;Quillota;5503;Hijuelas;Disponibilidad no declarada;2;27;47;39;10;53
+184;5;Valparaíso;55;Quillota;5504;La Cruz;Sí;8496;5553;2710;6368;7709;619
+185;5;Valparaíso;55;Quillota;5504;La Cruz;No;84;3019;5862;2205;865;7950
+186;5;Valparaíso;55;Quillota;5504;La Cruz;Disponibilidad no declarada;0;8;8;7;6;11
+187;5;Valparaíso;55;Quillota;5506;Nogales;Sí;7389;3119;1473;3701;6393;393
+188;5;Valparaíso;55;Quillota;5506;Nogales;No;136;4384;6022;3809;1120;7094
+189;5;Valparaíso;55;Quillota;5506;Nogales;Disponibilidad no declarada;0;22;30;15;12;38
+190;5;Valparaíso;56;San Antonio;5601;San Antonio;Sí;33990;15391;6817;19851;29851;1737
+191;5;Valparaíso;56;San Antonio;5601;San Antonio;No;751;19304;27876;14861;4865;32948
+192;5;Valparaíso;56;San Antonio;5601;San Antonio;Disponibilidad no declarada;2;48;50;31;27;58
+193;5;Valparaíso;56;San Antonio;5602;Algarrobo;Sí;6348;3636;1679;3308;5802;458
+194;5;Valparaíso;56;San Antonio;5602;Algarrobo;No;80;2772;4728;3109;619;5949
+195;5;Valparaíso;56;San Antonio;5602;Algarrobo;Disponibilidad no declarada;2;22;23;13;9;23
+196;5;Valparaíso;56;San Antonio;5603;Cartagena;Sí;9052;3156;1495;4183;7752;518
+197;5;Valparaíso;56;San Antonio;5603;Cartagena;No;213;6090;7750;5070;1495;8728
+198;5;Valparaíso;56;San Antonio;5603;Cartagena;Disponibilidad no declarada;2;21;22;14;20;21
+199;5;Valparaíso;56;San Antonio;5604;El Quisco;Sí;7562;3355;1554;3986;6889;457
+200;5;Valparaíso;56;San Antonio;5604;El Quisco;No;132;4316;6115;3694;792;7214
+201;5;Valparaíso;56;San Antonio;5604;El Quisco;Disponibilidad no declarada;2;25;27;16;15;25
+202;5;Valparaíso;56;San Antonio;5605;El Tabo;Sí;6673;2725;1241;2990;6017;375
+203;5;Valparaíso;56;San Antonio;5605;El Tabo;No;91;4019;5498;3752;733;6353
+204;5;Valparaíso;56;San Antonio;5605;El Tabo;Disponibilidad no declarada;1;21;26;23;15;37
+205;5;Valparaíso;56;San Antonio;5606;Santo Domingo;Sí;4583;2654;1419;2445;3957;311
+206;5;Valparaíso;56;San Antonio;5606;Santo Domingo;No;76;1994;3229;2205;696;4334
+207;5;Valparaíso;56;San Antonio;5606;Santo Domingo;Disponibilidad no declarada;2;13;13;11;8;16
+208;5;Valparaíso;57;San Felipe de Aconcagua;5701;San Felipe;Sí;28956;14623;6245;17733;25432;1497
+209;5;Valparaíso;57;San Felipe de Aconcagua;5701;San Felipe;No;570;14853;23227;11767;4069;27970
+210;5;Valparaíso;57;San Felipe de Aconcagua;5701;San Felipe;Disponibilidad no declarada;4;54;58;30;29;63
+211;5;Valparaíso;57;San Felipe de Aconcagua;5702;Catemu;Sí;4815;1677;695;1108;4087;237
+212;5;Valparaíso;57;San Felipe de Aconcagua;5702;Catemu;No;108;3238;4221;3810;831;4678
+213;5;Valparaíso;57;San Felipe de Aconcagua;5702;Catemu;Disponibilidad no declarada;0;8;7;5;5;8
+214;5;Valparaíso;57;San Felipe de Aconcagua;5703;Llaillay;Sí;8665;3915;1658;4309;7566;461
+215;5;Valparaíso;57;San Felipe de Aconcagua;5703;Llaillay;No;248;4991;7248;4595;1343;8443
+216;5;Valparaíso;57;San Felipe de Aconcagua;5703;Llaillay;Disponibilidad no declarada;0;7;7;9;4;9
+217;5;Valparaíso;57;San Felipe de Aconcagua;5704;Panquehue;Sí;2403;1006;404;976;2175;135
+218;5;Valparaíso;57;San Felipe de Aconcagua;5704;Panquehue;No;38;1434;2036;1462;262;2303
+219;5;Valparaíso;57;San Felipe de Aconcagua;5704;Panquehue;Disponibilidad no declarada;0;1;1;3;4;3
+220;5;Valparaíso;57;San Felipe de Aconcagua;5705;Putaendo;Sí;5883;2707;1085;2263;5125;358
+221;5;Valparaíso;57;San Felipe de Aconcagua;5705;Putaendo;No;153;3319;4941;3765;907;5669
+222;5;Valparaíso;57;San Felipe de Aconcagua;5705;Putaendo;Disponibilidad no declarada;1;11;11;9;5;10
+223;5;Valparaíso;57;San Felipe de Aconcagua;5706;Santa María;Sí;5176;2216;975;2452;4484;284
+224;5;Valparaíso;57;San Felipe de Aconcagua;5706;Santa María;No;184;3137;4379;2904;875;5069
+225;5;Valparaíso;57;San Felipe de Aconcagua;5706;Santa María;Disponibilidad no declarada;0;7;6;4;1;7
+226;5;Valparaíso;58;Marga Marga;5801;Quilpué;Sí;58440;35909;16588;44365;52585;2330
+227;5;Valparaíso;58;Marga Marga;5801;Quilpué;No;994;23370;42677;14996;6730;56883
+228;5;Valparaíso;58;Marga Marga;5801;Quilpué;Disponibilidad no declarada;17;172;186;90;136;238
+229;5;Valparaíso;58;Marga Marga;5802;Limache;Sí;19355;10186;4595;11713;17132;1087
+230;5;Valparaíso;58;Marga Marga;5802;Limache;No;416;9544;15131;8028;2619;18635
+231;5;Valparaíso;58;Marga Marga;5802;Limache;Disponibilidad no declarada;7;48;52;37;27;56
+232;5;Valparaíso;58;Marga Marga;5803;Olmué;Sí;7280;3444;1519;2955;6382;541
+233;5;Valparaíso;58;Marga Marga;5803;Olmué;No;165;3982;5905;4472;1057;6879
+234;5;Valparaíso;58;Marga Marga;5803;Olmué;Disponibilidad no declarada;4;23;25;22;10;29
+235;5;Valparaíso;58;Marga Marga;5804;Villa Alemana;Sí;49289;31567;14100;39247;44922;1619
+236;5;Valparaíso;58;Marga Marga;5804;Villa Alemana;No;657;18322;35786;10660;4990;48251
+237;5;Valparaíso;58;Marga Marga;5804;Villa Alemana;Disponibilidad no declarada;8;65;68;47;42;84
+238;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6101;Rancagua;Sí;90793;51237;22565;66245;79606;3747
+239;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6101;Rancagua;No;1584;41025;69688;26067;12674;88495
+240;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6101;Rancagua;Disponibilidad no declarada;21;136;145;86;118;156
+241;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6102;Codegua;Sí;4580;2230;930;2238;3901;445
+242;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6102;Codegua;No;74;2421;3721;2411;752;4207
+243;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6102;Codegua;Disponibilidad no declarada;0;3;3;5;1;2
+244;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6103;Coinco;Sí;2711;1237;514;1106;2332;232
+245;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6103;Coinco;No;83;1557;2278;1686;462;2560
+246;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6103;Coinco;Disponibilidad no declarada;1;1;3;3;1;3
+247;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6104;Coltauco;Sí;7367;3108;1124;3146;5835;506
+248;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6104;Coltauco;No;181;4417;6404;4382;1694;7020
+249;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6104;Coltauco;Disponibilidad no declarada;1;24;21;21;20;23
+250;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6105;Doñihue;Sí;7540;3609;1569;3781;6566;329
+251;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6105;Doñihue;No;158;4084;6124;3909;1129;7364
+252;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6105;Doñihue;Disponibilidad no declarada;1;6;6;9;4;6
+253;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6106;Graneros;Sí;11902;5976;2650;8251;10172;480
+254;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6106;Graneros;No;200;6117;9441;3847;1925;11610
+255;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6106;Graneros;Disponibilidad no declarada;3;12;14;7;8;15
+256;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6107;Las Cabras;Sí;9630;3766;1386;2720;8429;475
+257;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6107;Las Cabras;No;193;6050;8423;7085;1387;9337
+258;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6107;Las Cabras;Disponibilidad no declarada;0;7;14;18;7;11
+259;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6108;Machalí;Sí;20234;14042;7777;15668;18477;1575
+260;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6108;Machalí;No;235;6396;12658;4790;1974;18857
+261;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6108;Machalí;Disponibilidad no declarada;6;37;40;17;24;43
+262;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6109;Malloa;Sí;4812;2012;768;1424;4171;200
+263;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6109;Malloa;No;120;2918;4163;3506;761;4731
+264;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6109;Malloa;Disponibilidad no declarada;0;2;1;2;0;1
+265;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6110;Mostazal;Sí;8904;4450;1802;5347;7782;517
+266;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6110;Mostazal;No;206;4659;7308;3762;1326;8591
+267;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6110;Mostazal;Disponibilidad no declarada;1;2;1;2;3;3
+268;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6111;Olivar;Sí;4618;2446;1101;2401;4083;277
+269;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6111;Olivar;No;87;2258;3604;2303;620;4425
+270;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6111;Olivar;Disponibilidad no declarada;3;4;3;4;5;6
+271;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6112;Peumo;Sí;4727;2151;850;2782;3949;123
+272;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6112;Peumo;No;136;2711;4012;2078;913;4737
+273;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6112;Peumo;Disponibilidad no declarada;1;2;2;4;2;4
+274;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6113;Pichidegua;Sí;7067;2776;998;2651;5858;479
+275;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6113;Pichidegua;No;181;4464;6241;4593;1383;6764
+276;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6113;Pichidegua;Disponibilidad no declarada;0;8;9;4;7;5
+277;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6114;Quinta de Tilcoco;Sí;4772;2103;793;1632;4066;310
+278;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6114;Quinta de Tilcoco;No;84;2752;4062;3223;789;4545
+279;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6114;Quinta de Tilcoco;Disponibilidad no declarada;0;1;1;1;1;1
+280;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6115;Rengo;Sí;21918;10761;4247;12922;19031;1012
+281;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6115;Rengo;No;418;11562;18074;9404;3296;21300
+282;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6115;Rengo;Disponibilidad no declarada;2;15;17;12;11;26
+283;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6116;Requínoa;Sí;9633;4908;2043;5480;8360;360
+284;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6116;Requínoa;No;199;4917;7783;4352;1467;9462
+285;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6116;Requínoa;Disponibilidad no declarada;1;8;7;1;6;11
+286;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6117;San Vicente;Sí;17438;8215;3161;8602;14844;1144
+287;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6117;San Vicente;No;397;9607;14657;9220;2984;16678
+288;6;Libertador General Bernardo O'Higgins;61;Cachapoal;6117;San Vicente;Disponibilidad no declarada;2;15;19;15;9;15
+289;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6201;Pichilemu;Sí;7585;3715;1589;3729;6643;457
+290;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6201;Pichilemu;No;152;3995;6118;3989;1086;7234
+291;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6201;Pichilemu;Disponibilidad no declarada;1;28;31;20;9;47
+292;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6202;La Estrella;Sí;1782;714;279;309;1562;90
+293;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6202;La Estrella;No;29;1097;1532;1502;250;1721
+294;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6202;La Estrella;Disponibilidad no declarada;1;1;1;1;0;1
+295;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6203;Litueche;Sí;3339;1463;539;579;2985;172
+296;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6203;Litueche;No;69;1945;2869;2828;423;3236
+297;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6203;Litueche;Disponibilidad no declarada;0;0;0;1;0;0
+298;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6204;Marchihue;Sí;3188;1340;479;661;2679;203
+299;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6204;Marchihue;No;116;1961;2821;2639;622;3098
+300;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6204;Marchihue;Disponibilidad no declarada;0;3;4;4;3;3
+301;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6205;Navidad;Sí;3552;1434;545;773;2967;356
+302;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6205;Navidad;No;121;2238;3127;2897;705;3314
+303;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6205;Navidad;Disponibilidad no declarada;1;2;2;4;2;4
+304;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6206;Paredones;Sí;2717;894;320;237;2171;99
+305;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6206;Paredones;No;140;1962;2534;2616;685;2757
+306;6;Libertador General Bernardo O'Higgins;62;Cardenal Caro;6206;Paredones;Disponibilidad no declarada;0;1;3;4;1;1
+307;6;Libertador General Bernardo O'Higgins;63;Colchagua;6301;San Fernando;Sí;26729;13671;5112;17171;23445;1250
+308;6;Libertador General Bernardo O'Higgins;63;Colchagua;6301;San Fernando;No;569;13601;22155;10106;3841;26015
+309;6;Libertador General Bernardo O'Higgins;63;Colchagua;6301;San Fernando;Disponibilidad no declarada;2;28;33;23;14;35
+310;6;Libertador General Bernardo O'Higgins;63;Colchagua;6302;Chépica;Sí;5392;2107;634;1503;4493;193
+311;6;Libertador General Bernardo O'Higgins;63;Colchagua;6302;Chépica;No;138;3422;4896;4026;1036;5337
+312;6;Libertador General Bernardo O'Higgins;63;Colchagua;6302;Chépica;Disponibilidad no declarada;1;2;1;2;2;1
+313;6;Libertador General Bernardo O'Higgins;63;Colchagua;6303;Chimbarongo;Sí;13013;5651;1945;5340;11062;754
+314;6;Libertador General Bernardo O'Higgins;63;Colchagua;6303;Chimbarongo;No;264;7622;11328;7932;2210;12519
+315;6;Libertador General Bernardo O'Higgins;63;Colchagua;6303;Chimbarongo;Disponibilidad no declarada;0;4;4;5;5;4
+316;6;Libertador General Bernardo O'Higgins;63;Colchagua;6304;Lolol;Sí;2805;1119;432;520;2293;78
+317;6;Libertador General Bernardo O'Higgins;63;Colchagua;6304;Lolol;No;92;1777;2464;2376;604;2816
+318;6;Libertador General Bernardo O'Higgins;63;Colchagua;6304;Lolol;Disponibilidad no declarada;0;1;1;1;0;3
+319;6;Libertador General Bernardo O'Higgins;63;Colchagua;6305;Nancagua;Sí;6402;2667;943;2944;5453;170
+320;6;Libertador General Bernardo O'Higgins;63;Colchagua;6305;Nancagua;No;114;3844;5566;3567;1059;6337
+321;6;Libertador General Bernardo O'Higgins;63;Colchagua;6305;Nancagua;Disponibilidad no declarada;1;6;8;6;5;10
+322;6;Libertador General Bernardo O'Higgins;63;Colchagua;6306;Palmilla;Sí;4357;1787;738;1867;3533;410
+323;6;Libertador General Bernardo O'Higgins;63;Colchagua;6306;Palmilla;No;96;2663;3711;2585;920;4039
+324;6;Libertador General Bernardo O'Higgins;63;Colchagua;6306;Palmilla;Disponibilidad no declarada;0;3;4;1;0;4
+325;6;Libertador General Bernardo O'Higgins;63;Colchagua;6307;Peralillo;Sí;4392;1968;883;1743;3851;56
+326;6;Libertador General Bernardo O'Higgins;63;Colchagua;6307;Peralillo;No;93;2515;3600;2740;631;4426
+327;6;Libertador General Bernardo O'Higgins;63;Colchagua;6307;Peralillo;Disponibilidad no declarada;0;2;2;2;3;3
+328;6;Libertador General Bernardo O'Higgins;63;Colchagua;6308;Placilla;Sí;3209;1320;478;1198;2784;175
+329;6;Libertador General Bernardo O'Higgins;63;Colchagua;6308;Placilla;No;78;1964;2806;2087;503;3109
+330;6;Libertador General Bernardo O'Higgins;63;Colchagua;6308;Placilla;Disponibilidad no declarada;0;3;3;2;0;3
+331;6;Libertador General Bernardo O'Higgins;63;Colchagua;6309;Pumanque;Sí;1731;622;218;124;1468;76
+332;6;Libertador General Bernardo O'Higgins;63;Colchagua;6309;Pumanque;No;46;1155;1559;1653;309;1701
+333;6;Libertador General Bernardo O'Higgins;63;Colchagua;6309;Pumanque;Disponibilidad no declarada;0;0;0;0;0;0
+334;6;Libertador General Bernardo O'Higgins;63;Colchagua;6310;Santa Cruz;Sí;14571;6967;2671;7047;12504;780
+335;6;Libertador General Bernardo O'Higgins;63;Colchagua;6310;Santa Cruz;No;258;7855;12152;7779;2319;14043
+336;6;Libertador General Bernardo O'Higgins;63;Colchagua;6310;Santa Cruz;Disponibilidad no declarada;1;8;7;4;7;7
+337;7;Maule;71;Talca;7101;Talca;Sí;83740;48939;20690;58220;73793;2806
+338;7;Maule;71;Talca;7101;Talca;No;1177;35823;63948;26618;10977;81800
+339;7;Maule;71;Talca;7101;Talca;Disponibilidad no declarada;10;165;289;89;157;321
+340;7;Maule;71;Talca;7102;Constitución;Sí;17109;7066;2781;6308;14560;602
+341;7;Maule;71;Talca;7102;Constitución;No;442;10471;14751;11227;2982;16929
+342;7;Maule;71;Talca;7102;Constitución;Disponibilidad no declarada;3;17;22;19;12;23
+343;7;Maule;71;Talca;7103;Curepto;Sí;3658;1193;396;649;2644;203
+344;7;Maule;71;Talca;7103;Curepto;No;130;2593;3390;3133;1143;3582
+345;7;Maule;71;Talca;7103;Curepto;Disponibilidad no declarada;0;2;2;6;1;3
+346;7;Maule;71;Talca;7104;Empedrado;Sí;1434;540;142;119;1202;18
+347;7;Maule;71;Talca;7104;Empedrado;No;29;921;1319;1343;260;1444
+348;7;Maule;71;Talca;7104;Empedrado;Disponibilidad no declarada;0;2;2;1;1;1
+349;7;Maule;71;Talca;7105;Maule;Sí;20124;11495;4497;12905;17767;858
+350;7;Maule;71;Talca;7105;Maule;No;272;8862;15853;7466;2609;19494
+351;7;Maule;71;Talca;7105;Maule;Disponibilidad no declarada;3;42;49;28;23;47
+352;7;Maule;71;Talca;7106;Pelarco;Sí;3206;1240;436;833;2696;110
+353;7;Maule;71;Talca;7106;Pelarco;No;40;1920;2711;2318;497;3037
+354;7;Maule;71;Talca;7106;Pelarco;Disponibilidad no declarada;1;87;100;96;54;100
+355;7;Maule;71;Talca;7107;Pencahue;Sí;3345;1345;601;966;2787;122
+356;7;Maule;71;Talca;7107;Pencahue;No;76;2075;2819;2454;633;3297
+357;7;Maule;71;Talca;7107;Pencahue;Disponibilidad no declarada;0;1;1;1;1;2
+358;7;Maule;71;Talca;7108;Río Claro;Sí;5031;1861;687;1309;4237;165
+359;7;Maule;71;Talca;7108;Río Claro;No;99;3262;4437;3815;888;4960
+360;7;Maule;71;Talca;7108;Río Claro;Disponibilidad no declarada;0;7;6;6;5;5
+361;7;Maule;71;Talca;7109;San Clemente;Sí;16317;6482;2476;6235;13868;857
+362;7;Maule;71;Talca;7109;San Clemente;No;332;10153;14156;10395;2771;15771
+363;7;Maule;71;Talca;7109;San Clemente;Disponibilidad no declarada;5;19;22;24;15;26
+364;7;Maule;71;Talca;7110;San Rafael;Sí;3854;1674;712;1084;3304;162
+365;7;Maule;71;Talca;7110;San Rafael;No;67;2243;3202;2834;615;3756
+366;7;Maule;71;Talca;7110;San Rafael;Disponibilidad no declarada;2;6;9;5;4;5
+367;7;Maule;72;Cauquenes;7201;Cauquenes;Sí;15776;6280;2351;6922;11847;416
+368;7;Maule;72;Cauquenes;7201;Cauquenes;No;411;9900;13828;9256;4335;15764
+369;7;Maule;72;Cauquenes;7201;Cauquenes;Disponibilidad no declarada;3;10;11;12;8;10
+370;7;Maule;72;Cauquenes;7202;Chanco;Sí;3375;1181;395;693;2505;75
+371;7;Maule;72;Cauquenes;7202;Chanco;No;110;2302;3087;2788;975;3407
+372;7;Maule;72;Cauquenes;7202;Chanco;Disponibilidad no declarada;0;2;3;4;5;3
+373;7;Maule;72;Cauquenes;7203;Pelluhue;Sí;3385;1243;434;703;2858;169
+374;7;Maule;72;Cauquenes;7203;Pelluhue;No;95;2227;3039;2767;616;3303
+375;7;Maule;72;Cauquenes;7203;Pelluhue;Disponibilidad no declarada;4;14;11;14;10;12
+376;7;Maule;73;Curicó;7301;Curicó;Sí;56444;31646;12598;39789;49311;2385
+377;7;Maule;73;Curicó;7301;Curicó;No;873;25638;44686;17507;7982;54879
+378;7;Maule;73;Curicó;7301;Curicó;Disponibilidad no declarada;4;37;37;25;28;57
+379;7;Maule;73;Curicó;7302;Hualañé;Sí;3948;1573;580;1483;3217;135
+380;7;Maule;73;Curicó;7302;Hualañé;No;116;2483;3477;2572;842;3916
+381;7;Maule;73;Curicó;7302;Hualañé;Disponibilidad no declarada;2;10;9;11;7;15
+382;7;Maule;73;Curicó;7303;Licantén;Sí;2603;1126;411;903;2161;104
+383;7;Maule;73;Curicó;7303;Licantén;No;63;1540;2255;1762;505;2562
+384;7;Maule;73;Curicó;7303;Licantén;Disponibilidad no declarada;0;0;0;1;0;0
+385;7;Maule;73;Curicó;7304;Molina;Sí;17014;7911;2958;9872;14489;571
+386;7;Maule;73;Curicó;7304;Molina;No;285;9384;14336;7422;2807;16716
+387;7;Maule;73;Curicó;7304;Molina;Disponibilidad no declarada;1;5;6;6;4;13
+388;7;Maule;73;Curicó;7305;Rauco;Sí;3991;1686;593;1361;3303;222
+389;7;Maule;73;Curicó;7305;Rauco;No;80;2385;3478;2708;768;3848
+390;7;Maule;73;Curicó;7305;Rauco;Disponibilidad no declarada;1;1;1;3;1;2
+391;7;Maule;73;Curicó;7306;Romeral;Sí;6020;2775;1063;2472;5251;331
+392;7;Maule;73;Curicó;7306;Romeral;No;93;3336;5045;3635;858;5777
+393;7;Maule;73;Curicó;7306;Romeral;Disponibilidad no declarada;0;2;5;6;4;5
+394;7;Maule;73;Curicó;7307;Sagrada Familia;Sí;6618;2798;1106;2829;5553;244
+395;7;Maule;73;Curicó;7307;Sagrada Familia;No;111;3925;5613;3892;1172;6476
+396;7;Maule;73;Curicó;7307;Sagrada Familia;Disponibilidad no declarada;1;7;11;9;5;10
+397;7;Maule;73;Curicó;7308;Teno;Sí;10528;4309;1510;3404;9126;538
+398;7;Maule;73;Curicó;7308;Teno;No;207;6418;9217;7323;1605;10188
+399;7;Maule;73;Curicó;7308;Teno;Disponibilidad no declarada;0;8;8;8;4;9
+400;7;Maule;73;Curicó;7309;Vichuquén;Sí;1848;709;285;304;1544;62
+401;7;Maule;73;Curicó;7309;Vichuquén;No;44;1181;1605;1585;347;1829
+402;7;Maule;73;Curicó;7309;Vichuquén;Disponibilidad no declarada;0;2;2;3;1;1
+403;7;Maule;74;Linares;7401;Linares;Sí;34453;17070;6282;19825;29160;1389
+404;7;Maule;74;Linares;7401;Linares;No;652;17988;28775;15232;5909;33656
+405;7;Maule;74;Linares;7401;Linares;Disponibilidad no declarada;5;52;53;53;41;65
+406;7;Maule;74;Linares;7402;Colbún;Sí;8071;3223;1129;2322;6906;160
+407;7;Maule;74;Linares;7402;Colbún;No;149;4988;7078;5889;1310;8044
+408;7;Maule;74;Linares;7402;Colbún;Disponibilidad no declarada;0;9;13;9;4;16
+409;7;Maule;74;Linares;7403;Longaví;Sí;11691;4028;1320;2656;9560;517
+410;7;Maule;74;Linares;7403;Longaví;No;303;7957;10661;9324;2429;11465
+411;7;Maule;74;Linares;7403;Longaví;Disponibilidad no declarada;1;10;14;15;6;13
+412;7;Maule;74;Linares;7404;Parral;Sí;16687;7082;2619;7521;13909;502
+413;7;Maule;74;Linares;7404;Parral;No;347;9949;14413;9508;3119;16524
+414;7;Maule;74;Linares;7404;Parral;Disponibilidad no declarada;0;3;2;5;6;8
+415;7;Maule;74;Linares;7405;Retiro;Sí;8001;2797;1022;2661;6300;187
+416;7;Maule;74;Linares;7405;Retiro;No;217;5411;7182;5544;1910;8015
+417;7;Maule;74;Linares;7405;Retiro;Disponibilidad no declarada;0;10;14;13;8;16
+418;7;Maule;74;Linares;7406;San Javier;Sí;17671;7464;2908;9612;14463;809
+419;7;Maule;74;Linares;7406;San Javier;No;384;10585;15137;8431;3589;17225
+420;7;Maule;74;Linares;7406;San Javier;Disponibilidad no declarada;3;9;13;15;6;24
+421;7;Maule;74;Linares;7407;Villa Alegre;Sí;6528;2617;945;3050;5336;207
+422;7;Maule;74;Linares;7407;Villa Alegre;No;145;4042;5717;3611;1331;6451
+423;7;Maule;74;Linares;7407;Villa Alegre;Disponibilidad no declarada;1;15;12;13;7;16
+424;7;Maule;74;Linares;7408;Yerbas Buenas;Sí;6916;2492;849;1804;5880;268
+425;7;Maule;74;Linares;7408;Yerbas Buenas;No;178;4590;6231;5276;1209;6814
+426;7;Maule;74;Linares;7408;Yerbas Buenas;Disponibilidad no declarada;1;13;15;15;6;13
+427;8;Biobío;81;Concepción;8101;Concepción;Sí;90399;65292;30657;70734;83282;2951
+428;8;Biobío;81;Concepción;8101;Concepción;No;1310;26377;61009;20952;8403;88689
+429;8;Biobío;81;Concepción;8101;Concepción;Disponibilidad no declarada;9;49;52;32;33;78
+430;8;Biobío;81;Concepción;8102;Coronel;Sí;41119;22133;8508;32057;34666;890
+431;8;Biobío;81;Concepción;8102;Coronel;No;765;19742;33364;9819;7205;40979
+432;8;Biobío;81;Concepción;8102;Coronel;Disponibilidad no declarada;1;10;13;9;14;16
+433;8;Biobío;81;Concepción;8103;Chiguayante;Sí;28958;19093;8767;24083;25882;1140
+434;8;Biobío;81;Concepción;8103;Chiguayante;No;411;10267;20592;5268;3476;28205
+435;8;Biobío;81;Concepción;8103;Chiguayante;Disponibilidad no declarada;1;10;11;19;12;25
+436;8;Biobío;81;Concepción;8104;Florida;Sí;4820;2055;762;1005;4024;237
+437;8;Biobío;81;Concepción;8104;Florida;No;132;2895;4189;3945;927;4711
+438;8;Biobío;81;Concepción;8104;Florida;Disponibilidad no declarada;0;2;1;2;1;4
+439;8;Biobío;81;Concepción;8105;Hualqui;Sí;8586;4045;1618;5035;7366;337
+440;8;Biobío;81;Concepción;8105;Hualqui;No;228;4764;7189;3774;1444;8471
+441;8;Biobío;81;Concepción;8105;Hualqui;Disponibilidad no declarada;1;6;8;6;5;7
+442;8;Biobío;81;Concepción;8106;Lota;Sí;13464;6010;2352;9730;10955;296
+443;8;Biobío;81;Concepción;8106;Lota;No;341;7792;11449;4071;2843;13500
+444;8;Biobío;81;Concepción;8106;Lota;Disponibilidad no declarada;0;3;4;4;7;9
+445;8;Biobío;81;Concepción;8107;Penco;Sí;16527;9410;3539;12069;14639;1074
+446;8;Biobío;81;Concepción;8107;Penco;No;302;7412;13283;4755;2186;15745
+447;8;Biobío;81;Concepción;8107;Penco;Disponibilidad no declarada;0;7;7;5;4;10
+448;8;Biobío;81;Concepción;8108;San Pedro de La paz;Sí;51599;34931;16946;42170;47242;1937
+449;8;Biobío;81;Concepción;8108;San Pedro de La paz;No;672;17315;35295;10089;5017;50297
+450;8;Biobío;81;Concepción;8108;San Pedro de La paz;Disponibilidad no declarada;3;28;33;15;15;40
+451;8;Biobío;81;Concepción;8109;Santa Juana;Sí;5417;2268;796;1889;4558;165
+452;8;Biobío;81;Concepción;8109;Santa Juana;No;184;3331;4804;3707;1041;5432
+453;8;Biobío;81;Concepción;8109;Santa Juana;Disponibilidad no declarada;1;3;2;6;3;5
+454;8;Biobío;81;Concepción;8110;Talcahuano;Sí;50013;30874;13563;38899;44924;1263
+455;8;Biobío;81;Concepción;8110;Talcahuano;No;916;20035;37336;12014;5983;49593
+456;8;Biobío;81;Concepción;8110;Talcahuano;Disponibilidad no declarada;2;22;32;18;24;75
+457;8;Biobío;81;Concepción;8111;Tomé;Sí;20270;10227;3631;12161;17127;448
+458;8;Biobío;81;Concepción;8111;Tomé;No;445;10485;17081;8552;3584;20265
+459;8;Biobío;81;Concepción;8111;Tomé;Disponibilidad no declarada;2;5;5;4;6;4
+460;8;Biobío;81;Concepción;8112;Hualpén;Sí;30160;18729;7409;24065;27169;909
+461;8;Biobío;81;Concepción;8112;Hualpén;No;421;11835;23158;6516;3392;29648
+462;8;Biobío;81;Concepción;8112;Hualpén;Disponibilidad no declarada;9;26;23;9;29;33
+463;8;Biobío;82;Arauco;8201;Lebu;Sí;8577;3768;1440;5028;6920;201
+464;8;Biobío;82;Arauco;8201;Lebu;No;200;5009;7336;3749;1857;8575
+465;8;Biobío;82;Arauco;8201;Lebu;Disponibilidad no declarada;0;0;1;0;0;1
+466;8;Biobío;82;Arauco;8202;Arauco;Sí;12914;5993;2020;6609;10955;335
+467;8;Biobío;82;Arauco;8202;Arauco;No;270;7186;11157;6572;2227;12844
+468;8;Biobío;82;Arauco;8202;Arauco;Disponibilidad no declarada;1;6;8;4;3;6
+469;8;Biobío;82;Arauco;8203;Cañete;Sí;12241;4934;1741;3878;10121;357
+470;8;Biobío;82;Arauco;8203;Cañete;No;289;7595;10788;8648;2408;12169
+471;8;Biobío;82;Arauco;8203;Cañete;Disponibilidad no declarada;0;1;1;4;1;4
+472;8;Biobío;82;Arauco;8204;Contulmo;Sí;2157;708;287;734;1730;65
+473;8;Biobío;82;Arauco;8204;Contulmo;No;131;1578;1999;1552;557;2220
+474;8;Biobío;82;Arauco;8204;Contulmo;Disponibilidad no declarada;0;2;2;2;1;3
+475;8;Biobío;82;Arauco;8205;Curanilahue;Sí;10807;4576;1678;6572;8882;182
+476;8;Biobío;82;Arauco;8205;Curanilahue;No;288;6485;9380;4487;2209;10876
+477;8;Biobío;82;Arauco;8205;Curanilahue;Disponibilidad no declarada;0;34;37;36;4;37
+478;8;Biobío;82;Arauco;8206;Los Álamos;Sí;7557;2798;997;3458;6497;825
+479;8;Biobío;82;Arauco;8206;Los Álamos;No;426;5178;6978;4519;1481;7146
+480;8;Biobío;82;Arauco;8206;Los Álamos;Disponibilidad no declarada;2;9;10;8;7;14
+481;8;Biobío;82;Arauco;8207;Tirúa;Sí;3455;1105;319;90;2793;92
+482;8;Biobío;82;Arauco;8207;Tirúa;No;152;2502;3288;3516;814;3515
+483;8;Biobío;82;Arauco;8207;Tirúa;Disponibilidad no declarada;0;0;0;1;0;0
+484;8;Biobío;83;Biobío;8301;Los Ángeles;Sí;77140;39941;15433;43537;67014;3036
+485;8;Biobío;83;Biobío;8301;Los Ángeles;No;1293;38421;62914;34834;11370;75285
+486;8;Biobío;83;Biobío;8301;Los Ángeles;Disponibilidad no declarada;12;83;98;74;61;124
+487;8;Biobío;83;Biobío;8302;Antuco;Sí;1689;701;263;378;1425;34
+488;8;Biobío;83;Biobío;8302;Antuco;No;33;1020;1458;1343;297;1687
+489;8;Biobío;83;Biobío;8302;Antuco;Disponibilidad no declarada;0;1;1;1;0;1
+490;8;Biobío;83;Biobío;8303;Cabrero;Sí;11183;4869;1601;5134;9130;412
+491;8;Biobío;83;Biobío;8303;Cabrero;No;206;6519;9786;6254;2259;10975
+492;8;Biobío;83;Biobío;8303;Cabrero;Disponibilidad no declarada;0;1;2;1;0;2
+493;8;Biobío;83;Biobío;8304;Laja;Sí;8328;3683;1236;3907;6598;356
+494;8;Biobío;83;Biobío;8304;Laja;No;234;4875;7319;4651;1962;8195
+495;8;Biobío;83;Biobío;8304;Laja;Disponibilidad no declarada;0;4;7;4;2;11
+496;8;Biobío;83;Biobío;8305;Mulchén;Sí;9897;4000;1418;5199;8029;296
+497;8;Biobío;83;Biobío;8305;Mulchén;No;266;6161;8742;4960;2132;9865
+498;8;Biobío;83;Biobío;8305;Mulchén;Disponibilidad no declarada;0;2;3;4;2;2
+499;8;Biobío;83;Biobío;8306;Nacimiento;Sí;9012;4178;1371;4674;7374;151
+500;8;Biobío;83;Biobío;8306;Nacimiento;No;218;5041;7846;4542;1847;9061
+501;8;Biobío;83;Biobío;8306;Nacimiento;Disponibilidad no declarada;1;12;14;15;10;19
+502;8;Biobío;83;Biobío;8307;Negrete;Sí;3675;1484;505;901;3170;151
+503;8;Biobío;83;Biobío;8307;Negrete;No;86;2277;3256;2860;591;3610
+504;8;Biobío;83;Biobío;8307;Negrete;Disponibilidad no declarada;1;1;1;1;1;1
+505;8;Biobío;83;Biobío;8308;Quilaco;Sí;1670;531;206;424;1345;71
+506;8;Biobío;83;Biobío;8308;Quilaco;No;55;1190;1514;1288;380;1647
+507;8;Biobío;83;Biobío;8308;Quilaco;Disponibilidad no declarada;2;6;7;15;2;9
+508;8;Biobío;83;Biobío;8309;Quilleco;Sí;3470;1286;390;1090;2720;176
+509;8;Biobío;83;Biobío;8309;Quilleco;No;112;2296;3192;2492;862;3406
+510;8;Biobío;83;Biobío;8309;Quilleco;Disponibilidad no declarada;0;0;0;0;0;0
+511;8;Biobío;83;Biobío;8310;San Rosendo;Sí;1288;524;211;550;1027;62
+512;8;Biobío;83;Biobío;8310;San Rosendo;No;34;798;1111;772;295;1260
+513;8;Biobío;83;Biobío;8310;San Rosendo;Disponibilidad no declarada;0;0;0;0;0;0
+514;8;Biobío;83;Biobío;8311;Santa Bárbara;Sí;5111;1913;624;1463;4116;168
+515;8;Biobío;83;Biobío;8311;Santa Bárbara;No;104;3300;4587;3746;1098;5044
+516;8;Biobío;83;Biobío;8311;Santa Bárbara;Disponibilidad no declarada;0;2;4;6;1;3
+517;8;Biobío;83;Biobío;8312;Tucapel;Sí;6018;2449;874;2823;4783;177
+518;8;Biobío;83;Biobío;8312;Tucapel;No;158;3723;5297;3349;1393;5994
+519;8;Biobío;83;Biobío;8312;Tucapel;Disponibilidad no declarada;0;4;5;4;0;5
+520;8;Biobío;83;Biobío;8313;Yumbel;Sí;8550;3134;1139;2799;6586;398
+521;8;Biobío;83;Biobío;8313;Yumbel;No;340;5754;7747;6090;2301;8491
+522;8;Biobío;83;Biobío;8313;Yumbel;Disponibilidad no declarada;0;2;4;1;3;1
+523;8;Biobío;83;Biobío;8314;Alto Biobío;Sí;1749;444;188;97;1169;115
+524;8;Biobío;83;Biobío;8314;Alto Biobío;No;279;1583;1838;1928;858;1913
+525;8;Biobío;83;Biobío;8314;Alto Biobío;Disponibilidad no declarada;1;2;3;4;2;1
+526;9;La Araucanía;91;Cautín;9101;Temuco;Sí;108718;66803;28197;75995;97209;4196
+527;9;La Araucanía;91;Cautín;9101;Temuco;No;1755;43478;82076;34400;13154;106050
+528;9;La Araucanía;91;Cautín;9101;Temuco;Disponibilidad no declarada;23;215;223;101;133;250
+529;9;La Araucanía;91;Cautín;9102;Carahue;Sí;8684;2917;946;1870;6673;415
+530;9;La Araucanía;91;Cautín;9102;Carahue;No;404;6155;8125;7205;2406;8654
+531;9;La Araucanía;91;Cautín;9102;Carahue;Disponibilidad no declarada;2;18;19;15;11;21
+532;9;La Araucanía;91;Cautín;9103;Cunco;Sí;7085;2491;873;1704;5692;391
+533;9;La Araucanía;91;Cautín;9103;Cunco;No;239;4821;6437;5609;1625;6915
+534;9;La Araucanía;91;Cautín;9103;Cunco;Disponibilidad no declarada;0;12;14;11;7;18
+535;9;La Araucanía;91;Cautín;9104;Curarrehue;Sí;2770;902;283;419;2305;89
+536;9;La Araucanía;91;Cautín;9104;Curarrehue;No;136;2002;2621;2481;599;2815
+537;9;La Araucanía;91;Cautín;9104;Curarrehue;Disponibilidad no declarada;0;2;2;6;2;2
+538;9;La Araucanía;91;Cautín;9105;Freire;Sí;9258;3121;1104;1964;7123;450
+539;9;La Araucanía;91;Cautín;9105;Freire;No;463;6585;8601;7743;2586;9254
+540;9;La Araucanía;91;Cautín;9105;Freire;Disponibilidad no declarada;0;15;16;14;12;17
+541;9;La Araucanía;91;Cautín;9106;Galvarino;Sí;4265;1201;403;607;3298;188
+542;9;La Araucanía;91;Cautín;9106;Galvarino;No;249;3312;4110;3904;1215;4324
+543;9;La Araucanía;91;Cautín;9106;Galvarino;Disponibilidad no declarada;1;2;2;4;2;3
+544;9;La Araucanía;91;Cautín;9107;Gorbea;Sí;5437;1954;648;1823;4322;145
+545;9;La Araucanía;91;Cautín;9107;Gorbea;No;145;3624;4930;3755;1258;5430
+546;9;La Araucanía;91;Cautín;9107;Gorbea;Disponibilidad no declarada;1;5;5;5;3;8
+547;9;La Araucanía;91;Cautín;9108;Lautaro;Sí;14375;6132;2370;7063;11588;708
+548;9;La Araucanía;91;Cautín;9108;Lautaro;No;441;8657;12418;7727;3213;14076
+549;9;La Araucanía;91;Cautín;9108;Lautaro;Disponibilidad no declarada;1;28;29;27;16;33
+550;9;La Araucanía;91;Cautín;9109;Loncoche;Sí;9277;3564;1308;3949;7283;404
+551;9;La Araucanía;91;Cautín;9109;Loncoche;No;289;5979;8229;5574;2265;9113
+552;9;La Araucanía;91;Cautín;9109;Loncoche;Disponibilidad no declarada;2;25;31;45;20;51
+553;9;La Araucanía;91;Cautín;9110;Melipeuco;Sí;2524;844;422;191;2125;96
+554;9;La Araucanía;91;Cautín;9110;Melipeuco;No;100;1778;2199;2428;498;2524
+555;9;La Araucanía;91;Cautín;9110;Melipeuco;Disponibilidad no declarada;0;2;3;5;1;4
+556;9;La Araucanía;91;Cautín;9111;Nueva Imperial;Sí;11566;4283;1493;4012;8821;494
+557;9;La Araucanía;91;Cautín;9111;Nueva Imperial;No;541;7814;10604;8088;3281;11600
+558;9;La Araucanía;91;Cautín;9111;Nueva Imperial;Disponibilidad no declarada;2;12;12;9;7;15
+559;9;La Araucanía;91;Cautín;9112;Padre Las Casas;Sí;26910;11905;3918;11034;23045;1134
+560;9;La Araucanía;91;Cautín;9112;Padre Las Casas;No;792;15720;23702;16596;4591;26487
+561;9;La Araucanía;91;Cautín;9112;Padre Las Casas;Disponibilidad no declarada;6;83;88;78;72;87
+562;9;La Araucanía;91;Cautín;9113;Perquenco;Sí;2654;948;295;738;2161;44
+563;9;La Araucanía;91;Cautín;9113;Perquenco;No;88;1794;2445;2003;580;2695
+564;9;La Araucanía;91;Cautín;9113;Perquenco;Disponibilidad no declarada;0;0;2;1;1;3
+565;9;La Araucanía;91;Cautín;9114;Pitrufquén;Sí;9961;4085;1447;4113;8125;707
+566;9;La Araucanía;91;Cautín;9114;Pitrufquén;No;291;6155;8791;6128;2119;9534
+567;9;La Araucanía;91;Cautín;9114;Pitrufquén;Disponibilidad no declarada;0;12;14;11;8;11
+568;9;La Araucanía;91;Cautín;9115;Pucón;Sí;12324;6031;2309;5182;10877;923
+569;9;La Araucanía;91;Cautín;9115;Pucón;No;218;6470;10192;7335;1645;11580
+570;9;La Araucanía;91;Cautín;9115;Pucón;Disponibilidad no declarada;6;47;47;31;26;45
+571;9;La Araucanía;91;Cautín;9116;Saavedra;Sí;4578;1130;427;414;3460;100
+572;9;La Araucanía;91;Cautín;9116;Saavedra;No;348;3789;4492;4505;1463;4817
+573;9;La Araucanía;91;Cautín;9116;Saavedra;Disponibilidad no declarada;0;7;7;7;3;9
+574;9;La Araucanía;91;Cautín;9117;Teodoro Schmidt;Sí;5801;1594;525;942;4426;237
+575;9;La Araucanía;91;Cautín;9117;Teodoro Schmidt;No;247;4443;5508;5091;1620;5799
+576;9;La Araucanía;91;Cautín;9117;Teodoro Schmidt;Disponibilidad no declarada;0;11;15;15;2;12
+577;9;La Araucanía;91;Cautín;9118;Toltén;Sí;3700;1133;365;447;2891;118
+578;9;La Araucanía;91;Cautín;9118;Toltén;No;157;2724;3492;3410;966;3739
+579;9;La Araucanía;91;Cautín;9118;Toltén;Disponibilidad no declarada;0;0;0;0;0;0
+580;9;La Araucanía;91;Cautín;9119;Vilcún;Sí;10878;4760;1644;3556;9012;304
+581;9;La Araucanía;91;Cautín;9119;Vilcún;No;351;6462;9576;7667;2215;10918
+582;9;La Araucanía;91;Cautín;9119;Vilcún;Disponibilidad no declarada;0;7;9;6;2;7
+583;9;La Araucanía;91;Cautín;9120;Villarrica;Sí;24638;11866;4373;13232;20813;1648
+584;9;La Araucanía;91;Cautín;9120;Villarrica;No;512;13244;20728;11891;4317;23449
+585;9;La Araucanía;91;Cautín;9120;Villarrica;Disponibilidad no declarada;5;45;54;32;25;58
+586;9;La Araucanía;91;Cautín;9121;Cholchol;Sí;4350;1456;467;882;3450;115
+587;9;La Araucanía;91;Cautín;9121;Cholchol;No;199;3086;4073;3655;1093;4425
+588;9;La Araucanía;91;Cautín;9121;Cholchol;Disponibilidad no declarada;0;7;9;12;6;9
+589;9;La Araucanía;92;Malleco;9201;Angol;Sí;18865;8543;3478;10836;15670;667
+590;9;La Araucanía;92;Malleco;9201;Angol;No;348;10604;15666;8321;3494;18467
+591;9;La Araucanía;92;Malleco;9201;Angol;Disponibilidad no declarada;7;73;76;63;56;86
+592;9;La Araucanía;92;Malleco;9202;Collipulli;Sí;8498;2911;1026;3153;6773;364
+593;9;La Araucanía;92;Malleco;9202;Collipulli;No;264;5827;7712;5596;1977;8375
+594;9;La Araucanía;92;Malleco;9202;Collipulli;Disponibilidad no declarada;2;26;26;15;14;25
+595;9;La Araucanía;92;Malleco;9203;Curacautín;Sí;6928;2859;945;2291;5702;453
+596;9;La Araucanía;92;Malleco;9203;Curacautín;No;174;4240;6153;4805;1398;6644
+597;9;La Araucanía;92;Malleco;9203;Curacautín;Disponibilidad no declarada;0;3;4;6;2;5
+598;9;La Araucanía;92;Malleco;9204;Ercilla;Sí;2602;726;255;647;1757;43
+599;9;La Araucanía;92;Malleco;9204;Ercilla;No;185;2057;2527;2136;1027;2741
+600;9;La Araucanía;92;Malleco;9204;Ercilla;Disponibilidad no declarada;0;4;5;4;3;3
+601;9;La Araucanía;92;Malleco;9205;Lonquimay;Sí;3597;1088;343;196;2942;123
+602;9;La Araucanía;92;Malleco;9205;Lonquimay;No;166;2669;3412;3559;814;3633
+603;9;La Araucanía;92;Malleco;9205;Lonquimay;Disponibilidad no declarada;0;6;8;8;7;7
+604;9;La Araucanía;92;Malleco;9206;Los Sauces;Sí;2597;860;299;754;2041;82
+605;9;La Araucanía;92;Malleco;9206;Los Sauces;No;119;1851;2410;1956;671;2627
+606;9;La Araucanía;92;Malleco;9206;Los Sauces;Disponibilidad no declarada;0;5;7;6;4;7
+607;9;La Araucanía;92;Malleco;9207;Lumaco;Sí;3210;824;274;133;2489;96
+608;9;La Araucanía;92;Malleco;9207;Lumaco;No;190;2572;3121;3263;909;3301
+609;9;La Araucanía;92;Malleco;9207;Lumaco;Disponibilidad no declarada;1;5;6;5;3;4
+610;9;La Araucanía;92;Malleco;9208;Purén;Sí;4409;1616;506;1313;3557;403
+611;9;La Araucanía;92;Malleco;9208;Purén;No;105;2897;4007;3198;956;4109
+612;9;La Araucanía;92;Malleco;9208;Purén;Disponibilidad no declarada;1;2;2;4;2;3
+613;9;La Araucanía;92;Malleco;9209;Renaico;Sí;3745;1465;485;1061;3143;162
+614;9;La Araucanía;92;Malleco;9209;Renaico;No;89;2367;3343;2770;689;3668
+615;9;La Araucanía;92;Malleco;9209;Renaico;Disponibilidad no declarada;0;2;6;3;2;4
+616;9;La Araucanía;92;Malleco;9210;Traiguén;Sí;6776;2451;914;2606;5514;238
+617;9;La Araucanía;92;Malleco;9210;Traiguén;No;250;4563;6100;4413;1506;6776
+618;9;La Araucanía;92;Malleco;9210;Traiguén;Disponibilidad no declarada;0;12;12;7;6;12
+619;9;La Araucanía;92;Malleco;9211;Victoria;Sí;12045;4969;1808;6239;9510;378
+620;9;La Araucanía;92;Malleco;9211;Victoria;No;419;7485;10646;6222;2947;12076
+621;9;La Araucanía;92;Malleco;9211;Victoria;Disponibilidad no declarada;1;11;11;4;8;11
+622;10;Los Lagos;101;Llanquihue;10101;Puerto Montt;Sí;98737;54709;22873;62115;88839;4928
+623;10;Los Lagos;101;Llanquihue;10101;Puerto Montt;No;1408;45156;76966;37817;11110;94887
+624;10;Los Lagos;101;Llanquihue;10101;Puerto Montt;Disponibilidad no declarada;18;298;324;231;214;348
+625;10;Los Lagos;101;Llanquihue;10102;Calbuco;Sí;13012;5051;1995;3675;10953;501
+626;10;Los Lagos;101;Llanquihue;10102;Calbuco;No;397;8351;11401;9719;2449;12897
+627;10;Los Lagos;101;Llanquihue;10102;Calbuco;Disponibilidad no declarada;1;8;14;16;8;12
+628;10;Los Lagos;101;Llanquihue;10103;Cochamó;Sí;1809;600;232;134;1515;149
+629;10;Los Lagos;101;Llanquihue;10103;Cochamó;No;78;1285;1654;1751;372;1737
+630;10;Los Lagos;101;Llanquihue;10103;Cochamó;Disponibilidad no declarada;0;2;1;2;0;1
+631;10;Los Lagos;101;Llanquihue;10104;Fresia;Sí;4739;1653;613;1647;3984;247
+632;10;Los Lagos;101;Llanquihue;10104;Fresia;No;114;3198;4237;3204;868;4602
+633;10;Los Lagos;101;Llanquihue;10104;Fresia;Disponibilidad no declarada;0;2;3;2;1;4
+634;10;Los Lagos;101;Llanquihue;10105;Frutillar;Sí;8038;4002;1662;4661;6884;569
+635;10;Los Lagos;101;Llanquihue;10105;Frutillar;No;118;4146;6489;3491;1267;7580
+636;10;Los Lagos;101;Llanquihue;10105;Frutillar;Disponibilidad no declarada;3;11;8;7;8;10
+637;10;Los Lagos;101;Llanquihue;10106;Los Muermos;Sí;6521;2302;792;1731;5439;247
+638;10;Los Lagos;101;Llanquihue;10106;Los Muermos;No;136;4345;5856;4917;1210;6400
+639;10;Los Lagos;101;Llanquihue;10106;Los Muermos;Disponibilidad no declarada;0;10;9;9;8;10
+640;10;Los Lagos;101;Llanquihue;10107;Llanquihue;Sí;6101;3071;1137;3791;5330;206
+641;10;Los Lagos;101;Llanquihue;10107;Llanquihue;No;103;3127;5060;2406;871;5990
+642;10;Los Lagos;101;Llanquihue;10107;Llanquihue;Disponibilidad no declarada;2;8;9;9;5;10
+643;10;Los Lagos;101;Llanquihue;10108;Maullín;Sí;5808;1959;732;903;4897;107
+644;10;Los Lagos;101;Llanquihue;10108;Maullín;No;152;3997;5224;5050;1062;5848
+645;10;Los Lagos;101;Llanquihue;10108;Maullín;Disponibilidad no declarada;0;4;4;7;1;5
+646;10;Los Lagos;101;Llanquihue;10109;Puerto Varas;Sí;18849;12187;5938;13129;16680;1171
+647;10;Los Lagos;101;Llanquihue;10109;Puerto Varas;No;253;6886;13134;5952;2403;17892
+648;10;Los Lagos;101;Llanquihue;10109;Puerto Varas;Disponibilidad no declarada;6;35;36;27;25;45
+649;10;Los Lagos;102;Chiloé;10201;Castro;Sí;17542;8251;3388;7869;15366;873
+650;10;Los Lagos;102;Chiloé;10201;Castro;No;359;9586;14450;9990;2505;16959
+651;10;Los Lagos;102;Chiloé;10201;Castro;Disponibilidad no declarada;10;74;73;52;40;79
+652;10;Los Lagos;102;Chiloé;10202;Ancud;Sí;15343;6481;2461;5638;13136;816
+653;10;Los Lagos;102;Chiloé;10202;Ancud;No;322;9157;13172;10004;2519;14816
+654;10;Los Lagos;102;Chiloé;10202;Ancud;Disponibilidad no declarada;3;30;35;26;13;36
+655;10;Los Lagos;102;Chiloé;10203;Chonchi;Sí;6217;2379;898;1318;5377;343
+656;10;Los Lagos;102;Chiloé;10203;Chonchi;No;137;3967;5446;5027;974;6000
+657;10;Los Lagos;102;Chiloé;10203;Chonchi;Disponibilidad no declarada;1;9;11;10;4;12
+658;10;Los Lagos;102;Chiloé;10204;Curaco de Vélez;Sí;1372;559;193;222;1095;38
+659;10;Los Lagos;102;Chiloé;10204;Curaco de Vélez;No;50;860;1225;1197;327;1381
+660;10;Los Lagos;102;Chiloé;10204;Curaco de Vélez;Disponibilidad no declarada;1;4;5;4;1;4
+661;10;Los Lagos;102;Chiloé;10205;Dalcahue;Sí;5513;2121;754;1193;4657;258
+662;10;Los Lagos;102;Chiloé;10205;Dalcahue;No;97;3484;4850;4408;949;5344
+663;10;Los Lagos;102;Chiloé;10205;Dalcahue;Disponibilidad no declarada;0;5;6;9;4;8
+664;10;Los Lagos;102;Chiloé;10206;Puqueldón;Sí;1529;581;210;184;1233;31
+665;10;Los Lagos;102;Chiloé;10206;Puqueldón;No;27;974;1345;1371;322;1524
+666;10;Los Lagos;102;Chiloé;10206;Puqueldón;Disponibilidad no declarada;0;1;1;1;1;1
+667;10;Los Lagos;102;Chiloé;10207;Queilén;Sí;2155;769;280;400;1736;108
+668;10;Los Lagos;102;Chiloé;10207;Queilén;No;82;1466;1956;1836;501;2128
+669;10;Los Lagos;102;Chiloé;10207;Queilén;Disponibilidad no declarada;0;2;1;1;0;1
+670;10;Los Lagos;102;Chiloé;10208;Quellón;Sí;10564;3935;1432;3295;9111;654
+671;10;Los Lagos;102;Chiloé;10208;Quellón;No;294;6890;9393;7537;1735;10169
+672;10;Los Lagos;102;Chiloé;10208;Quellón;Disponibilidad no declarada;1;34;34;27;13;36
+673;10;Los Lagos;102;Chiloé;10209;Quemchi;Sí;3258;1101;393;473;2599;111
+674;10;Los Lagos;102;Chiloé;10209;Quemchi;No;115;2267;2975;2895;771;3256
+675;10;Los Lagos;102;Chiloé;10209;Quemchi;Disponibilidad no declarada;0;5;5;5;3;6
+676;10;Los Lagos;102;Chiloé;10210;Quinchao;Sí;2847;1051;396;443;2321;72
+677;10;Los Lagos;102;Chiloé;10210;Quinchao;No;162;1954;2608;2556;689;2933
+678;10;Los Lagos;102;Chiloé;10210;Quinchao;Disponibilidad no declarada;2;6;7;12;1;6
+679;10;Los Lagos;103;Osorno;10301;Osorno;Sí;61386;31811;12528;37771;53593;2871
+680;10;Los Lagos;103;Osorno;10301;Osorno;No;1144;30597;49876;24688;8875;59501
+681;10;Los Lagos;103;Osorno;10301;Osorno;Disponibilidad no declarada;15;137;141;86;77;173
+682;10;Los Lagos;103;Osorno;10302;Puerto Octay;Sí;3299;1203;483;747;2787;149
+683;10;Los Lagos;103;Osorno;10302;Puerto Octay;No;49;2142;2861;2598;560;3197
+684;10;Los Lagos;103;Osorno;10302;Puerto Octay;Disponibilidad no declarada;1;4;5;4;2;3
+685;10;Los Lagos;103;Osorno;10303;Purranque;Sí;7153;2891;1148;3305;5851;307
+686;10;Los Lagos;103;Osorno;10303;Purranque;No;150;4404;6147;3992;1447;6991
+687;10;Los Lagos;103;Osorno;10303;Purranque;Disponibilidad no declarada;1;9;9;7;6;6
+688;10;Los Lagos;103;Osorno;10304;Puyehue;Sí;4326;1637;573;986;3783;164
+689;10;Los Lagos;103;Osorno;10304;Puyehue;No;78;2762;3824;3413;618;4232
+690;10;Los Lagos;103;Osorno;10304;Puyehue;Disponibilidad no declarada;0;5;7;5;3;8
+691;10;Los Lagos;103;Osorno;10305;Río Negro;Sí;5135;1917;796;1538;4227;226
+692;10;Los Lagos;103;Osorno;10305;Río Negro;No;133;3347;4467;3727;1038;5037
+693;10;Los Lagos;103;Osorno;10305;Río Negro;Disponibilidad no declarada;1;5;6;4;4;6
+694;10;Los Lagos;103;Osorno;10306;San Juan de la Costa;Sí;3143;656;203;81;2343;55
+695;10;Los Lagos;103;Osorno;10306;San Juan de la Costa;No;197;2683;3135;3259;995;3285
+696;10;Los Lagos;103;Osorno;10306;San Juan de la Costa;Disponibilidad no declarada;0;1;2;0;2;0
+697;10;Los Lagos;103;Osorno;10307;San Pablo;Sí;4054;1470;592;1236;3348;247
+698;10;Los Lagos;103;Osorno;10307;San Pablo;No;136;2717;3595;2950;839;3936
+699;10;Los Lagos;103;Osorno;10307;San Pablo;Disponibilidad no declarada;2;5;5;6;5;9
+700;10;Los Lagos;104;Palena;10401;Chaitén;Sí;1635;647;270;424;1426;112
+701;10;Los Lagos;104;Palena;10401;Chaitén;No;41;1027;1404;1249;249;1560
+702;10;Los Lagos;104;Palena;10401;Chaitén;Disponibilidad no declarada;0;2;2;3;1;4
+703;10;Los Lagos;104;Palena;10402;Futaleufú;Sí;1290;682;247;512;1146;129
+704;10;Los Lagos;104;Palena;10402;Futaleufú;No;41;644;1078;819;183;1197
+705;10;Los Lagos;104;Palena;10402;Futaleufú;Disponibilidad no declarada;2;7;8;2;4;7
+706;10;Los Lagos;104;Palena;10403;Hualaihué;Sí;3574;1329;461;562;3097;175
+707;10;Los Lagos;104;Palena;10403;Hualaihué;No;135;2380;3248;3147;612;3534
+708;10;Los Lagos;104;Palena;10403;Hualaihué;Disponibilidad no declarada;0;0;0;0;0;0
+709;10;Los Lagos;104;Palena;10404;Palena;Sí;813;381;165;273;642;75
+710;10;Los Lagos;104;Palena;10404;Palena;No;55;485;701;593;226;791
+711;10;Los Lagos;104;Palena;10404;Palena;Disponibilidad no declarada;0;2;2;2;0;2
+712;11;Aysén del General Carlos Ibáñez del Campo;111;Coyhaique;11101;Coyhaique;Sí;22105;12239;5065;12012;19284;1239
+713;11;Aysén del General Carlos Ibáñez del Campo;111;Coyhaique;11101;Coyhaique;No;314;10145;17317;10368;3110;21131
+714;11;Aysén del General Carlos Ibáñez del Campo;111;Coyhaique;11101;Coyhaique;Disponibilidad no declarada;4;39;41;43;29;53
+715;11;Aysén del General Carlos Ibáñez del Campo;111;Coyhaique;11102;Lago Verde;Sí;346;103;35;40;259;72
+716;11;Aysén del General Carlos Ibáñez del Campo;111;Coyhaique;11102;Lago Verde;No;27;268;336;331;112;300
+717;11;Aysén del General Carlos Ibáñez del Campo;111;Coyhaique;11102;Lago Verde;Disponibilidad no declarada;0;2;2;2;2;1
+718;11;Aysén del General Carlos Ibáñez del Campo;112;Aysén;11201;Aysén;Sí;8905;4399;1742;4297;7419;381
+719;11;Aysén del General Carlos Ibáñez del Campo;112;Aysén;11201;Aysén;No;151;4640;7297;4749;1627;8660
+720;11;Aysén del General Carlos Ibáñez del Campo;112;Aysén;11201;Aysén;Disponibilidad no declarada;1;18;18;11;11;16
+721;11;Aysén del General Carlos Ibáñez del Campo;112;Aysén;11202;Cisnes;Sí;2093;980;411;934;1724;202
+722;11;Aysén del General Carlos Ibáñez del Campo;112;Aysén;11202;Cisnes;No;86;1198;1768;1241;453;1974
+723;11;Aysén del General Carlos Ibáñez del Campo;112;Aysén;11202;Cisnes;Disponibilidad no declarada;1;2;1;5;3;4
+724;11;Aysén del General Carlos Ibáñez del Campo;112;Aysén;11203;Guaitecas;Sí;596;260;110;88;532;45
+725;11;Aysén del General Carlos Ibáñez del Campo;112;Aysén;11203;Guaitecas;No;10;345;495;516;73;560
+726;11;Aysén del General Carlos Ibáñez del Campo;112;Aysén;11203;Guaitecas;Disponibilidad no declarada;0;1;1;2;1;1
+727;11;Aysén del General Carlos Ibáñez del Campo;113;Capitán Prat;11301;Cochrane;Sí;1402;737;243;560;1166;55
+728;11;Aysén del General Carlos Ibáñez del Campo;113;Capitán Prat;11301;Cochrane;No;60;723;1217;901;295;1405
+729;11;Aysén del General Carlos Ibáñez del Campo;113;Capitán Prat;11301;Cochrane;Disponibilidad no declarada;0;2;2;1;1;2
+730;11;Aysén del General Carlos Ibáñez del Campo;113;Capitán Prat;11302;O'Higgins;Sí;275;161;54;34;231;128
+731;11;Aysén del General Carlos Ibáñez del Campo;113;Capitán Prat;11302;O'Higgins;No;17;130;237;257;60;164
+732;11;Aysén del General Carlos Ibáñez del Campo;113;Capitán Prat;11302;O'Higgins;Disponibilidad no declarada;0;1;1;1;1;0
+733;11;Aysén del General Carlos Ibáñez del Campo;113;Capitán Prat;11303;Tortel;Sí;228;120;41;19;219;14
+734;11;Aysén del General Carlos Ibáñez del Campo;113;Capitán Prat;11303;Tortel;No;3;110;189;212;12;217
+735;11;Aysén del General Carlos Ibáñez del Campo;113;Capitán Prat;11303;Tortel;Disponibilidad no declarada;0;1;1;0;0;0
+736;11;Aysén del General Carlos Ibáñez del Campo;114;General Carrera;11401;Chile Chico;Sí;2062;1003;398;859;1650;106
+737;11;Aysén del General Carlos Ibáñez del Campo;114;General Carrera;11401;Chile Chico;No;47;1104;1710;1247;457;1999
+738;11;Aysén del General Carlos Ibáñez del Campo;114;General Carrera;11401;Chile Chico;Disponibilidad no declarada;0;2;1;3;2;4
+739;11;Aysén del General Carlos Ibáñez del Campo;114;General Carrera;11402;Río Ibáñez;Sí;1193;540;165;317;1038;50
+740;11;Aysén del General Carlos Ibáñez del Campo;114;General Carrera;11402;Río Ibáñez;No;38;691;1066;914;193;1181
+741;11;Aysén del General Carlos Ibáñez del Campo;114;General Carrera;11402;Río Ibáñez;Disponibilidad no declarada;0;0;0;0;0;0
+742;12;Magallanes y de la Antártica Chilena;121;Magallanes;12101;Punta Arenas;Sí;48846;30399;15006;37835;44063;1951
+743;12;Magallanes y de la Antártica Chilena;121;Magallanes;12101;Punta Arenas;No;707;19056;34449;11663;5422;47455
+744;12;Magallanes y de la Antártica Chilena;121;Magallanes;12101;Punta Arenas;Disponibilidad no declarada;18;116;116;73;86;165
+745;12;Magallanes y de la Antártica Chilena;121;Magallanes;12102;Laguna Blanca;Sí;95;34;21;5;75;14
+746;12;Magallanes y de la Antártica Chilena;121;Magallanes;12102;Laguna Blanca;No;3;64;77;93;23;84
+747;12;Magallanes y de la Antártica Chilena;121;Magallanes;12102;Laguna Blanca;Disponibilidad no declarada;0;0;0;0;0;0
+748;12;Magallanes y de la Antártica Chilena;121;Magallanes;12103;Río Verde;Sí;61;14;6;9;57;4
+749;12;Magallanes y de la Antártica Chilena;121;Magallanes;12103;Río Verde;No;2;49;57;54;6;59
+750;12;Magallanes y de la Antártica Chilena;121;Magallanes;12103;Río Verde;Disponibilidad no declarada;0;0;0;0;0;0
+751;12;Magallanes y de la Antártica Chilena;121;Magallanes;12104;San Gregorio;Sí;108;38;24;18;93;1
+752;12;Magallanes y de la Antártica Chilena;121;Magallanes;12104;San Gregorio;No;2;72;86;92;17;109
+753;12;Magallanes y de la Antártica Chilena;121;Magallanes;12104;San Gregorio;Disponibilidad no declarada;0;0;0;0;0;0
+754;12;Magallanes y de la Antártica Chilena;122;Antártica Chilena;12201;Cabo de Hornos;Sí;610;471;248;268;569;56
+755;12;Magallanes y de la Antártica Chilena;122;Antártica Chilena;12201;Cabo de Hornos;No;7;146;369;349;48;561
+756;12;Magallanes y de la Antártica Chilena;122;Antártica Chilena;12201;Cabo de Hornos;Disponibilidad no declarada;0;0;0;0;0;0
+757;12;Magallanes y de la Antártica Chilena;122;Antártica Chilena;12202;Antártica;Sí;0;0;0;0;0;0
+758;12;Magallanes y de la Antártica Chilena;122;Antártica Chilena;12202;Antártica;No;0;0;0;0;0;0
+759;12;Magallanes y de la Antártica Chilena;122;Antártica Chilena;12202;Antártica;Disponibilidad no declarada;0;0;0;0;0;0
+760;12;Magallanes y de la Antártica Chilena;123;Tierra del Fuego;12301;Porvenir;Sí;2710;1386;636;1832;2441;60
+761;12;Magallanes y de la Antártica Chilena;123;Tierra del Fuego;12301;Porvenir;No;59;1381;2130;935;326;2709
+762;12;Magallanes y de la Antártica Chilena;123;Tierra del Fuego;12301;Porvenir;Disponibilidad no declarada;1;3;4;3;3;1
+763;12;Magallanes y de la Antártica Chilena;123;Tierra del Fuego;12302;Primavera;Sí;174;79;41;39;164;17
+764;12;Magallanes y de la Antártica Chilena;123;Tierra del Fuego;12302;Primavera;No;7;102;140;142;17;164
+765;12;Magallanes y de la Antártica Chilena;123;Tierra del Fuego;12302;Primavera;Disponibilidad no declarada;0;0;0;0;0;0
+766;12;Magallanes y de la Antártica Chilena;123;Tierra del Fuego;12303;Timaukel;Sí;60;35;19;9;51;18
+767;12;Magallanes y de la Antártica Chilena;123;Tierra del Fuego;12303;Timaukel;No;1;26;42;52;10;44
+768;12;Magallanes y de la Antártica Chilena;123;Tierra del Fuego;12303;Timaukel;Disponibilidad no declarada;1;1;1;1;1;0
+769;12;Magallanes y de la Antártica Chilena;124;Última Esperanza;12401;Natales;Sí;9330;5205;2106;6867;7991;285
+770;12;Magallanes y de la Antártica Chilena;124;Última Esperanza;12401;Natales;No;158;4266;7359;2607;1483;9179
+771;12;Magallanes y de la Antártica Chilena;124;Última Esperanza;12401;Natales;Disponibilidad no declarada;2;19;25;16;16;26
+772;12;Magallanes y de la Antártica Chilena;124;Última Esperanza;12402;Torres del Paine;Sí;96;51;31;20;80;30
+773;12;Magallanes y de la Antártica Chilena;124;Última Esperanza;12402;Torres del Paine;No;4;49;69;80;20;70
+774;12;Magallanes y de la Antártica Chilena;124;Última Esperanza;12402;Torres del Paine;Disponibilidad no declarada;0;0;0;0;0;0
+775;13;Metropolitana de Santiago;131;Santiago;13101;Santiago;Sí;204122;135006;58363;142743;191252;5927
+776;13;Metropolitana de Santiago;131;Santiago;13101;Santiago;No;2231;71028;147644;63401;14897;199956
+777;13;Metropolitana de Santiago;131;Santiago;13101;Santiago;Disponibilidad no declarada;105;424;451;314;309;575
+778;13;Metropolitana de Santiago;131;Santiago;13102;Cerrillos;Sí;27586;14442;6785;19023;24795;1159
+779;13;Metropolitana de Santiago;131;Santiago;13102;Cerrillos;No;554;13632;21275;9050;3294;26896
+780;13;Metropolitana de Santiago;131;Santiago;13102;Cerrillos;Disponibilidad no declarada;46;112;126;113;97;131
+781;13;Metropolitana de Santiago;131;Santiago;13103;Cerro Navia;Sí;40629;17360;7171;27119;34488;2549
+782;13;Metropolitana de Santiago;131;Santiago;13103;Cerro Navia;No;1211;24402;34578;14671;7310;39196
+783;13;Metropolitana de Santiago;131;Santiago;13103;Cerro Navia;Disponibilidad no declarada;24;102;115;74;66;119
+784;13;Metropolitana de Santiago;131;Santiago;13104;Conchalí;Sí;39758;20730;8592;28579;35260;1597
+785;13;Metropolitana de Santiago;131;Santiago;13104;Conchalí;No;966;19955;32085;12121;5433;39079
+786;13;Metropolitana de Santiago;131;Santiago;13104;Conchalí;Disponibilidad no declarada;3;42;50;27;34;51
+787;13;Metropolitana de Santiago;131;Santiago;13105;El Bosque;Sí;48867;24171;10166;35734;42961;1640
+788;13;Metropolitana de Santiago;131;Santiago;13105;El Bosque;No;1361;25996;39982;14463;7205;48443
+789;13;Metropolitana de Santiago;131;Santiago;13105;El Bosque;Disponibilidad no declarada;5;66;85;36;67;150
+790;13;Metropolitana de Santiago;131;Santiago;13106;Estación Central;Sí;66588;32120;14402;48733;59460;2320
+791;13;Metropolitana de Santiago;131;Santiago;13106;Estación Central;No;1119;35432;53147;18906;8152;65185
+792;13;Metropolitana de Santiago;131;Santiago;13106;Estación Central;Disponibilidad no declarada;15;170;173;83;110;217
+793;13;Metropolitana de Santiago;131;Santiago;13107;Huechuraba;Sí;31440;21233;11923;24941;28429;1153
+794;13;Metropolitana de Santiago;131;Santiago;13107;Huechuraba;No;514;10690;19995;7001;3506;30758
+795;13;Metropolitana de Santiago;131;Santiago;13107;Huechuraba;Disponibilidad no declarada;11;42;47;23;30;54
+796;13;Metropolitana de Santiago;131;Santiago;13108;Independencia;Sí;44760;23342;10299;31645;40965;1330
+797;13;Metropolitana de Santiago;131;Santiago;13108;Independencia;No;645;22010;35054;13726;4393;44002
+798;13;Metropolitana de Santiago;131;Santiago;13108;Independencia;Disponibilidad no declarada;6;59;58;40;53;79
+799;13;Metropolitana de Santiago;131;Santiago;13109;La Cisterna;Sí;37340;22919;10107;28932;33902;1388
+800;13;Metropolitana de Santiago;131;Santiago;13109;La Cisterna;No;692;15030;27838;9062;4096;36544
+801;13;Metropolitana de Santiago;131;Santiago;13109;La Cisterna;Disponibilidad no declarada;10;93;97;48;44;110
+802;13;Metropolitana de Santiago;131;Santiago;13110;La Florida;Sí;131740;87579;40810;107651;120315;4386
+803;13;Metropolitana de Santiago;131;Santiago;13110;La Florida;No;1864;45868;92622;25879;13194;128988
+804;13;Metropolitana de Santiago;131;Santiago;13110;La Florida;Disponibilidad no declarada;27;184;199;101;122;257
+805;13;Metropolitana de Santiago;131;Santiago;13111;La Granja;Sí;36134;17094;7302;25727;31433;1191
+806;13;Metropolitana de Santiago;131;Santiago;13111;La Granja;No;978;19958;29753;11351;5641;35836
+807;13;Metropolitana de Santiago;131;Santiago;13111;La Granja;Disponibilidad no declarada;6;66;63;40;44;91
+808;13;Metropolitana de Santiago;131;Santiago;13112;La Pintana;Sí;52556;21488;9443;37234;44341;3437
+809;13;Metropolitana de Santiago;131;Santiago;13112;La Pintana;No;1385;32398;44439;16682;9559;50427
+810;13;Metropolitana de Santiago;131;Santiago;13112;La Pintana;Disponibilidad no declarada;10;65;69;35;51;87
+811;13;Metropolitana de Santiago;131;Santiago;13113;La Reina;Sí;30259;25113;15346;26822;28070;994
+812;13;Metropolitana de Santiago;131;Santiago;13113;La Reina;No;308;5394;15159;3725;2460;29496
+813;13;Metropolitana de Santiago;131;Santiago;13113;La Reina;Disponibilidad no declarada;7;67;69;27;44;84
+814;13;Metropolitana de Santiago;131;Santiago;13114;Las Condes;Sí;115094;100326;63777;106202;107512;4591
+815;13;Metropolitana de Santiago;131;Santiago;13114;Las Condes;No;1006;15530;52072;9817;8389;111038
+816;13;Metropolitana de Santiago;131;Santiago;13114;Las Condes;Disponibilidad no declarada;76;320;327;157;275;547
+817;13;Metropolitana de Santiago;131;Santiago;13115;Lo Barnechea;Sí;32129;25912;18823;27371;29405;1956
+818;13;Metropolitana de Santiago;131;Santiago;13115;Lo Barnechea;No;313;6453;13504;5036;2958;30199
+819;13;Metropolitana de Santiago;131;Santiago;13115;Lo Barnechea;Disponibilidad no declarada;16;93;131;51;95;303
+820;13;Metropolitana de Santiago;131;Santiago;13116;Lo Espejo;Sí;26499;11792;5090;17795;22933;2388
+821;13;Metropolitana de Santiago;131;Santiago;13116;Lo Espejo;No;885;15554;22254;9559;4433;24938
+822;13;Metropolitana de Santiago;131;Santiago;13116;Lo Espejo;Disponibilidad no declarada;3;41;43;33;21;61
+823;13;Metropolitana de Santiago;131;Santiago;13117;Lo Prado;Sí;31079;15316;6209;21330;27417;1470
+824;13;Metropolitana de Santiago;131;Santiago;13117;Lo Prado;No;776;16506;25614;10503;4424;30343
+825;13;Metropolitana de Santiago;131;Santiago;13117;Lo Prado;Disponibilidad no declarada;7;40;39;29;21;49
+826;13;Metropolitana de Santiago;131;Santiago;13118;Macul;Sí;46880;32522;15636;38391;43237;1721
+827;13;Metropolitana de Santiago;131;Santiago;13118;Macul;No;665;14924;31799;9120;4249;45698
+828;13;Metropolitana de Santiago;131;Santiago;13118;Macul;Disponibilidad no declarada;10;109;120;44;69;136
+829;13;Metropolitana de Santiago;131;Santiago;13119;Maipú;Sí;165428;108798;47069;136362;151572;5747
+830;13;Metropolitana de Santiago;131;Santiago;13119;Maipú;No;1916;58301;120010;30871;15607;161262
+831;13;Metropolitana de Santiago;131;Santiago;13119;Maipú;Disponibilidad no declarada;39;284;304;150;204;374
+832;13;Metropolitana de Santiago;131;Santiago;13120;Ñuñoa;Sí;107557;90535;49760;95629;101277;3233
+833;13;Metropolitana de Santiago;131;Santiago;13120;Ñuñoa;No;972;17847;58622;12847;7166;105082
+834;13;Metropolitana de Santiago;131;Santiago;13120;Ñuñoa;Disponibilidad no declarada;26;173;173;79;112;240
+835;13;Metropolitana de Santiago;131;Santiago;13121;Pedro Aguirre Cerda;Sí;31260;15498;6772;22073;27203;1380
+836;13;Metropolitana de Santiago;131;Santiago;13121;Pedro Aguirre Cerda;No;1053;16747;25465;10196;5062;30732
+837;13;Metropolitana de Santiago;131;Santiago;13121;Pedro Aguirre Cerda;Disponibilidad no declarada;15;83;91;59;63;216
+838;13;Metropolitana de Santiago;131;Santiago;13122;Peñalolén;Sí;74648;45041;23750;55876;67884;2819
+839;13;Metropolitana de Santiago;131;Santiago;13122;Peñalolén;No;1417;30929;52215;20154;8126;73120
+840;13;Metropolitana de Santiago;131;Santiago;13122;Peñalolén;Disponibilidad no declarada;13;108;113;48;68;139
+841;13;Metropolitana de Santiago;131;Santiago;13123;Providencia;Sí;68668;62027;35301;60319;65510;1923
+842;13;Metropolitana de Santiago;131;Santiago;13123;Providencia;No;472;7058;33779;8788;3600;67135
+843;13;Metropolitana de Santiago;131;Santiago;13123;Providencia;Disponibilidad no declarada;17;72;77;50;47;99
+844;13;Metropolitana de Santiago;131;Santiago;13124;Pudahuel;Sí;72858;40627;18218;55194;65516;3902
+845;13;Metropolitana de Santiago;131;Santiago;13124;Pudahuel;No;1263;33378;55781;18875;8541;70051
+846;13;Metropolitana de Santiago;131;Santiago;13124;Pudahuel;Disponibilidad no declarada;23;139;145;75;87;191
+847;13;Metropolitana de Santiago;131;Santiago;13125;Quilicura;Sí;64458;38773;16824;50944;59231;2897
+848;13;Metropolitana de Santiago;131;Santiago;13125;Quilicura;No;583;26188;48131;14051;5752;62002
+849;13;Metropolitana de Santiago;131;Santiago;13125;Quilicura;Disponibilidad no declarada;18;98;104;64;76;160
+850;13;Metropolitana de Santiago;131;Santiago;13126;Quinta Normal;Sí;44904;24089;10250;32430;40679;1747
+851;13;Metropolitana de Santiago;131;Santiago;13126;Quinta Normal;No;779;21515;35354;13211;4957;43829
+852;13;Metropolitana de Santiago;131;Santiago;13126;Quinta Normal;Disponibilidad no declarada;17;96;96;59;64;124
+853;13;Metropolitana de Santiago;131;Santiago;13127;Recoleta;Sí;54080;27234;11604;35946;48646;1453
+854;13;Metropolitana de Santiago;131;Santiago;13127;Recoleta;No;1483;28239;43855;19563;6861;53986
+855;13;Metropolitana de Santiago;131;Santiago;13127;Recoleta;Disponibilidad no declarada;16;106;120;70;72;140
+856;13;Metropolitana de Santiago;131;Santiago;13128;Renca;Sí;45373;22645;9444;32669;39383;2136
+857;13;Metropolitana de Santiago;131;Santiago;13128;Renca;No;1013;23676;36874;13681;6950;44162
+858;13;Metropolitana de Santiago;131;Santiago;13128;Renca;Disponibilidad no declarada;11;76;79;47;64;99
+859;13;Metropolitana de Santiago;131;Santiago;13129;San Joaquín;Sí;32628;18740;8033;24288;29227;1146
+860;13;Metropolitana de Santiago;131;Santiago;13129;San Joaquín;No;818;14672;25378;9143;4197;32263
+861;13;Metropolitana de Santiago;131;Santiago;13129;San Joaquín;Disponibilidad no declarada;15;49;50;30;37;52
+862;13;Metropolitana de Santiago;131;Santiago;13130;San Miguel;Sí;59681;44776;20805;51011;55845;1969
+863;13;Metropolitana de Santiago;131;Santiago;13130;San Miguel;No;545;15381;39336;9187;4338;58067
+864;13;Metropolitana de Santiago;131;Santiago;13130;San Miguel;Disponibilidad no declarada;17;86;102;45;60;207
+865;13;Metropolitana de Santiago;131;Santiago;13131;San Ramón;Sí;24164;11218;4681;16481;21331;1786
+866;13;Metropolitana de Santiago;131;Santiago;13131;San Ramón;No;792;13708;20241;8459;3613;23133
+867;13;Metropolitana de Santiago;131;Santiago;13131;San Ramón;Disponibilidad no declarada;7;37;41;23;19;44
+868;13;Metropolitana de Santiago;131;Santiago;13132;Vitacura;Sí;30838;27659;19001;29376;28504;1312
+869;13;Metropolitana de Santiago;131;Santiago;13132;Vitacura;No;219;3366;11987;1707;2498;29626
+870;13;Metropolitana de Santiago;131;Santiago;13132;Vitacura;Disponibilidad no declarada;57;89;126;31;112;176
+871;13;Metropolitana de Santiago;132;Cordillera;13201;Puente Alto;Sí;180201;110056;48793;144906;162850;8473
+872;13;Metropolitana de Santiago;132;Cordillera;13201;Puente Alto;No;2610;72486;133700;37756;19766;173931
+873;13;Metropolitana de Santiago;132;Cordillera;13201;Puente Alto;Disponibilidad no declarada;44;313;362;193;239;451
+874;13;Metropolitana de Santiago;132;Cordillera;13202;Pirque;Sí;9086;5619;2711;5840;8348;577
+875;13;Metropolitana de Santiago;132;Cordillera;13202;Pirque;No;95;3544;6449;3331;823;8585
+876;13;Metropolitana de Santiago;132;Cordillera;13202;Pirque;Disponibilidad no declarada;2;20;23;12;12;21
+877;13;Metropolitana de Santiago;132;Cordillera;13203;San José de Maipo;Sí;6253;3605;1799;3713;5744;437
+878;13;Metropolitana de Santiago;132;Cordillera;13203;San José de Maipo;No;115;2754;4559;2651;618;5921
+879;13;Metropolitana de Santiago;132;Cordillera;13203;San José de Maipo;Disponibilidad no declarada;0;9;10;4;6;10
+880;13;Metropolitana de Santiago;133;Chacabuco;13301;Colina;Sí;50283;30374;18891;34296;45816;3059
+881;13;Metropolitana de Santiago;133;Chacabuco;13301;Colina;No;629;20468;31948;16576;5054;47730
+882;13;Metropolitana de Santiago;133;Chacabuco;13301;Colina;Disponibilidad no declarada;14;84;87;54;56;137
+883;13;Metropolitana de Santiago;133;Chacabuco;13302;Lampa;Sí;44801;25155;12064;29515;41368;2223
+884;13;Metropolitana de Santiago;133;Chacabuco;13302;Lampa;No;637;20225;33313;15893;4028;43147
+885;13;Metropolitana de Santiago;133;Chacabuco;13302;Lampa;Disponibilidad no declarada;7;65;68;37;49;75
+886;13;Metropolitana de Santiago;133;Chacabuco;13303;Tiltil;Sí;6472;3343;1573;3511;5771;430
+887;13;Metropolitana de Santiago;133;Chacabuco;13303;Tiltil;No;113;3237;5007;3069;812;6146
+888;13;Metropolitana de Santiago;133;Chacabuco;13303;Tiltil;Disponibilidad no declarada;0;5;5;5;2;9
+889;13;Metropolitana de Santiago;134;Maipo;13401;San Bernardo;Sí;96802;54317;22936;72043;86917;4357
+890;13;Metropolitana de Santiago;134;Maipo;13401;San Bernardo;No;1759;44125;75475;26438;11562;93997
+891;13;Metropolitana de Santiago;134;Maipo;13401;San Bernardo;Disponibilidad no declarada;19;138;169;99;101;226
+892;13;Metropolitana de Santiago;134;Maipo;13402;Buin;Sí;37031;22770;11142;28393;33374;2042
+893;13;Metropolitana de Santiago;134;Maipo;13402;Buin;No;585;14802;26425;9204;4214;35512
+894;13;Metropolitana de Santiago;134;Maipo;13402;Buin;Disponibilidad no declarada;4;48;53;23;32;66
+895;13;Metropolitana de Santiago;134;Maipo;13403;Calera de Tango;Sí;7743;4602;2424;4746;7194;491
+896;13;Metropolitana de Santiago;134;Maipo;13403;Calera de Tango;No;109;3242;5417;3099;653;7352
+897;13;Metropolitana de Santiago;134;Maipo;13403;Calera de Tango;Disponibilidad no declarada;0;8;11;7;5;9
+898;13;Metropolitana de Santiago;134;Maipo;13404;Paine;Sí;25427;12752;5354;17174;22064;2136
+899;13;Metropolitana de Santiago;134;Maipo;13404;Paine;No;442;13072;20470;8659;3783;23673
+900;13;Metropolitana de Santiago;134;Maipo;13404;Paine;Disponibilidad no declarada;2;47;47;38;24;62
+901;13;Metropolitana de Santiago;135;Melipilla;13501;Melipilla;Sí;45572;21882;8803;26674;39361;2356
+902;13;Metropolitana de Santiago;135;Melipilla;13501;Melipilla;No;873;24519;37593;19740;7058;44038
+903;13;Metropolitana de Santiago;135;Melipilla;13501;Melipilla;Disponibilidad no declarada;12;56;61;43;38;63
+904;13;Metropolitana de Santiago;135;Melipilla;13502;Alhué;Sí;2710;1437;386;1809;2395;73
+905;13;Metropolitana de Santiago;135;Melipilla;13502;Alhué;No;60;1333;2384;961;375;2697
+906;13;Metropolitana de Santiago;135;Melipilla;13502;Alhué;Disponibilidad no declarada;0;0;0;0;0;0
+907;13;Metropolitana de Santiago;135;Melipilla;13503;Curacaví;Sí;11791;6014;2657;6616;10154;996
+908;13;Metropolitana de Santiago;135;Melipilla;13503;Curacaví;No;206;5964;9317;5366;1832;10978
+909;13;Metropolitana de Santiago;135;Melipilla;13503;Curacaví;Disponibilidad no declarada;4;23;27;19;15;27
+910;13;Metropolitana de Santiago;135;Melipilla;13504;María Pinto;Sí;5109;2408;916;2630;4407;440
+911;13;Metropolitana de Santiago;135;Melipilla;13504;María Pinto;No;137;2834;4325;2613;837;4802
+912;13;Metropolitana de Santiago;135;Melipilla;13504;María Pinto;Disponibilidad no declarada;1;5;6;4;3;5
+913;13;Metropolitana de Santiago;135;Melipilla;13505;San Pedro;Sí;3863;1368;533;855;3187;363
+914;13;Metropolitana de Santiago;135;Melipilla;13505;San Pedro;No;110;2601;3436;3116;783;3606
+915;13;Metropolitana de Santiago;135;Melipilla;13505;San Pedro;Disponibilidad no declarada;0;4;4;2;3;4
+916;13;Metropolitana de Santiago;136;Talagante;13601;Talagante;Sí;24027;13209;6298;16636;21237;1325
+917;13;Metropolitana de Santiago;136;Talagante;13601;Talagante;No;389;11179;18086;7770;3158;23050
+918;13;Metropolitana de Santiago;136;Talagante;13601;Talagante;Disponibilidad no declarada;9;37;41;19;30;50
+919;13;Metropolitana de Santiago;136;Talagante;13602;El Monte;Sí;11874;5625;2289;7057;10323;626
+920;13;Metropolitana de Santiago;136;Talagante;13602;El Monte;No;266;6503;9840;5073;1814;11499
+921;13;Metropolitana de Santiago;136;Talagante;13602;El Monte;Disponibilidad no declarada;1;13;12;11;4;16
+922;13;Metropolitana de Santiago;136;Talagante;13603;Isla de Maipo;Sí;12727;6614;2947;8751;10934;846
+923;13;Metropolitana de Santiago;136;Talagante;13603;Isla de Maipo;No;258;6346;10013;4219;2035;12105
+924;13;Metropolitana de Santiago;136;Talagante;13603;Isla de Maipo;Disponibilidad no declarada;4;29;29;19;20;38
+925;13;Metropolitana de Santiago;136;Talagante;13604;Padre Hurtado;Sí;25815;15433;7182;19863;23170;1486
+926;13;Metropolitana de Santiago;136;Talagante;13604;Padre Hurtado;No;320;10659;18907;6259;2940;24600
+927;13;Metropolitana de Santiago;136;Talagante;13604;Padre Hurtado;Disponibilidad no declarada;4;47;50;17;29;53
+928;13;Metropolitana de Santiago;136;Talagante;13605;Peñaflor;Sí;30213;17621;7866;21991;27220;1757
+929;13;Metropolitana de Santiago;136;Talagante;13605;Peñaflor;No;494;13044;22796;8693;3465;28897
+930;13;Metropolitana de Santiago;136;Talagante;13605;Peñaflor;Disponibilidad no declarada;6;48;51;29;28;59
+931;14;Los Ríos;141;Valdivia;14101;Valdivia;Sí;61869;38679;17129;45273;55418;2470
+932;14;Los Ríos;141;Valdivia;14101;Valdivia;No;1136;24214;45754;17689;7497;60373
+933;14;Los Ríos;141;Valdivia;14101;Valdivia;Disponibilidad no declarada;21;133;143;64;111;183
+934;14;Los Ríos;141;Valdivia;14102;Corral;Sí;2057;724;291;323;1763;100
+935;14;Los Ríos;141;Valdivia;14102;Corral;No;72;1403;1834;1801;365;2025
+936;14;Los Ríos;141;Valdivia;14102;Corral;Disponibilidad no declarada;2;4;6;7;3;6
+937;14;Los Ríos;141;Valdivia;14103;Lanco;Sí;6255;2462;802;2395;5049;250
+938;14;Los Ríos;141;Valdivia;14103;Lanco;No;176;3964;5624;4034;1378;6176
+939;14;Los Ríos;141;Valdivia;14103;Lanco;Disponibilidad no declarada;1;6;6;3;5;6
+940;14;Los Ríos;141;Valdivia;14104;Los Lagos;Sí;7743;3245;1174;2464;6466;409
+941;14;Los Ríos;141;Valdivia;14104;Los Lagos;No;162;4659;6729;5439;1438;7495
+942;14;Los Ríos;141;Valdivia;14104;Los Lagos;Disponibilidad no declarada;3;4;5;5;4;4
+943;14;Los Ríos;141;Valdivia;14105;Máfil;Sí;2886;1306;476;935;2495;134
+944;14;Los Ríos;141;Valdivia;14105;Máfil;No;63;1643;2471;2014;454;2815
+945;14;Los Ríos;141;Valdivia;14105;Máfil;Disponibilidad no declarada;0;0;2;0;0;0
+946;14;Los Ríos;141;Valdivia;14106;Mariquina;Sí;7959;3179;1168;2806;6642;586
+947;14;Los Ríos;141;Valdivia;14106;Mariquina;No;260;5028;7038;5401;1571;7622
+948;14;Los Ríos;141;Valdivia;14106;Mariquina;Disponibilidad no declarada;4;16;17;16;10;15
+949;14;Los Ríos;141;Valdivia;14107;Paillaco;Sí;6856;2729;1023;2523;5661;561
+950;14;Los Ríos;141;Valdivia;14107;Paillaco;No;433;4523;6213;4723;1580;6702
+951;14;Los Ríos;141;Valdivia;14107;Paillaco;Disponibilidad no declarada;5;42;58;48;53;31
+952;14;Los Ríos;141;Valdivia;14108;Panguipulli;Sí;12799;4827;1733;3381;10728;680
+953;14;Los Ríos;141;Valdivia;14108;Panguipulli;No;513;8460;11551;9911;2574;12605
+954;14;Los Ríos;141;Valdivia;14108;Panguipulli;Disponibilidad no declarada;3;28;31;23;13;30
+955;14;Los Ríos;142;Ranco;14201;La Unión;Sí;14200;6446;2458;6501;11861;731
+956;14;Los Ríos;142;Ranco;14201;La Unión;No;378;8122;12110;8070;2715;13835
+957;14;Los Ríos;142;Ranco;14201;La Unión;Disponibilidad no declarada;1;11;11;8;3;13
+958;14;Los Ríos;142;Ranco;14202;Futrono;Sí;5641;2299;872;1947;4796;325
+959;14;Los Ríos;142;Ranco;14202;Futrono;No;120;3455;4882;3806;960;5428
+960;14;Los Ríos;142;Ranco;14202;Futrono;Disponibilidad no declarada;0;7;7;8;5;8
+961;14;Los Ríos;142;Ranco;14203;Lago Ranco;Sí;3879;1363;504;678;3211;198
+962;14;Los Ríos;142;Ranco;14203;Lago Ranco;No;211;2725;3583;3409;877;3889
+963;14;Los Ríos;142;Ranco;14203;Lago Ranco;Disponibilidad no declarada;0;2;3;3;2;3
+964;14;Los Ríos;142;Ranco;14204;Río Bueno;Sí;12603;5090;1784;4792;10293;613
+965;14;Los Ríos;142;Ranco;14204;Río Bueno;No;331;7841;11148;8141;2641;12317
+966;14;Los Ríos;142;Ranco;14204;Río Bueno;Disponibilidad no declarada;1;4;3;2;1;5
+967;15;Arica y Parinacota;151;Arica;15101;Arica;Sí;77816;42271;19658;55339;68493;3328
+968;15;Arica y Parinacota;151;Arica;15101;Arica;No;1501;36963;59569;23933;10771;75887
+969;15;Arica y Parinacota;151;Arica;15101;Arica;Disponibilidad no declarada;21;104;111;66;74;123
+970;15;Arica y Parinacota;151;Arica;15102;Camarones;Sí;409;56;29;13;294;17
+971;15;Arica y Parinacota;151;Arica;15102;Camarones;No;28;380;406;424;143;420
+972;15;Arica y Parinacota;151;Arica;15102;Camarones;Disponibilidad no declarada;0;1;2;0;0;0
+973;15;Arica y Parinacota;152;Parinacota;15201;Putre;Sí;564;156;63;35;455;31
+974;15;Arica y Parinacota;152;Parinacota;15201;Putre;No;55;463;556;583;164;587
+975;15;Arica y Parinacota;152;Parinacota;15201;Putre;Disponibilidad no declarada;0;0;0;1;0;1
+976;15;Arica y Parinacota;152;Parinacota;15202;General Lagos;Sí;196;14;13;4;124;5
+977;15;Arica y Parinacota;152;Parinacota;15202;General Lagos;No;30;212;213;222;102;221
+978;15;Arica y Parinacota;152;Parinacota;15202;General Lagos;Disponibilidad no declarada;0;0;0;0;0;0
+979;16;Ñuble;161;Diguillín;16101;Chillán;Sí;68953;38122;15229;45657;60869;2772
+980;16;Ñuble;161;Diguillín;16101;Chillán;No;1042;31795;54687;24299;9090;67142
+981;16;Ñuble;161;Diguillín;16101;Chillán;Disponibilidad no declarada;8;86;87;47;44;89
+982;16;Ñuble;161;Diguillín;16102;Bulnes;Sí;8542;3472;1305;3126;7016;501
+983;16;Ñuble;161;Diguillín;16102;Bulnes;No;229;5295;7461;5640;1752;8262
+984;16;Ñuble;161;Diguillín;16102;Bulnes;Disponibilidad no declarada;0;4;5;5;3;8
+985;16;Ñuble;161;Diguillín;16103;Chillán Viejo;Sí;11548;5610;2052;6583;9675;673
+986;16;Ñuble;161;Diguillín;16103;Chillán Viejo;No;190;6121;9680;5151;2061;11056
+987;16;Ñuble;161;Diguillín;16103;Chillán Viejo;Disponibilidad no declarada;0;7;6;4;2;9
+988;16;Ñuble;161;Diguillín;16104;El Carmen;Sí;4856;1646;575;1274;3811;77
+989;16;Ñuble;161;Diguillín;16104;El Carmen;No;152;3360;4431;3731;1194;4929
+990;16;Ñuble;161;Diguillín;16104;El Carmen;Disponibilidad no declarada;0;2;2;3;3;2
+991;16;Ñuble;161;Diguillín;16105;Pemuco;Sí;3156;1100;334;590;2526;80
+992;16;Ñuble;161;Diguillín;16105;Pemuco;No;86;2140;2906;2650;715;3160
+993;16;Ñuble;161;Diguillín;16105;Pemuco;Disponibilidad no declarada;1;3;3;3;2;3
+994;16;Ñuble;161;Diguillín;16106;Pinto;Sí;4633;1870;630;1133;3799;195
+995;16;Ñuble;161;Diguillín;16106;Pinto;No;140;2900;4139;3637;971;4574
+996;16;Ñuble;161;Diguillín;16106;Pinto;Disponibilidad no declarada;1;4;5;4;4;5
+997;16;Ñuble;161;Diguillín;16107;Quillón;Sí;7355;2635;1034;2359;6002;323
+998;16;Ñuble;161;Diguillín;16107;Quillón;No;167;4877;6478;5159;1516;7191
+999;16;Ñuble;161;Diguillín;16107;Quillón;Disponibilidad no declarada;1;11;11;5;5;9
+1000;16;Ñuble;161;Diguillín;16108;San Ignacio;Sí;6429;2102;643;1301;4968;153
+1001;16;Ñuble;161;Diguillín;16108;San Ignacio;No;191;4511;5971;5316;1648;6460
+1002;16;Ñuble;161;Diguillín;16108;San Ignacio;Disponibilidad no declarada;0;7;6;3;4;7
+1003;16;Ñuble;161;Diguillín;16109;Yungay;Sí;7129;2687;997;2437;5840;305
+1004;16;Ñuble;161;Diguillín;16109;Yungay;No;179;4618;6307;4868;1467;7000
+1005;16;Ñuble;161;Diguillín;16109;Yungay;Disponibilidad no declarada;1;4;5;4;2;4
+1006;16;Ñuble;162;Itata;16201;Quirihue;Sí;4518;1670;635;1918;3325;212
+1007;16;Ñuble;162;Itata;16201;Quirihue;No;124;2972;4007;2723;1316;4430
+1008;16;Ñuble;162;Itata;16201;Quirihue;Disponibilidad no declarada;0;0;0;1;1;0
+1009;16;Ñuble;162;Itata;16202;Cobquecura;Sí;2232;766;291;351;1756;50
+1010;16;Ñuble;162;Itata;16202;Cobquecura;No;73;1539;2013;1953;548;2254
+1011;16;Ñuble;162;Itata;16202;Cobquecura;Disponibilidad no declarada;0;0;1;1;1;1
+1012;16;Ñuble;162;Itata;16203;Coelemu;Sí;5513;2297;808;2270;4549;111
+1013;16;Ñuble;162;Itata;16203;Coelemu;No;125;3339;4829;3366;1088;5526
+1014;16;Ñuble;162;Itata;16203;Coelemu;Disponibilidad no declarada;0;2;1;2;1;1
+1015;16;Ñuble;162;Itata;16204;Ninhue;Sí;2248;724;240;336;1678;93
+1016;16;Ñuble;162;Itata;16204;Ninhue;No;60;1584;2068;1972;630;2215
+1017;16;Ñuble;162;Itata;16204;Ninhue;Disponibilidad no declarada;0;0;0;0;0;0
+1018;16;Ñuble;162;Itata;16205;Portezuelo;Sí;1970;629;231;351;1504;111
+1019;16;Ñuble;162;Itata;16205;Portezuelo;No;75;1416;1814;1694;541;1934
+1020;16;Ñuble;162;Itata;16205;Portezuelo;Disponibilidad no declarada;0;0;0;0;0;0
+1021;16;Ñuble;162;Itata;16206;Ránquil;Sí;2541;848;317;537;2134;66
+1022;16;Ñuble;162;Itata;16206;Ránquil;No;74;1766;2297;2077;480;2548
+1023;16;Ñuble;162;Itata;16206;Ránquil;Disponibilidad no declarada;0;1;1;1;1;1
+1024;16;Ñuble;162;Itata;16207;Trehuaco;Sí;2257;798;284;665;1774;34
+1025;16;Ñuble;162;Itata;16207;Trehuaco;No;79;1538;2052;1671;562;2302
+1026;16;Ñuble;162;Itata;16207;Trehuaco;Disponibilidad no declarada;0;0;0;0;0;0
+1027;16;Ñuble;163;Punilla;16301;San Carlos;Sí;20200;8069;2994;8522;16305;1215
+1028;16;Ñuble;163;Punilla;16301;San Carlos;No;468;12579;17652;12126;4358;19434
+1029;16;Ñuble;163;Punilla;16301;San Carlos;Disponibilidad no declarada;4;24;26;24;9;23
+1030;16;Ñuble;163;Punilla;16302;Coihueco;Sí;10233;3915;1268;2689;8571;635
+1031;16;Ñuble;163;Punilla;16302;Coihueco;No;234;6542;9190;7768;1892;9821
+1032;16;Ñuble;163;Punilla;16302;Coihueco;Disponibilidad no declarada;1;11;10;11;5;12
+1033;16;Ñuble;163;Punilla;16303;Ñiquén;Sí;4721;1401;472;473;3685;172
+1034;16;Ñuble;163;Punilla;16303;Ñiquén;No;198;3515;4445;4442;1233;4745
+1035;16;Ñuble;163;Punilla;16303;Ñiquén;Disponibilidad no declarada;1;4;3;5;2;3
+1036;16;Ñuble;163;Punilla;16304;San Fabián;Sí;1975;865;305;520;1691;109
+1037;16;Ñuble;163;Punilla;16304;San Fabián;No;47;1157;1717;1502;331;1913
+1038;16;Ñuble;163;Punilla;16304;San Fabián;Disponibilidad no declarada;0;0;0;0;0;0
+1039;16;Ñuble;163;Punilla;16305;San Nicolás;Sí;5345;2209;802;1613;4386;325
+1040;16;Ñuble;163;Punilla;16305;San Nicolás;No;97;3231;4639;3825;1054;5110
+1041;16;Ñuble;163;Punilla;16305;San Nicolás;Disponibilidad no declarada;0;2;1;4;2;7
