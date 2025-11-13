@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datacensus — Registro</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/auth.css" />
+
+  <!-- Fuente Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="login-container">
+    <div class="login-card">
+      <h1 class="text-center">Crear cuenta</h1>
+      <p class="text-center mt-2">Regístrate para acceder al dashboard de Datacensus</p>
+
+      <!-- Formulario de registro -->
+      <form id="register-form" class="mt-4">
+        <label for="register-name">Nombre completo</label>
+        <input type="text" id="register-name" placeholder="Tu nombre" required />
+
+        <label for="register-email">Correo electrónico</label>
+        <input type="email" id="register-email" placeholder="ejemplo@gmail.com" required />
+
+        <label for="register-password">Contraseña</label>
+        <input type="password" id="register-password" placeholder="••••••••" required />
+
+        <button type="submit" id="register-btn">Crear cuenta</button>
+      </form>
+
+      <div class="divider">
+        <span>o</span>
+      </div>
+
+      <!-- Botón de Google -->
+      <button id="google-register" class="google-btn">
+        <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" />
+        Registrarse con Google
+      </button>
+
+      <p class="text-center mt-4">
+        ¿Ya tienes cuenta?
+        <a href="login.html">Inicia sesión aquí</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Datacensus. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- ================================ -->
+  <!-- 🔥 Firebase y autenticación global -->
+  <!-- ================================ -->
+  <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js"></script>
+  <script type="module" src="./js/auth.js"></script>
+
+  <!-- ================================ -->
+  <!-- 🚫 Redirección si el usuario ya está logueado -->
+  <!-- ================================ -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const user = JSON.parse(localStorage.getItem("firebaseUser"));
+      if (user) {
+        // Si ya está logueado, lo redirigimos directamente al dashboard
+        window.location.href = "dashboard.html";
+      }
+    });
+  </script>
+</body>
+</html>

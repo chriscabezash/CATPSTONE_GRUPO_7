@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datacensus — Sobre el proyecto</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+<!-- Navbar moderno -->
+<nav class="navbar">
+  <div class="container navbar-content">
+    <div class="navbar-logo">
+      <h2 onclick="location.href='index.html'">Datacensus</h2>
+    </div>
+    <div class="navbar-links" id="navbar-links">
+      <a href="index.html">Inicio</a>
+      <a href="about.html">Nosotros</a>
+      <a href="use-ai.html">Uso de AI</a>
+      <a href="dashboard.html" id="dashboard-link">Dashboard</a>
+      <a href="login.html" id="login-link">Ingresar</a>
+      <a href="register.html" id="register-link">Registro</a>
+    </div>
+    <button class="navbar-toggle" id="navbar-toggle">☰</button>
+  </div>
+</nav>
+
+
+  <!-- Sección principal -->
+  <section class="container mt-6">
+    <div class="card">
+      <h1 class="text-center">Sobre Datacensus</h1>
+      <p class="mt-4">
+        <strong>Datacensus</strong> es un proyecto de análisis estadístico que permite visualizar y comprender la información del censo nacional de manera moderna e interactiva.
+      </p>
+
+      <p class="mt-4">
+        Su objetivo es transformar los datos del censo en gráficos claros, tablas interactivas y reportes automáticos que faciliten la interpretación de la información por parte de usuarios y profesionales.
+      </p>
+
+      <p class="mt-4">
+        Este sitio forma parte del portafolio de <strong>Alex</strong> y fue desarrollado con tecnologías modernas como HTML, CSS, Tailwind, JavaScript, Firebase y librerías de visualización de datos.
+      </p>
+
+      <p class="mt-4">
+        <em>“Los datos cobran vida cuando los hacemos comprensibles.”</em>
+      </p>
+    </div>
+
+    <!-- Sección de valores -->
+    <div class="card">
+      <h2 class="text-center">Nuestros valores</h2>
+      <ul class="mt-4">
+        <li>✔️ Transparencia en los datos</li>
+        <li>✔️ Accesibilidad para todos los usuarios</li>
+        <li>✔️ Compromiso con la exactitud estadística</li>
+        <li>✔️ Diseño claro, simple y profesional</li>
+      </ul>
+    </div>
+
+    <!-- Sección de contacto -->
+    <div class="card text-center">
+      <h2>Contacto</h2>
+      <p class="mt-2">¿Tienes dudas o comentarios sobre Datacensus?</p>
+      <p>Escríbenos a: <strong>informatico.q@gmail.com</strong></p>
+      <button id="access-dashboard" class="mt-4">Acceder al Dashboard</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Datacensus. Proyecto desarrollado por Alex. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- ================================ -->
+  <!-- 🔥 Firebase SDK -->
+  <!-- ================================ -->
+  <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js"></script>
+  <script type="module" src="./js/auth.js"></script>
+
+  <!-- ================================ -->
+  <!-- 🚀 Redirección inteligente -->
+  <!-- ================================ -->
+  <script>
+    document.getElementById("access-dashboard").addEventListener("click", () => {
+      const user = JSON.parse(localStorage.getItem("firebaseUser"));
+      if (user) {
+        // Si ya está logueado, va directo al dashboard
+        window.location.href = "dashboard.html";
+      } else {
+        // Si no está logueado, lo redirige al login
+        window.location.href = "login.html";
+      }
+    });
+  </script>
+  <script type="module" src="./js/session-handler.js"></script>
+  <script>
+  // Menú responsive
+  const toggle = document.getElementById("navbar-toggle");
+  const links = document.getElementById("navbar-links");
+  toggle?.addEventListener("click", () => {
+    links.classList.toggle("active");
+  });
+
+  // Redirección condicional del botón Dashboard
+  const dashboardLink = document.getElementById("dashboard-link");
+  if (dashboardLink) {
+    dashboardLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      const user = JSON.parse(localStorage.getItem("firebaseUser"));
+      if (user) {
+        window.location.href = "dashboard.html";
+      } else {
+        window.location.href = "login.html";
+      }
+    });
+  }
+</script>
+
+
+</body>
+</html>

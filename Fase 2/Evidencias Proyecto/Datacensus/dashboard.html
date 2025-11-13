@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datacensus — Dashboard Censal</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/dashboard.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- Navbar moderno -->
+<nav class="navbar">
+  <div class="container navbar-content">
+    <div class="navbar-logo">
+      <h2 onclick="location.href='index.html'">Datacensus</h2>
+    </div>
+    <div class="navbar-links" id="navbar-links">
+      <a href="index.html">Inicio</a>
+      <a href="about.html">Nosotros</a>
+      <a href="use-ai.html">Uso de AI</a>
+      <a href="dashboard.html" id="dashboard-link">Dashboard</a>
+      <a href="login.html" id="login-link">Ingresar</a>
+      <a href="register.html" id="register-link">Registro</a>
+    </div>
+    <button class="navbar-toggle" id="navbar-toggle">☰</button>
+  </div>
+</nav>
+
+
+  <!-- ========================= -->
+  <!-- 🔹 Resumen general -->
+  <!-- ========================= -->
+  <section class="container mt-6">
+    <h2 class="text-center">Resumen poblacional</h2>
+    <div class="summary-grid mt-4">
+      <div class="card"><h3>Población total</h3><p id="total-poblacion">--</p></div>
+      <div class="card"><h3>Hombres</h3><p id="total-hombres">--</p></div>
+      <div class="card"><h3>Mujeres</h3><p id="total-mujeres">--</p></div>
+      <div class="card"><h3>Relación H/M</h3><p id="ratio-hm">--</p></div>
+    </div>
+  </section>
+
+  <!-- ========================= -->
+  <!-- 🎯 Filtros principales -->
+  <!-- ========================= -->
+  <section class="container mt-6">
+    <div class="card">
+      <h2>Filtros por región y comuna</h2>
+      <div class="filters-grid mt-4">
+        <div>
+          <label for="region-select">Región:</label>
+          <select id="region-select"></select>
+        </div>
+        <div>
+          <label for="comuna-select">Comuna:</label>
+          <select id="comuna-select"></select>
+        </div>
+        <button id="filtro-region">Aplicar</button>
+      </div>
+    </div>
+
+    <div class="card mt-4">
+      <h2>Filtros por sexo y grupo de edad</h2>
+      <div class="filters-grid mt-4">
+        <div>
+          <label for="sexo-select">Sexo:</label>
+          <select id="sexo-select">
+            <option value="Todos">Todos</option>
+            <option value="H">Hombres</option>
+            <option value="M">Mujeres</option>
+          </select>
+        </div>
+        <div>
+          <label for="edad-select">Grupo etario:</label>
+          <select id="edad-select"></select>
+        </div>
+        <button id="filtro-edad">Aplicar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= -->
+  <!-- 📊 Gráficos interactivos -->
+  <!-- ========================= -->
+  <section class="container mt-6">
+    <div class="card">
+      <h2>Visualización de datos</h2>
+
+      <div class="charts-grid mt-4">
+        <!-- Gráfico 1 -->
+        <div class="chart-box">
+          <h3 class="text-center">Pirámide poblacional</h3>
+          <canvas id="piramideChart"></canvas>
+          <button class="mt-4" onclick="exportToPNG('piramideChart','Piramide_Poblacional.png')">Descargar PNG</button>
+        </div>
+
+        <!-- Gráfico 2 -->
+        <div class="chart-box">
+          <h3 class="text-center">Distribución por región</h3>
+          <canvas id="regionChart"></canvas>
+          <button class="mt-4" onclick="exportToPNG('regionChart','Distribucion_Regional.png')">Descargar PNG</button>
+        </div>
+
+        <!-- Gráfico 3 -->
+        <div class="chart-box">
+          <h3 class="text-center">Distribución por edad</h3>
+          <canvas id="edadChart"></canvas>
+          <button class="mt-4" onclick="exportToPNG('edadChart','Distribucion_Etaria.png')">Descargar PNG</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= -->
+  <!-- 📋 Tabla y descargas -->
+  <!-- ========================= -->
+  <section class="container mt-6">
+    <div class="card">
+      <h2>Datos tabulares</h2>
+      <p class="mt-2">Filtra, visualiza y exporta los datos censales normalizados.</p>
+
+      <table id="data-table" class="admin-table mt-4">
+        <thead><tr id="table-headers"></tr></thead>
+        <tbody id="table-body"><tr><td colspan="6">Cargando datos...</td></tr></tbody>
+      </table>
+
+      <div class="mt-4 text-center">
+        <button onclick="exportToExcel(currentData)">Exportar Excel</button>
+        <button onclick="exportToCSV(currentData)">Exportar CSV</button>
+        <button onclick="exportToPDF('data-table','Datos_Censales.pdf')">Exportar PDF</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= -->
+  <!-- 🤖 Asistente IA -->
+  <!-- ========================= -->
+  <section class="container mt-6">
+    <div class="card">
+      <h2>Asistente IA</h2>
+      <p class="mt-2">Realiza consultas naturales sobre los datos:</p>
+      <textarea id="ai-query" rows="3" placeholder="Ejemplo: ¿Cuál es la población total en Magallanes para mujeres de 30 a 34 años?"></textarea>
+      <button id="send-ai" class="mt-2">Enviar consulta</button>
+      <div id="ai-response" class="mt-4"></div>
+    </div>
+  </section>
+
+  <!-- ========================= -->
+  <!-- Footer -->
+  <!-- ========================= -->
+  <footer>
+    <p>© 2025 Datacensus. Dashboard de análisis censal.</p>
+  </footer>
+
+  <!-- ================================ -->
+  <!-- 📚 Librerías -->
+  <!-- ================================ -->
+  <script src="./libs/chart.min.js"></script>
+  <script src="./libs/xlsx.full.min.js"></script>
+  <script src="./libs/jspdf.umd.min.js"></script>
+  <script src="./libs/html2canvas.min.js"></script>
+  <script src="./libs/FileSaver.min.js"></script>
+
+  <!-- ================================ -->
+  <!-- 🔥 Firebase -->
+  <!-- ================================ -->
+  <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-storage.js"></script>
+
+  <!-- ================================ -->
+  <!-- 🧩 Scripts -->
+  <!-- ================================ -->
+  <script type="module" src="./js/auth.js"></script>
+  <script type="module" src="./js/export.js"></script>
+  <script type="module" src="./js/dashboard.js"></script>
+
+  <!-- ================================ -->
+  <!-- Sesión persistente -->
+  <!-- ================================ -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const user = JSON.parse(localStorage.getItem("firebaseUser"));
+      if (!user) {
+        window.location.href = "login.html";
+      } else if (user.email === "informatico.q@gmail.com") {
+        document.getElementById("admin-link").style.display = "inline-block";
+      }
+    });
+  </script>
+  <script type="module" src="./js/session-handler.js"></script>
+
+
+  <script>
+  // Menú responsive
+  const toggle = document.getElementById("navbar-toggle");
+  const links = document.getElementById("navbar-links");
+  toggle?.addEventListener("click", () => {
+    links.classList.toggle("active");
+  });
+
+  // Redirección condicional del botón Dashboard
+  const dashboardLink = document.getElementById("dashboard-link");
+  if (dashboardLink) {
+    dashboardLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      const user = JSON.parse(localStorage.getItem("firebaseUser"));
+      if (user) {
+        window.location.href = "dashboard.html";
+      } else {
+        window.location.href = "login.html";
+      }
+    });
+  }
+</script>
+
+</body>
+</html>

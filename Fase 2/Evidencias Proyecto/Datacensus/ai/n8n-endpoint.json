@@ -1,0 +1,7 @@
+{
+  "ai_endpoint": "https://datacensus.app.n8n.cloud/webhook/datacensus-ai",
+  "description": "Configuración oficial del flujo n8n para el asistente IA de Datacensus.",
+  "version": "1.1",
+  "last_updated": "2025-11-05",
+  "notes": "Este endpoint conecta el dashboard con el flujo Datacensus_AI en n8n. Si se cambia el nombre o dominio del flujo, actualizar aquí la URL. Usado por dashboard.js para enviar las consultas del usuario y recibir las respuestas procesadas por la IA lógica de n8n."
+}

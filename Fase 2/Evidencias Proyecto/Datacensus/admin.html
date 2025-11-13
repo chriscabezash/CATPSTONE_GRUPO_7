@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datacensus — Panel de Administración</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- Navbar moderno -->
+<nav class="navbar">
+  <div class="container navbar-content">
+    <div class="navbar-logo">
+      <h2 onclick="location.href='index.html'">Datacensus</h2>
+    </div>
+    <div class="navbar-links" id="navbar-links">
+      <a href="index.html">Inicio</a>
+      <a href="about.html">Nosotros</a>
+      <a href="use-ai.html">Uso de AI</a>
+      <a href="dashboard.html" id="dashboard-link">Dashboard</a>
+      <a href="login.html" id="login-link">Ingresar</a>
+      <a href="register.html" id="register-link">Registro</a>
+    </div>
+    <button class="navbar-toggle" id="navbar-toggle">☰</button>
+  </div>
+</nav>
+
+
+  <!-- Panel principal -->
+  <section class="container mt-6">
+    <div class="card">
+      <h1 class="text-center">Bienvenido, Administrador</h1>
+      <p class="mt-2 text-center">Controla la información principal del sistema Datacensus.</p>
+    </div>
+
+    <!-- Sección: Gestión de usuarios -->
+    <div class="card">
+      <h2>👥 Usuarios registrados</h2>
+      <p class="mt-2">Lista de usuarios registrados con acceso al dashboard.</p>
+      <table id="users-table" class="admin-table mt-4">
+        <thead>
+          <tr>
+            <th>Email</th>
+            <th>Nombre</th>
+            <th>Rol</th>
+            <th>Fecha de registro</th>
+          </tr>
+        </thead>
+        <tbody id="users-body">
+          <tr><td colspan="4">Cargando usuarios...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Sección: Dataset -->
+    <div class="card">
+      <h2>📂 Dataset oficial</h2>
+      <p class="mt-2">Sube o actualiza el archivo de datos censales (.xlsx)</p>
+      <input type="file" id="dataset-upload" accept=".xlsx" class="mt-2" />
+      <button id="upload-btn" class="mt-4">Actualizar dataset</button>
+      <p id="upload-status" class="mt-2 text-center"></p>
+    </div>
+
+    <!-- Sección: Registro de actividad -->
+    <div class="card">
+      <h2>🧾 Registro de actividad</h2>
+      <p class="mt-2">Eventos recientes del sistema.</p>
+      <ul id="logs-list" class="mt-4 admin-logs">
+        <li>Cargando registros...</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Datacensus. Panel de administración.</p>
+  </footer>
+
+  <!-- ================================ -->
+  <!-- 📦 Librerías externas -->
+  <!-- ================================ -->
+  <script src="./libs/xlsx.full.min.js"></script>
+  <script src="./libs/html2canvas.min.js"></script>
+  <script src="./libs/jspdf.umd.min.js"></script>
+  <script src="./libs/FileSaver.min.js"></script>
+  <script src="./libs/chart.min.js"></script>
+
+  <!-- ================================ -->
+  <!-- 🔥 Firebase SDK -->
+  <!-- ================================ -->
+  <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-storage.js"></script>
+
+  <!-- ================================ -->
+  <!-- 🧩 Scripts principales -->
+  <!-- ================================ -->
+  <script type="module" src="./js/excel-handler.js"></script>
+  <script type="module" src="./js/export.js"></script>
+  <script type="module" src="./js/admin.js"></script>
+
+  <!-- ================================ -->
+  <!-- 🚫 Protección de acceso (solo admin) -->
+  <!-- ================================ -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const user = JSON.parse(localStorage.getItem("firebaseUser"));
+
+      if (!user) {
+        window.location.href = "login.html";
+      } else if (user.email !== "informatico.q@gmail.com") {
+        alert("⚠️ Acceso denegado. No eres administrador.");
+        window.location.href = "dashboard.html";
+      }
+    });
+  </script>
+  <script type="module" src="./js/session-handler.js"></script>
+  <script>
+  // Menú responsive
+  const toggle = document.getElementById("navbar-toggle");
+  const links = document.getElementById("navbar-links");
+  toggle?.addEventListener("click", () => {
+    links.classList.toggle("active");
+  });
+
+  // Redirección condicional del botón Dashboard
+  const dashboardLink = document.getElementById("dashboard-link");
+  if (dashboardLink) {
+    dashboardLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      const user = JSON.parse(localStorage.getItem("firebaseUser"));
+      if (user) {
+        window.location.href = "dashboard.html";
+      } else {
+        window.location.href = "login.html";
+      }
+    });
+  }
+</script>
+
+
+</body>
+</html>
